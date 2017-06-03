@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42B318970640CB10494D83F2 /* Pods_ink_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7992E9379EF2F3A54DED7C /* Pods_ink_Swift.framework */; };
 		BAB4DE3E1EE286A800D26678 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE3D1EE286A800D26678 /* AppDelegate.swift */; };
 		BAB4DE401EE286A800D26678 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE3F1EE286A800D26678 /* ViewController.swift */; };
 		BAB4DE431EE286A800D26678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB4DE411EE286A800D26678 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E7992E9379EF2F3A54DED7C /* Pods_ink_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ink_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BBEEBDE126F0E6C342F9BF3 /* Pods-ink_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ink_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ink_Swift/Pods-ink_Swift.release.xcconfig"; sourceTree = "<group>"; };
 		BAB4DE3A1EE286A800D26678 /* ink_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ink_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB4DE3D1EE286A800D26678 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAB4DE3F1EE286A800D26678 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		BAB4DE441EE286A800D26678 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAB4DE471EE286A800D26678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAB4DE491EE286A800D26678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F425827B133C38BDF6266895 /* Pods-ink_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ink_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ink_Swift/Pods-ink_Swift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42B318970640CB10494D83F2 /* Pods_ink_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				BAB4DE3C1EE286A800D26678 /* ink_Swift */,
 				BAB4DE3B1EE286A800D26678 /* Products */,
+				E3EF946A9D0A09E8B7718A74 /* Pods */,
+				C87B0867A85A3BAFB6E631DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = ink_Swift;
 			sourceTree = "<group>";
 		};
+		C87B0867A85A3BAFB6E631DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E7992E9379EF2F3A54DED7C /* Pods_ink_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3EF946A9D0A09E8B7718A74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F425827B133C38BDF6266895 /* Pods-ink_Swift.debug.xcconfig */,
+				9BBEEBDE126F0E6C342F9BF3 /* Pods-ink_Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAB4DE4C1EE286A800D26678 /* Build configuration list for PBXNativeTarget "ink_Swift" */;
 			buildPhases = (
+				CFDB57E081C82CD227FB6EAE /* [CP] Check Pods Manifest.lock */,
 				BAB4DE361EE286A800D26678 /* Sources */,
 				BAB4DE371EE286A800D26678 /* Frameworks */,
 				BAB4DE381EE286A800D26678 /* Resources */,
+				C9CD0ECDABC64EA4B9397CE9 /* [CP] Embed Pods Frameworks */,
+				D18FED8BE75FE699FCA9013B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C9CD0ECDABC64EA4B9397CE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ink_Swift/Pods-ink_Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFDB57E081C82CD227FB6EAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D18FED8BE75FE699FCA9013B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ink_Swift/Pods-ink_Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BAB4DE361EE286A800D26678 /* Sources */ = {
@@ -258,6 +333,7 @@
 		};
 		BAB4DE4D1EE286A800D26678 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F425827B133C38BDF6266895 /* Pods-ink_Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ink_Swift/Info.plist;
@@ -270,6 +346,7 @@
 		};
 		BAB4DE4E1EE286A800D26678 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BBEEBDE126F0E6C342F9BF3 /* Pods-ink_Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ink_Swift/Info.plist;
