@@ -8,12 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		42B318970640CB10494D83F2 /* Pods_ink_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7992E9379EF2F3A54DED7C /* Pods_ink_Swift.framework */; };
-		BA1D69001EE2B1410046E636 /* InkExportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1D68FE1EE2B1410046E636 /* InkExportViewController.swift */; };
-		BA1D69011EE2B1410046E636 /* InkExportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA1D68FF1EE2B1410046E636 /* InkExportViewController.xib */; };
-		BA1D69061EE2B2B20046E636 /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1D69031EE2B2B20046E636 /* CodeViewController.swift */; };
-		BA1D69071EE2B2B20046E636 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1D69041EE2B2B20046E636 /* OptionsViewController.swift */; };
-		BA1D69081EE2B2B20046E636 /* SpringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1D69051EE2B2B20046E636 /* SpringViewController.swift */; };
-		BA1D690A1EE2B2C50046E636 /* Spring.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1D69091EE2B2C50046E636 /* Spring.storyboard */; };
 		BAB4DE3E1EE286A800D26678 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE3D1EE286A800D26678 /* AppDelegate.swift */; };
 		BAB4DE401EE286A800D26678 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE3F1EE286A800D26678 /* ViewController.swift */; };
 		BAB4DE431EE286A800D26678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB4DE411EE286A800D26678 /* Main.storyboard */; };
@@ -104,6 +98,7 @@
 		BAFF09D01EE2930D003A351D /* TSMessageActionFloatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09341EE2930C003A351D /* TSMessageActionFloatView.swift */; };
 		BAFF09D11EE2930D003A351D /* TSMomentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09361EE2930C003A351D /* TSMomentsViewController.swift */; };
 		BAFF09D21EE2930D003A351D /* TSMomentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAFF09371EE2930C003A351D /* TSMomentsViewController.xib */; };
+		BAFF09D31EE2930D003A351D /* TSTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09391EE2930C003A351D /* TSTabbarViewController.swift */; };
 		BAFF09D41EE2930D003A351D /* TSWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF093B1EE2930C003A351D /* TSWebViewController.swift */; };
 		BAFF09D51EE2930D003A351D /* TSFullyHorizontalFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF093D1EE2930C003A351D /* TSFullyHorizontalFlowLayout.swift */; };
 		BAFF09D61EE2930D003A351D /* TSGlobalHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF093E1EE2930C003A351D /* TSGlobalHelper.swift */; };
@@ -161,12 +156,6 @@
 /* Begin PBXFileReference section */
 		5E7992E9379EF2F3A54DED7C /* Pods_ink_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ink_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BBEEBDE126F0E6C342F9BF3 /* Pods-ink_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ink_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ink_Swift/Pods-ink_Swift.release.xcconfig"; sourceTree = "<group>"; };
-		BA1D68FE1EE2B1410046E636 /* InkExportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InkExportViewController.swift; sourceTree = "<group>"; };
-		BA1D68FF1EE2B1410046E636 /* InkExportViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InkExportViewController.xib; sourceTree = "<group>"; };
-		BA1D69031EE2B2B20046E636 /* CodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
-		BA1D69041EE2B2B20046E636 /* OptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
-		BA1D69051EE2B2B20046E636 /* SpringViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringViewController.swift; sourceTree = "<group>"; };
-		BA1D69091EE2B2C50046E636 /* Spring.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Spring.storyboard; sourceTree = "<group>"; };
 		BAB4DE3A1EE286A800D26678 /* ink_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ink_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB4DE3D1EE286A800D26678 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAB4DE3F1EE286A800D26678 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -259,6 +248,7 @@
 		BAFF09341EE2930C003A351D /* TSMessageActionFloatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSMessageActionFloatView.swift; sourceTree = "<group>"; };
 		BAFF09361EE2930C003A351D /* TSMomentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSMomentsViewController.swift; sourceTree = "<group>"; };
 		BAFF09371EE2930C003A351D /* TSMomentsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSMomentsViewController.xib; sourceTree = "<group>"; };
+		BAFF09391EE2930C003A351D /* TSTabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSTabbarViewController.swift; sourceTree = "<group>"; };
 		BAFF093B1EE2930C003A351D /* TSWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSWebViewController.swift; sourceTree = "<group>"; };
 		BAFF093D1EE2930C003A351D /* TSFullyHorizontalFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSFullyHorizontalFlowLayout.swift; sourceTree = "<group>"; };
 		BAFF093E1EE2930C003A351D /* TSGlobalHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSGlobalHelper.swift; sourceTree = "<group>"; };
@@ -328,27 +318,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BA1D68FD1EE2B1410046E636 /* inking */ = {
-			isa = PBXGroup;
-			children = (
-				BA1D69021EE2B17B0046E636 /* spring */,
-				BA1D68FE1EE2B1410046E636 /* InkExportViewController.swift */,
-				BA1D68FF1EE2B1410046E636 /* InkExportViewController.xib */,
-			);
-			path = inking;
-			sourceTree = "<group>";
-		};
-		BA1D69021EE2B17B0046E636 /* spring */ = {
-			isa = PBXGroup;
-			children = (
-				BA1D69091EE2B2C50046E636 /* Spring.storyboard */,
-				BA1D69031EE2B2B20046E636 /* CodeViewController.swift */,
-				BA1D69041EE2B2B20046E636 /* OptionsViewController.swift */,
-				BA1D69051EE2B2B20046E636 /* SpringViewController.swift */,
-			);
-			path = spring;
-			sourceTree = "<group>";
-		};
 		BAB4DE311EE286A800D26678 = {
 			isa = PBXGroup;
 			children = (
@@ -370,7 +339,6 @@
 		BAB4DE3C1EE286A800D26678 /* ink_Swift */ = {
 			isa = PBXGroup;
 			children = (
-				BA1D68FD1EE2B1410046E636 /* inking */,
 				BAFF08D21EE2930C003A351D /* Assets.xcassets */,
 				BAFF08D31EE2930C003A351D /* Base.lproj */,
 				BAFF08D81EE2930C003A351D /* Classes */,
@@ -596,6 +564,7 @@
 		BAFF09381EE2930C003A351D /* Tabbar */ = {
 			isa = PBXGroup;
 			children = (
+				BAFF09391EE2930C003A351D /* TSTabbarViewController.swift */,
 			);
 			path = Tabbar;
 			sourceTree = "<group>";
@@ -854,7 +823,6 @@
 				BAFF09CF1EE2930D003A351D /* TSMessageViewController.xib in Resources */,
 				BAFF09FE1EE2930D003A351D /* shake_sound_male.wav in Resources */,
 				BAFF09B31EE2930D003A351D /* TSContactsViewController.xib in Resources */,
-				BA1D690A1EE2B2C50046E636 /* Spring.storyboard in Resources */,
 				BAFF09F41EE2930D003A351D /* call.caf in Resources */,
 				BAFF0A051EE2930D003A351D /* moments.json in Resources */,
 				BAB4DE481EE286A800D26678 /* LaunchScreen.storyboard in Resources */,
@@ -883,7 +851,6 @@
 				BAFF09AC1EE2930D003A351D /* TSChatShareMoreCollectionViewCell.xib in Resources */,
 				BAFF09841EE2930D003A351D /* TSChatImageCell.xib in Resources */,
 				BAFF09FF1EE2930D003A351D /* country_code.txt in Resources */,
-				BA1D69011EE2B1410046E636 /* InkExportViewController.xib in Resources */,
 				BAFF09B51EE2930D003A351D /* TSContactTableViewCell.xib in Resources */,
 				BAB4DE431EE286A800D26678 /* Main.storyboard in Resources */,
 				BAFF09F61EE2930D003A351D /* close.wav in Resources */,
@@ -964,7 +931,6 @@
 				BAFF09DB1EE2930D003A351D /* TSUIColor+WeChat.swift in Sources */,
 				BAFF09981EE2930D003A351D /* UITableView+ChatAdditions.swift in Sources */,
 				BAFF09DA1EE2930D003A351D /* TSProgressHUD.swift in Sources */,
-				BA1D69061EE2B2B20046E636 /* CodeViewController.swift in Sources */,
 				BAFF09971EE2930D003A351D /* UIScrollView+ChatAdditions.swift in Sources */,
 				BAFF09AA1EE2930D003A351D /* TSChatEmotionScollView.swift in Sources */,
 				BAFF09E41EE2930D003A351D /* UISearchBar+Extension.swift in Sources */,
@@ -1011,12 +977,12 @@
 				BAFF09D01EE2930D003A351D /* TSMessageActionFloatView.swift in Sources */,
 				BAFF09871EE2930D003A351D /* TSChatTextCell.swift in Sources */,
 				BAFF09D91EE2930D003A351D /* TSNavigationBar.swift in Sources */,
-				BA1D69001EE2B1410046E636 /* InkExportViewController.swift in Sources */,
 				BAFF09B61EE2930D003A351D /* HttpManager+UploadAudio.swift in Sources */,
 				BAFF09C01EE2930D003A351D /* TSUploadModel.swift in Sources */,
 				BAFF09EE1EE2930D003A351D /* RAMAnimatedTabBarController.swift in Sources */,
 				BAFF09831EE2930D003A351D /* TSChatImageCell.swift in Sources */,
 				BAFF099A1EE2930D003A351D /* TSChatViewController+CellEnums.swift in Sources */,
+				BAFF09D31EE2930D003A351D /* TSTabbarViewController.swift in Sources */,
 				BAFF09E11EE2930D003A351D /* NSObject+String.swift in Sources */,
 				BAFF09951EE2930D003A351D /* TSChatTextParser.swift in Sources */,
 				BAFF09EF1EE2930D003A351D /* RAMBadge.swift in Sources */,
@@ -1026,9 +992,7 @@
 				BAFF09DF1EE2930D003A351D /* NSDate+Extension.swift in Sources */,
 				BAFF09CE1EE2930D003A351D /* TSMessageViewController.swift in Sources */,
 				BAFF09D51EE2930D003A351D /* TSFullyHorizontalFlowLayout.swift in Sources */,
-				BA1D69071EE2B2B20046E636 /* OptionsViewController.swift in Sources */,
 				BAFF09961EE2930D003A351D /* TSYYTextLinePositionModifier.swift in Sources */,
-				BA1D69081EE2B2B20046E636 /* SpringViewController.swift in Sources */,
 				BAFF09C31EE2930D003A351D /* TSUserManager.swift in Sources */,
 				BAFF09A81EE2930D003A351D /* TSChatEmotionInputView.swift in Sources */,
 				BAFF09BB1EE2930D003A351D /* TSChatSubModel.swift in Sources */,

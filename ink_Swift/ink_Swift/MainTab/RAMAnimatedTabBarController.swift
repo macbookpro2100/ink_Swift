@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 import UIKit
-import TimedSilver
+
 
 // MARK: Custom Badge
 
@@ -262,10 +262,9 @@ open class RAMAnimatedTabBarController: UITabBarController {
 //    let containers = self.createViewContainers()
 //    
 //    self.createCustomIcons(containers)
-    let titleArray = ["Ink","微信", "通讯录", "发现", "我"]
+    let titleArray = ["微信", "通讯录", "发现", "我"]
     
     let normalImagesArray = [
-        TSAsset.Tabbar_mainframe.image,
         TSAsset.Tabbar_mainframe.image,
         TSAsset.Tabbar_contacts.image,
         TSAsset.Tabbar_discover.image,
@@ -274,14 +273,12 @@ open class RAMAnimatedTabBarController: UITabBarController {
     
     let selectedImagesArray = [
         TSAsset.Tabbar_mainframeHL.image,
-        TSAsset.Tabbar_mainframeHL.image,
         TSAsset.Tabbar_contactsHL.image,
         TSAsset.Tabbar_discoverHL.image,
         TSAsset.Tabbar_meHL.image,
         ]
     
     let viewControllerArray = [
-        InkExportViewController.ts_initFromNib(),
         TSMessageViewController.ts_initFromNib(),  //消息
         TSContactsViewController.ts_initFromNib(), //联系人
         TSDiscoverViewController.ts_initFromNib(), //发现
