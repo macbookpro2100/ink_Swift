@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		42B318970640CB10494D83F2 /* Pods_ink_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7992E9379EF2F3A54DED7C /* Pods_ink_Swift.framework */; };
+		BA4F0A741EE2E24C0075534E /* InkExportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F0A721EE2E24C0075534E /* InkExportViewController.swift */; };
+		BA4F0A751EE2E24C0075534E /* InkExportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4F0A731EE2E24C0075534E /* InkExportViewController.xib */; };
+		BA4F0A831EE2E59E0075534E /* IeeExportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F0A811EE2E59E0075534E /* IeeExportViewController.swift */; };
+		BA4F0A841EE2E59E0075534E /* IeeExportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4F0A821EE2E59E0075534E /* IeeExportViewController.xib */; };
 		BAB4DE3E1EE286A800D26678 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE3D1EE286A800D26678 /* AppDelegate.swift */; };
 		BAB4DE401EE286A800D26678 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE3F1EE286A800D26678 /* ViewController.swift */; };
 		BAB4DE431EE286A800D26678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB4DE411EE286A800D26678 /* Main.storyboard */; };
@@ -156,6 +160,10 @@
 /* Begin PBXFileReference section */
 		5E7992E9379EF2F3A54DED7C /* Pods_ink_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ink_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BBEEBDE126F0E6C342F9BF3 /* Pods-ink_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ink_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ink_Swift/Pods-ink_Swift.release.xcconfig"; sourceTree = "<group>"; };
+		BA4F0A721EE2E24C0075534E /* InkExportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InkExportViewController.swift; sourceTree = "<group>"; };
+		BA4F0A731EE2E24C0075534E /* InkExportViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InkExportViewController.xib; sourceTree = "<group>"; };
+		BA4F0A811EE2E59E0075534E /* IeeExportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IeeExportViewController.swift; sourceTree = "<group>"; };
+		BA4F0A821EE2E59E0075534E /* IeeExportViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IeeExportViewController.xib; sourceTree = "<group>"; };
 		BAB4DE3A1EE286A800D26678 /* ink_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ink_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB4DE3D1EE286A800D26678 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAB4DE3F1EE286A800D26678 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -318,6 +326,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA4F0A761EE2E26C0075534E /* le */ = {
+			isa = PBXGroup;
+			children = (
+				BA4F0A811EE2E59E0075534E /* IeeExportViewController.swift */,
+				BA4F0A821EE2E59E0075534E /* IeeExportViewController.xib */,
+			);
+			path = le;
+			sourceTree = "<group>";
+		};
 		BAB4DE311EE286A800D26678 = {
 			isa = PBXGroup;
 			children = (
@@ -339,6 +356,9 @@
 		BAB4DE3C1EE286A800D26678 /* ink_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				BA4F0A761EE2E26C0075534E /* le */,
+				BA4F0A721EE2E24C0075534E /* InkExportViewController.swift */,
+				BA4F0A731EE2E24C0075534E /* InkExportViewController.xib */,
 				BAFF08D21EE2930C003A351D /* Assets.xcassets */,
 				BAFF08D31EE2930C003A351D /* Base.lproj */,
 				BAFF08D81EE2930C003A351D /* Classes */,
@@ -844,6 +864,7 @@
 				BAFF09F51EE2930D003A351D /* camera.wav in Resources */,
 				BAFF09C91EE2930D003A351D /* TSMeAvatarTableViewCell.xib in Resources */,
 				BAFF09CD1EE2930D003A351D /* TSMessageTableViewCell.xib in Resources */,
+				BA4F0A841EE2E59E0075534E /* IeeExportViewController.xib in Resources */,
 				BAFF09F11EE2930D003A351D /* ToolsAnimation.plist in Resources */,
 				BAFF097F1EE2930D003A351D /* LaunchScreen.storyboard in Resources */,
 				BAFF0A071EE2930D003A351D /* Media.xcassets in Resources */,
@@ -851,6 +872,7 @@
 				BAFF09AC1EE2930D003A351D /* TSChatShareMoreCollectionViewCell.xib in Resources */,
 				BAFF09841EE2930D003A351D /* TSChatImageCell.xib in Resources */,
 				BAFF09FF1EE2930D003A351D /* country_code.txt in Resources */,
+				BA4F0A751EE2E24C0075534E /* InkExportViewController.xib in Resources */,
 				BAFF09B51EE2930D003A351D /* TSContactTableViewCell.xib in Resources */,
 				BAB4DE431EE286A800D26678 /* Main.storyboard in Resources */,
 				BAFF09F61EE2930D003A351D /* close.wav in Resources */,
@@ -929,6 +951,7 @@
 				BAFF09911EE2930D003A351D /* ChatConfig.swift in Sources */,
 				BAFF09BC1EE2930D003A351D /* TSContactModel.swift in Sources */,
 				BAFF09DB1EE2930D003A351D /* TSUIColor+WeChat.swift in Sources */,
+				BA4F0A831EE2E59E0075534E /* IeeExportViewController.swift in Sources */,
 				BAFF09981EE2930D003A351D /* UITableView+ChatAdditions.swift in Sources */,
 				BAFF09DA1EE2930D003A351D /* TSProgressHUD.swift in Sources */,
 				BAFF09971EE2930D003A351D /* UIScrollView+ChatAdditions.swift in Sources */,
@@ -977,6 +1000,7 @@
 				BAFF09D01EE2930D003A351D /* TSMessageActionFloatView.swift in Sources */,
 				BAFF09871EE2930D003A351D /* TSChatTextCell.swift in Sources */,
 				BAFF09D91EE2930D003A351D /* TSNavigationBar.swift in Sources */,
+				BA4F0A741EE2E24C0075534E /* InkExportViewController.swift in Sources */,
 				BAFF09B61EE2930D003A351D /* HttpManager+UploadAudio.swift in Sources */,
 				BAFF09C01EE2930D003A351D /* TSUploadModel.swift in Sources */,
 				BAFF09EE1EE2930D003A351D /* RAMAnimatedTabBarController.swift in Sources */,
