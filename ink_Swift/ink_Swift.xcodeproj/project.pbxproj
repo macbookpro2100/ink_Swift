@@ -13,15 +13,144 @@
 		BAB4DE431EE286A800D26678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB4DE411EE286A800D26678 /* Main.storyboard */; };
 		BAB4DE451EE286A800D26678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAB4DE441EE286A800D26678 /* Assets.xcassets */; };
 		BAB4DE481EE286A800D26678 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB4DE461EE286A800D26678 /* LaunchScreen.storyboard */; };
-		BAB4DE511EE28AE000D26678 /* ToolsAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAB4DE501EE28AE000D26678 /* ToolsAnimation.plist */; };
-		BAB4DE611EE28BF000D26678 /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE541EE28BF000D26678 /* RAMBounceAnimation.swift */; };
-		BAB4DE621EE28BF000D26678 /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE561EE28BF000D26678 /* RAMFrameItemAnimation.swift */; };
-		BAB4DE631EE28BF000D26678 /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE581EE28BF000D26678 /* RAMFumeAnimation.swift */; };
-		BAB4DE641EE28BF000D26678 /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE5A1EE28BF000D26678 /* RAMRotationAnimation.swift */; };
-		BAB4DE651EE28BF000D26678 /* RAMTransitionItemAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE5C1EE28BF000D26678 /* RAMTransitionItemAnimations.swift */; };
-		BAB4DE661EE28BF000D26678 /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE5D1EE28BF000D26678 /* RAMAnimatedTabBarController.swift */; };
-		BAB4DE671EE28BF000D26678 /* RAMBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE5F1EE28BF000D26678 /* RAMBadge.swift */; };
-		BAB4DE681EE28BF000D26678 /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE601EE28BF000D26678 /* RAMItemAnimationProtocol.swift */; };
+		BAFF097E1EE2930D003A351D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFF08D21EE2930C003A351D /* Assets.xcassets */; };
+		BAFF097F1EE2930D003A351D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFF08D41EE2930C003A351D /* LaunchScreen.storyboard */; };
+		BAFF09801EE2930D003A351D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFF08D61EE2930C003A351D /* Main.storyboard */; };
+		BAFF09811EE2930D003A351D /* TSChatBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF08DB1EE2930C003A351D /* TSChatBaseCell.swift */; };
+		BAFF09821EE2930D003A351D /* TSChatCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF08DC1EE2930C003A351D /* TSChatCellDelegate.swift */; };
+		BAFF09831EE2930D003A351D /* TSChatImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF08DD1EE2930C003A351D /* TSChatImageCell.swift */; };
+		BAFF09841EE2930D003A351D /* TSChatImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAFF08DE1EE2930C003A351D /* TSChatImageCell.xib */; };
+		BAFF09851EE2930D003A351D /* TSChatSystemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF08DF1EE2930C003A351D /* TSChatSystemCell.swift */; };
+		BAFF09861EE2930D003A351D /* TSChatSystemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAFF08E01EE2930C003A351D /* TSChatSystemCell.xib */; };
+		BAFF09871EE2930D003A351D /* TSChatTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF08E11EE2930C003A351D /* TSChatTextCell.swift */; };
+		BAFF09881EE2930D003A351D /* TSChatTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAFF08E21EE2930C003A351D /* TSChatTextCell.xib */; };
+		BAFF09891EE2930D003A351D /* TSChatTimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF08E31EE2930C003A351D /* TSChatTimeCell.swift */; };
+		BAFF098A1EE2930D003A351D /* TSChatTimeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAFF08E41EE2930C003A351D /* TSChatTimeCell.xib */; };
+		BAFF098B1EE2930D003A351D /* TSChatVoiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF08E51EE2930C003A351D /* TSChatVoiceCell.swift */; };
+		BAFF098C1EE2930D003A351D /* TSChatVoiceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAFF08E61EE2930C003A351D /* TSChatVoiceCell.xib */; };
+		BAFF098D1EE2930D003A351D /* AudioDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF08E81EE2930C003A351D /* AudioDelegate.swift */; };
+		BAFF098E1EE2930D003A351D /* AudioFilesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF08E91EE2930C003A351D /* AudioFilesManager.swift */; };
+		BAFF098F1EE2930D003A351D /* AudioPlayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF08EA1EE2930C003A351D /* AudioPlayManager.swift */; };
+		BAFF09901EE2930D003A351D /* AudioRecordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF08EB1EE2930C003A351D /* AudioRecordManager.swift */; };
+		BAFF09911EE2930D003A351D /* ChatConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF08EC1EE2930C003A351D /* ChatConfig.swift */; };
+		BAFF09921EE2930D003A351D /* ImageFilesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF08ED1EE2930C003A351D /* ImageFilesManager.swift */; };
+		BAFF09931EE2930D003A351D /* TSChatDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF08EE1EE2930C003A351D /* TSChatDataManager.swift */; };
+		BAFF09941EE2930D003A351D /* TSChatEmojiDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF08EF1EE2930C003A351D /* TSChatEmojiDictionary.swift */; };
+		BAFF09951EE2930D003A351D /* TSChatTextParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF08F01EE2930C003A351D /* TSChatTextParser.swift */; };
+		BAFF09961EE2930D003A351D /* TSYYTextLinePositionModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF08F11EE2930C003A351D /* TSYYTextLinePositionModifier.swift */; };
+		BAFF09971EE2930D003A351D /* UIScrollView+ChatAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF08F21EE2930C003A351D /* UIScrollView+ChatAdditions.swift */; };
+		BAFF09981EE2930D003A351D /* UITableView+ChatAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF08F31EE2930C003A351D /* UITableView+ChatAdditions.swift */; };
+		BAFF09991EE2930D003A351D /* TSChatViewController+ActionBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF08F41EE2930C003A351D /* TSChatViewController+ActionBar.swift */; };
+		BAFF099A1EE2930D003A351D /* TSChatViewController+CellEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF08F51EE2930C003A351D /* TSChatViewController+CellEnums.swift */; };
+		BAFF099B1EE2930D003A351D /* TSChatViewController+HandleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF08F61EE2930C003A351D /* TSChatViewController+HandleData.swift */; };
+		BAFF099C1EE2930D003A351D /* TSChatViewController+Interaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF08F71EE2930C003A351D /* TSChatViewController+Interaction.swift */; };
+		BAFF099D1EE2930D003A351D /* TSChatViewController+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF08F81EE2930C003A351D /* TSChatViewController+Keyboard.swift */; };
+		BAFF099E1EE2930D003A351D /* TSChatViewController+Subviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF08F91EE2930C003A351D /* TSChatViewController+Subviews.swift */; };
+		BAFF099F1EE2930D003A351D /* TSChatViewController+TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF08FA1EE2930C003A351D /* TSChatViewController+TestData.swift */; };
+		BAFF09A01EE2930D003A351D /* TSChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF08FB1EE2930C003A351D /* TSChatViewController.swift */; };
+		BAFF09A11EE2930D003A351D /* TSChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAFF08FC1EE2930C003A351D /* TSChatViewController.xib */; };
+		BAFF09A21EE2930D003A351D /* TSChatActionBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF08FE1EE2930C003A351D /* TSChatActionBarView.swift */; };
+		BAFF09A31EE2930D003A351D /* TSChatActionBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAFF08FF1EE2930C003A351D /* TSChatActionBarView.xib */; };
+		BAFF09A41EE2930D003A351D /* TSChatButton+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09001EE2930C003A351D /* TSChatButton+UI.swift */; };
+		BAFF09A51EE2930D003A351D /* TSChatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09011EE2930C003A351D /* TSChatButton.swift */; };
+		BAFF09A61EE2930D003A351D /* TSChatEmotionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09021EE2930C003A351D /* TSChatEmotionCell.swift */; };
+		BAFF09A71EE2930D003A351D /* TSChatEmotionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAFF09031EE2930C003A351D /* TSChatEmotionCell.xib */; };
+		BAFF09A81EE2930D003A351D /* TSChatEmotionInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09041EE2930C003A351D /* TSChatEmotionInputView.swift */; };
+		BAFF09A91EE2930D003A351D /* TSChatEmotionInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAFF09051EE2930C003A351D /* TSChatEmotionInputView.xib */; };
+		BAFF09AA1EE2930D003A351D /* TSChatEmotionScollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09061EE2930C003A351D /* TSChatEmotionScollView.swift */; };
+		BAFF09AB1EE2930D003A351D /* TSChatShareMoreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09071EE2930C003A351D /* TSChatShareMoreCollectionViewCell.swift */; };
+		BAFF09AC1EE2930D003A351D /* TSChatShareMoreCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAFF09081EE2930C003A351D /* TSChatShareMoreCollectionViewCell.xib */; };
+		BAFF09AD1EE2930D003A351D /* TSChatShareMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09091EE2930C003A351D /* TSChatShareMoreView.swift */; };
+		BAFF09AE1EE2930D003A351D /* TSChatShareMoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAFF090A1EE2930C003A351D /* TSChatShareMoreView.xib */; };
+		BAFF09AF1EE2930D003A351D /* TSChatSystemEdgeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF090B1EE2930C003A351D /* TSChatSystemEdgeLabel.swift */; };
+		BAFF09B01EE2930D003A351D /* TSChatVoiceIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF090C1EE2930C003A351D /* TSChatVoiceIndicatorView.swift */; };
+		BAFF09B11EE2930D003A351D /* TSChatVoiceIndicatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAFF090D1EE2930C003A351D /* TSChatVoiceIndicatorView.xib */; };
+		BAFF09B21EE2930D003A351D /* TSContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF090F1EE2930C003A351D /* TSContactsViewController.swift */; };
+		BAFF09B31EE2930D003A351D /* TSContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAFF09101EE2930C003A351D /* TSContactsViewController.xib */; };
+		BAFF09B41EE2930D003A351D /* TSContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09111EE2930C003A351D /* TSContactTableViewCell.swift */; };
+		BAFF09B51EE2930D003A351D /* TSContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAFF09121EE2930C003A351D /* TSContactTableViewCell.xib */; };
+		BAFF09B61EE2930D003A351D /* HttpManager+UploadAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09151EE2930C003A351D /* HttpManager+UploadAudio.swift */; };
+		BAFF09B71EE2930D003A351D /* HttpManager+UploadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09161EE2930C003A351D /* HttpManager+UploadImage.swift */; };
+		BAFF09B81EE2930D003A351D /* HttpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09171EE2930C003A351D /* HttpManager.swift */; };
+		BAFF09B91EE2930D003A351D /* TSResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09181EE2930C003A351D /* TSResponseSerializer.swift */; };
+		BAFF09BA1EE2930D003A351D /* TSChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF091A1EE2930C003A351D /* TSChatModel.swift */; };
+		BAFF09BB1EE2930D003A351D /* TSChatSubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF091B1EE2930C003A351D /* TSChatSubModel.swift */; };
+		BAFF09BC1EE2930D003A351D /* TSContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF091C1EE2930C003A351D /* TSContactModel.swift */; };
+		BAFF09BD1EE2930D003A351D /* TSMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF091D1EE2930C003A351D /* TSMessageModel.swift */; };
+		BAFF09BE1EE2930D003A351D /* TSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF091E1EE2930C003A351D /* TSModel.swift */; };
+		BAFF09BF1EE2930D003A351D /* TSModelTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF091F1EE2930C003A351D /* TSModelTransformer.swift */; };
+		BAFF09C01EE2930D003A351D /* TSUploadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09201EE2930C003A351D /* TSUploadModel.swift */; };
+		BAFF09C11EE2930D003A351D /* TSApplicationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09211EE2930C003A351D /* TSApplicationManager.swift */; };
+		BAFF09C21EE2930D003A351D /* TSLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09221EE2930C003A351D /* TSLocationManager.swift */; };
+		BAFF09C31EE2930D003A351D /* TSUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09231EE2930C003A351D /* TSUserManager.swift */; };
+		BAFF09C41EE2930D003A351D /* TSDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09251EE2930C003A351D /* TSDiscoverViewController.swift */; };
+		BAFF09C51EE2930D003A351D /* TSDiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAFF09261EE2930C003A351D /* TSDiscoverViewController.xib */; };
+		BAFF09C61EE2930D003A351D /* TSImageTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09271EE2930C003A351D /* TSImageTextTableViewCell.swift */; };
+		BAFF09C71EE2930D003A351D /* TSImageTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAFF09281EE2930C003A351D /* TSImageTextTableViewCell.xib */; };
+		BAFF09C81EE2930D003A351D /* TSMeAvatarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF092A1EE2930C003A351D /* TSMeAvatarTableViewCell.swift */; };
+		BAFF09C91EE2930D003A351D /* TSMeAvatarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAFF092B1EE2930C003A351D /* TSMeAvatarTableViewCell.xib */; };
+		BAFF09CA1EE2930D003A351D /* TSMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF092C1EE2930C003A351D /* TSMeViewController.swift */; };
+		BAFF09CB1EE2930D003A351D /* TSMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAFF092D1EE2930C003A351D /* TSMeViewController.xib */; };
+		BAFF09CC1EE2930D003A351D /* TSMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF092F1EE2930C003A351D /* TSMessageTableViewCell.swift */; };
+		BAFF09CD1EE2930D003A351D /* TSMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAFF09301EE2930C003A351D /* TSMessageTableViewCell.xib */; };
+		BAFF09CE1EE2930D003A351D /* TSMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09311EE2930C003A351D /* TSMessageViewController.swift */; };
+		BAFF09CF1EE2930D003A351D /* TSMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAFF09321EE2930C003A351D /* TSMessageViewController.xib */; };
+		BAFF09D01EE2930D003A351D /* TSMessageActionFloatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09341EE2930C003A351D /* TSMessageActionFloatView.swift */; };
+		BAFF09D11EE2930D003A351D /* TSMomentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09361EE2930C003A351D /* TSMomentsViewController.swift */; };
+		BAFF09D21EE2930D003A351D /* TSMomentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAFF09371EE2930C003A351D /* TSMomentsViewController.xib */; };
+		BAFF09D31EE2930D003A351D /* TSTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09391EE2930C003A351D /* TSTabbarViewController.swift */; };
+		BAFF09D41EE2930D003A351D /* TSWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF093B1EE2930C003A351D /* TSWebViewController.swift */; };
+		BAFF09D51EE2930D003A351D /* TSFullyHorizontalFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF093D1EE2930C003A351D /* TSFullyHorizontalFlowLayout.swift */; };
+		BAFF09D61EE2930D003A351D /* TSGlobalHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF093E1EE2930C003A351D /* TSGlobalHelper.swift */; };
+		BAFF09D71EE2930D003A351D /* TSImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF093F1EE2930C003A351D /* TSImagePicker.swift */; };
+		BAFF09D81EE2930D003A351D /* TSLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09401EE2930C003A351D /* TSLogger.swift */; };
+		BAFF09D91EE2930D003A351D /* TSNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09411EE2930C003A351D /* TSNavigationBar.swift */; };
+		BAFF09DA1EE2930D003A351D /* TSProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09421EE2930C003A351D /* TSProgressHUD.swift */; };
+		BAFF09DB1EE2930D003A351D /* TSUIColor+WeChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09431EE2930C003A351D /* TSUIColor+WeChat.swift */; };
+		BAFF09DC1EE2930D003A351D /* TSUIImage+WeChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09441EE2930C003A351D /* TSUIImage+WeChat.swift */; };
+		BAFF09DD1EE2930D003A351D /* TSUIImageVIew+WeChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09451EE2930C003A351D /* TSUIImageVIew+WeChat.swift */; };
+		BAFF09DE1EE2930D003A351D /* AboutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09471EE2930C003A351D /* AboutApp.swift */; };
+		BAFF09DF1EE2930D003A351D /* NSDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09481EE2930C003A351D /* NSDate+Extension.swift */; };
+		BAFF09E01EE2930D003A351D /* NSDictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09491EE2930C003A351D /* NSDictionary+Extension.swift */; };
+		BAFF09E11EE2930D003A351D /* NSObject+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF094A1EE2930C003A351D /* NSObject+String.swift */; };
+		BAFF09E21EE2930D003A351D /* PHAsset+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF094B1EE2930C003A351D /* PHAsset+Extension.swift */; };
+		BAFF09E31EE2930D003A351D /* UIBarButtonItem+Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF094C1EE2930C003A351D /* UIBarButtonItem+Block.swift */; };
+		BAFF09E41EE2930D003A351D /* UISearchBar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF094D1EE2930C003A351D /* UISearchBar+Extension.swift */; };
+		BAFF09E51EE2930D003A351D /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF094E1EE2930C003A351D /* UIView+Frame.swift */; };
+		BAFF09E61EE2930D003A351D /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF094F1EE2930C003A351D /* UIViewController+Extension.swift */; };
+		BAFF09E71EE2930D003A351D /* TSAppMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09511EE2930C003A351D /* TSAppMacro.swift */; };
+		BAFF09E81EE2930D003A351D /* TSConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09521EE2930C003A351D /* TSConfig.swift */; };
+		BAFF09E91EE2930D003A351D /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09561EE2930D003A351D /* RAMBounceAnimation.swift */; };
+		BAFF09EA1EE2930D003A351D /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09581EE2930D003A351D /* RAMFrameItemAnimation.swift */; };
+		BAFF09EB1EE2930D003A351D /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF095A1EE2930D003A351D /* RAMFumeAnimation.swift */; };
+		BAFF09EC1EE2930D003A351D /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF095C1EE2930D003A351D /* RAMRotationAnimation.swift */; };
+		BAFF09ED1EE2930D003A351D /* RAMTransitionItemAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF095E1EE2930D003A351D /* RAMTransitionItemAnimations.swift */; };
+		BAFF09EE1EE2930D003A351D /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF095F1EE2930D003A351D /* RAMAnimatedTabBarController.swift */; };
+		BAFF09EF1EE2930D003A351D /* RAMBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09611EE2930D003A351D /* RAMBadge.swift */; };
+		BAFF09F01EE2930D003A351D /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF09621EE2930D003A351D /* RAMItemAnimationProtocol.swift */; };
+		BAFF09F11EE2930D003A351D /* ToolsAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAFF09631EE2930D003A351D /* ToolsAnimation.plist */; };
+		BAFF09F21EE2930D003A351D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFF09651EE2930D003A351D /* Assets.xcassets */; };
+		BAFF09F31EE2930D003A351D /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAFF09671EE2930D003A351D /* beep.wav */; };
+		BAFF09F41EE2930D003A351D /* call.caf in Resources */ = {isa = PBXBuildFile; fileRef = BAFF09681EE2930D003A351D /* call.caf */; };
+		BAFF09F51EE2930D003A351D /* camera.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAFF09691EE2930D003A351D /* camera.wav */; };
+		BAFF09F61EE2930D003A351D /* close.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAFF096A1EE2930D003A351D /* close.wav */; };
+		BAFF09F71EE2930D003A351D /* hello.amr in Resources */ = {isa = PBXBuildFile; fileRef = BAFF096B1EE2930D003A351D /* hello.amr */; };
+		BAFF09F81EE2930D003A351D /* msg.caf in Resources */ = {isa = PBXBuildFile; fileRef = BAFF096C1EE2930D003A351D /* msg.caf */; };
+		BAFF09F91EE2930D003A351D /* msgtoolong.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAFF096D1EE2930D003A351D /* msgtoolong.wav */; };
+		BAFF09FA1EE2930D003A351D /* pstncall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BAFF096E1EE2930D003A351D /* pstncall.mp3 */; };
+		BAFF09FB1EE2930D003A351D /* sendmsg.caf in Resources */ = {isa = PBXBuildFile; fileRef = BAFF096F1EE2930D003A351D /* sendmsg.caf */; };
+		BAFF09FC1EE2930D003A351D /* shake_match.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAFF09701EE2930D003A351D /* shake_match.wav */; };
+		BAFF09FD1EE2930D003A351D /* shake_nomatch.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAFF09711EE2930D003A351D /* shake_nomatch.wav */; };
+		BAFF09FE1EE2930D003A351D /* shake_sound_male.wav in Resources */ = {isa = PBXBuildFile; fileRef = BAFF09721EE2930D003A351D /* shake_sound_male.wav */; };
+		BAFF09FF1EE2930D003A351D /* country_code.txt in Resources */ = {isa = PBXBuildFile; fileRef = BAFF09731EE2930D003A351D /* country_code.txt */; };
+		BAFF0A001EE2930D003A351D /* Expression.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BAFF09741EE2930D003A351D /* Expression.bundle */; };
+		BAFF0A011EE2930D003A351D /* Expression.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAFF09751EE2930D003A351D /* Expression.plist */; };
+		BAFF0A021EE2930D003A351D /* chat.json in Resources */ = {isa = PBXBuildFile; fileRef = BAFF09771EE2930D003A351D /* chat.json */; };
+		BAFF0A031EE2930D003A351D /* contact.json in Resources */ = {isa = PBXBuildFile; fileRef = BAFF09781EE2930D003A351D /* contact.json */; };
+		BAFF0A041EE2930D003A351D /* message.json in Resources */ = {isa = PBXBuildFile; fileRef = BAFF09791EE2930D003A351D /* message.json */; };
+		BAFF0A051EE2930D003A351D /* moments.json in Resources */ = {isa = PBXBuildFile; fileRef = BAFF097A1EE2930D003A351D /* moments.json */; };
+		BAFF0A061EE2930D003A351D /* Kenny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAFF097B1EE2930D003A351D /* Kenny.jpg */; };
+		BAFF0A071EE2930D003A351D /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFF097C1EE2930D003A351D /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,15 +163,146 @@
 		BAB4DE441EE286A800D26678 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAB4DE471EE286A800D26678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAB4DE491EE286A800D26678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BAB4DE501EE28AE000D26678 /* ToolsAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ToolsAnimation.plist; sourceTree = "<group>"; };
-		BAB4DE541EE28BF000D26678 /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBounceAnimation.swift; sourceTree = "<group>"; };
-		BAB4DE561EE28BF000D26678 /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
-		BAB4DE581EE28BF000D26678 /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFumeAnimation.swift; sourceTree = "<group>"; };
-		BAB4DE5A1EE28BF000D26678 /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMRotationAnimation.swift; sourceTree = "<group>"; };
-		BAB4DE5C1EE28BF000D26678 /* RAMTransitionItemAnimations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMTransitionItemAnimations.swift; sourceTree = "<group>"; };
-		BAB4DE5D1EE28BF000D26678 /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
-		BAB4DE5F1EE28BF000D26678 /* RAMBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBadge.swift; sourceTree = "<group>"; };
-		BAB4DE601EE28BF000D26678 /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
+		BAFF08D21EE2930C003A351D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAFF08D51EE2930C003A351D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAFF08D71EE2930C003A351D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		BAFF08DB1EE2930C003A351D /* TSChatBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatBaseCell.swift; sourceTree = "<group>"; };
+		BAFF08DC1EE2930C003A351D /* TSChatCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatCellDelegate.swift; sourceTree = "<group>"; };
+		BAFF08DD1EE2930C003A351D /* TSChatImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatImageCell.swift; sourceTree = "<group>"; };
+		BAFF08DE1EE2930C003A351D /* TSChatImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSChatImageCell.xib; sourceTree = "<group>"; };
+		BAFF08DF1EE2930C003A351D /* TSChatSystemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatSystemCell.swift; sourceTree = "<group>"; };
+		BAFF08E01EE2930C003A351D /* TSChatSystemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSChatSystemCell.xib; sourceTree = "<group>"; };
+		BAFF08E11EE2930C003A351D /* TSChatTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatTextCell.swift; sourceTree = "<group>"; };
+		BAFF08E21EE2930C003A351D /* TSChatTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSChatTextCell.xib; sourceTree = "<group>"; };
+		BAFF08E31EE2930C003A351D /* TSChatTimeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatTimeCell.swift; sourceTree = "<group>"; };
+		BAFF08E41EE2930C003A351D /* TSChatTimeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSChatTimeCell.xib; sourceTree = "<group>"; };
+		BAFF08E51EE2930C003A351D /* TSChatVoiceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatVoiceCell.swift; sourceTree = "<group>"; };
+		BAFF08E61EE2930C003A351D /* TSChatVoiceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSChatVoiceCell.xib; sourceTree = "<group>"; };
+		BAFF08E81EE2930C003A351D /* AudioDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioDelegate.swift; sourceTree = "<group>"; };
+		BAFF08E91EE2930C003A351D /* AudioFilesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioFilesManager.swift; sourceTree = "<group>"; };
+		BAFF08EA1EE2930C003A351D /* AudioPlayManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayManager.swift; sourceTree = "<group>"; };
+		BAFF08EB1EE2930C003A351D /* AudioRecordManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioRecordManager.swift; sourceTree = "<group>"; };
+		BAFF08EC1EE2930C003A351D /* ChatConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatConfig.swift; sourceTree = "<group>"; };
+		BAFF08ED1EE2930C003A351D /* ImageFilesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFilesManager.swift; sourceTree = "<group>"; };
+		BAFF08EE1EE2930C003A351D /* TSChatDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatDataManager.swift; sourceTree = "<group>"; };
+		BAFF08EF1EE2930C003A351D /* TSChatEmojiDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatEmojiDictionary.swift; sourceTree = "<group>"; };
+		BAFF08F01EE2930C003A351D /* TSChatTextParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatTextParser.swift; sourceTree = "<group>"; };
+		BAFF08F11EE2930C003A351D /* TSYYTextLinePositionModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSYYTextLinePositionModifier.swift; sourceTree = "<group>"; };
+		BAFF08F21EE2930C003A351D /* UIScrollView+ChatAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ChatAdditions.swift"; sourceTree = "<group>"; };
+		BAFF08F31EE2930C003A351D /* UITableView+ChatAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+ChatAdditions.swift"; sourceTree = "<group>"; };
+		BAFF08F41EE2930C003A351D /* TSChatViewController+ActionBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TSChatViewController+ActionBar.swift"; sourceTree = "<group>"; };
+		BAFF08F51EE2930C003A351D /* TSChatViewController+CellEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TSChatViewController+CellEnums.swift"; sourceTree = "<group>"; };
+		BAFF08F61EE2930C003A351D /* TSChatViewController+HandleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TSChatViewController+HandleData.swift"; sourceTree = "<group>"; };
+		BAFF08F71EE2930C003A351D /* TSChatViewController+Interaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TSChatViewController+Interaction.swift"; sourceTree = "<group>"; };
+		BAFF08F81EE2930C003A351D /* TSChatViewController+Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TSChatViewController+Keyboard.swift"; sourceTree = "<group>"; };
+		BAFF08F91EE2930C003A351D /* TSChatViewController+Subviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TSChatViewController+Subviews.swift"; sourceTree = "<group>"; };
+		BAFF08FA1EE2930C003A351D /* TSChatViewController+TestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TSChatViewController+TestData.swift"; sourceTree = "<group>"; };
+		BAFF08FB1EE2930C003A351D /* TSChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatViewController.swift; sourceTree = "<group>"; };
+		BAFF08FC1EE2930C003A351D /* TSChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSChatViewController.xib; sourceTree = "<group>"; };
+		BAFF08FE1EE2930C003A351D /* TSChatActionBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatActionBarView.swift; sourceTree = "<group>"; };
+		BAFF08FF1EE2930C003A351D /* TSChatActionBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSChatActionBarView.xib; sourceTree = "<group>"; };
+		BAFF09001EE2930C003A351D /* TSChatButton+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TSChatButton+UI.swift"; sourceTree = "<group>"; };
+		BAFF09011EE2930C003A351D /* TSChatButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatButton.swift; sourceTree = "<group>"; };
+		BAFF09021EE2930C003A351D /* TSChatEmotionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatEmotionCell.swift; sourceTree = "<group>"; };
+		BAFF09031EE2930C003A351D /* TSChatEmotionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSChatEmotionCell.xib; sourceTree = "<group>"; };
+		BAFF09041EE2930C003A351D /* TSChatEmotionInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatEmotionInputView.swift; sourceTree = "<group>"; };
+		BAFF09051EE2930C003A351D /* TSChatEmotionInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSChatEmotionInputView.xib; sourceTree = "<group>"; };
+		BAFF09061EE2930C003A351D /* TSChatEmotionScollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatEmotionScollView.swift; sourceTree = "<group>"; };
+		BAFF09071EE2930C003A351D /* TSChatShareMoreCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatShareMoreCollectionViewCell.swift; sourceTree = "<group>"; };
+		BAFF09081EE2930C003A351D /* TSChatShareMoreCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSChatShareMoreCollectionViewCell.xib; sourceTree = "<group>"; };
+		BAFF09091EE2930C003A351D /* TSChatShareMoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatShareMoreView.swift; sourceTree = "<group>"; };
+		BAFF090A1EE2930C003A351D /* TSChatShareMoreView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSChatShareMoreView.xib; sourceTree = "<group>"; };
+		BAFF090B1EE2930C003A351D /* TSChatSystemEdgeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatSystemEdgeLabel.swift; sourceTree = "<group>"; };
+		BAFF090C1EE2930C003A351D /* TSChatVoiceIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatVoiceIndicatorView.swift; sourceTree = "<group>"; };
+		BAFF090D1EE2930C003A351D /* TSChatVoiceIndicatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSChatVoiceIndicatorView.xib; sourceTree = "<group>"; };
+		BAFF090F1EE2930C003A351D /* TSContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSContactsViewController.swift; sourceTree = "<group>"; };
+		BAFF09101EE2930C003A351D /* TSContactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSContactsViewController.xib; sourceTree = "<group>"; };
+		BAFF09111EE2930C003A351D /* TSContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSContactTableViewCell.swift; sourceTree = "<group>"; };
+		BAFF09121EE2930C003A351D /* TSContactTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSContactTableViewCell.xib; sourceTree = "<group>"; };
+		BAFF09151EE2930C003A351D /* HttpManager+UploadAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HttpManager+UploadAudio.swift"; sourceTree = "<group>"; };
+		BAFF09161EE2930C003A351D /* HttpManager+UploadImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HttpManager+UploadImage.swift"; sourceTree = "<group>"; };
+		BAFF09171EE2930C003A351D /* HttpManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpManager.swift; sourceTree = "<group>"; };
+		BAFF09181EE2930C003A351D /* TSResponseSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSResponseSerializer.swift; sourceTree = "<group>"; };
+		BAFF091A1EE2930C003A351D /* TSChatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatModel.swift; sourceTree = "<group>"; };
+		BAFF091B1EE2930C003A351D /* TSChatSubModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSChatSubModel.swift; sourceTree = "<group>"; };
+		BAFF091C1EE2930C003A351D /* TSContactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSContactModel.swift; sourceTree = "<group>"; };
+		BAFF091D1EE2930C003A351D /* TSMessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSMessageModel.swift; sourceTree = "<group>"; };
+		BAFF091E1EE2930C003A351D /* TSModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSModel.swift; sourceTree = "<group>"; };
+		BAFF091F1EE2930C003A351D /* TSModelTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSModelTransformer.swift; sourceTree = "<group>"; };
+		BAFF09201EE2930C003A351D /* TSUploadModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSUploadModel.swift; sourceTree = "<group>"; };
+		BAFF09211EE2930C003A351D /* TSApplicationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSApplicationManager.swift; sourceTree = "<group>"; };
+		BAFF09221EE2930C003A351D /* TSLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSLocationManager.swift; sourceTree = "<group>"; };
+		BAFF09231EE2930C003A351D /* TSUserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSUserManager.swift; sourceTree = "<group>"; };
+		BAFF09251EE2930C003A351D /* TSDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSDiscoverViewController.swift; sourceTree = "<group>"; };
+		BAFF09261EE2930C003A351D /* TSDiscoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSDiscoverViewController.xib; sourceTree = "<group>"; };
+		BAFF09271EE2930C003A351D /* TSImageTextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSImageTextTableViewCell.swift; sourceTree = "<group>"; };
+		BAFF09281EE2930C003A351D /* TSImageTextTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSImageTextTableViewCell.xib; sourceTree = "<group>"; };
+		BAFF092A1EE2930C003A351D /* TSMeAvatarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSMeAvatarTableViewCell.swift; sourceTree = "<group>"; };
+		BAFF092B1EE2930C003A351D /* TSMeAvatarTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSMeAvatarTableViewCell.xib; sourceTree = "<group>"; };
+		BAFF092C1EE2930C003A351D /* TSMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSMeViewController.swift; sourceTree = "<group>"; };
+		BAFF092D1EE2930C003A351D /* TSMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSMeViewController.xib; sourceTree = "<group>"; };
+		BAFF092F1EE2930C003A351D /* TSMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSMessageTableViewCell.swift; sourceTree = "<group>"; };
+		BAFF09301EE2930C003A351D /* TSMessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSMessageTableViewCell.xib; sourceTree = "<group>"; };
+		BAFF09311EE2930C003A351D /* TSMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSMessageViewController.swift; sourceTree = "<group>"; };
+		BAFF09321EE2930C003A351D /* TSMessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSMessageViewController.xib; sourceTree = "<group>"; };
+		BAFF09341EE2930C003A351D /* TSMessageActionFloatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSMessageActionFloatView.swift; sourceTree = "<group>"; };
+		BAFF09361EE2930C003A351D /* TSMomentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSMomentsViewController.swift; sourceTree = "<group>"; };
+		BAFF09371EE2930C003A351D /* TSMomentsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSMomentsViewController.xib; sourceTree = "<group>"; };
+		BAFF09391EE2930C003A351D /* TSTabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSTabbarViewController.swift; sourceTree = "<group>"; };
+		BAFF093B1EE2930C003A351D /* TSWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSWebViewController.swift; sourceTree = "<group>"; };
+		BAFF093D1EE2930C003A351D /* TSFullyHorizontalFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSFullyHorizontalFlowLayout.swift; sourceTree = "<group>"; };
+		BAFF093E1EE2930C003A351D /* TSGlobalHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSGlobalHelper.swift; sourceTree = "<group>"; };
+		BAFF093F1EE2930C003A351D /* TSImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSImagePicker.swift; sourceTree = "<group>"; };
+		BAFF09401EE2930C003A351D /* TSLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSLogger.swift; sourceTree = "<group>"; };
+		BAFF09411EE2930C003A351D /* TSNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSNavigationBar.swift; sourceTree = "<group>"; };
+		BAFF09421EE2930C003A351D /* TSProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSProgressHUD.swift; sourceTree = "<group>"; };
+		BAFF09431EE2930C003A351D /* TSUIColor+WeChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TSUIColor+WeChat.swift"; sourceTree = "<group>"; };
+		BAFF09441EE2930C003A351D /* TSUIImage+WeChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TSUIImage+WeChat.swift"; sourceTree = "<group>"; };
+		BAFF09451EE2930C003A351D /* TSUIImageVIew+WeChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TSUIImageVIew+WeChat.swift"; sourceTree = "<group>"; };
+		BAFF09471EE2930C003A351D /* AboutApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutApp.swift; sourceTree = "<group>"; };
+		BAFF09481EE2930C003A351D /* NSDate+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Extension.swift"; sourceTree = "<group>"; };
+		BAFF09491EE2930C003A351D /* NSDictionary+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDictionary+Extension.swift"; sourceTree = "<group>"; };
+		BAFF094A1EE2930C003A351D /* NSObject+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+String.swift"; sourceTree = "<group>"; };
+		BAFF094B1EE2930C003A351D /* PHAsset+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PHAsset+Extension.swift"; sourceTree = "<group>"; };
+		BAFF094C1EE2930C003A351D /* UIBarButtonItem+Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Block.swift"; sourceTree = "<group>"; };
+		BAFF094D1EE2930C003A351D /* UISearchBar+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Extension.swift"; sourceTree = "<group>"; };
+		BAFF094E1EE2930C003A351D /* UIView+Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Frame.swift"; sourceTree = "<group>"; };
+		BAFF094F1EE2930C003A351D /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		BAFF09511EE2930C003A351D /* TSAppMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSAppMacro.swift; sourceTree = "<group>"; };
+		BAFF09521EE2930C003A351D /* TSConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSConfig.swift; sourceTree = "<group>"; };
+		BAFF09561EE2930D003A351D /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBounceAnimation.swift; sourceTree = "<group>"; };
+		BAFF09581EE2930D003A351D /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
+		BAFF095A1EE2930D003A351D /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFumeAnimation.swift; sourceTree = "<group>"; };
+		BAFF095C1EE2930D003A351D /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMRotationAnimation.swift; sourceTree = "<group>"; };
+		BAFF095E1EE2930D003A351D /* RAMTransitionItemAnimations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMTransitionItemAnimations.swift; sourceTree = "<group>"; };
+		BAFF095F1EE2930D003A351D /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
+		BAFF09611EE2930D003A351D /* RAMBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBadge.swift; sourceTree = "<group>"; };
+		BAFF09621EE2930D003A351D /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
+		BAFF09631EE2930D003A351D /* ToolsAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ToolsAnimation.plist; sourceTree = "<group>"; };
+		BAFF09651EE2930D003A351D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAFF09671EE2930D003A351D /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep.wav; sourceTree = "<group>"; };
+		BAFF09681EE2930D003A351D /* call.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = call.caf; sourceTree = "<group>"; };
+		BAFF09691EE2930D003A351D /* camera.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = camera.wav; sourceTree = "<group>"; };
+		BAFF096A1EE2930D003A351D /* close.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = close.wav; sourceTree = "<group>"; };
+		BAFF096B1EE2930D003A351D /* hello.amr */ = {isa = PBXFileReference; lastKnownFileType = file; path = hello.amr; sourceTree = "<group>"; };
+		BAFF096C1EE2930D003A351D /* msg.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = msg.caf; sourceTree = "<group>"; };
+		BAFF096D1EE2930D003A351D /* msgtoolong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = msgtoolong.wav; sourceTree = "<group>"; };
+		BAFF096E1EE2930D003A351D /* pstncall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pstncall.mp3; sourceTree = "<group>"; };
+		BAFF096F1EE2930D003A351D /* sendmsg.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sendmsg.caf; sourceTree = "<group>"; };
+		BAFF09701EE2930D003A351D /* shake_match.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shake_match.wav; sourceTree = "<group>"; };
+		BAFF09711EE2930D003A351D /* shake_nomatch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shake_nomatch.wav; sourceTree = "<group>"; };
+		BAFF09721EE2930D003A351D /* shake_sound_male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shake_sound_male.wav; sourceTree = "<group>"; };
+		BAFF09731EE2930D003A351D /* country_code.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = country_code.txt; sourceTree = "<group>"; };
+		BAFF09741EE2930D003A351D /* Expression.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Expression.bundle; sourceTree = "<group>"; };
+		BAFF09751EE2930D003A351D /* Expression.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expression.plist; sourceTree = "<group>"; };
+		BAFF09771EE2930D003A351D /* chat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chat.json; sourceTree = "<group>"; };
+		BAFF09781EE2930D003A351D /* contact.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = contact.json; sourceTree = "<group>"; };
+		BAFF09791EE2930D003A351D /* message.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = message.json; sourceTree = "<group>"; };
+		BAFF097A1EE2930D003A351D /* moments.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = moments.json; sourceTree = "<group>"; };
+		BAFF097B1EE2930D003A351D /* Kenny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kenny.jpg; sourceTree = "<group>"; };
+		BAFF097C1EE2930D003A351D /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		BAFF097D1EE2930D003A351D /* wechat.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = wechat.playground; sourceTree = "<group>"; };
+		BAFF0A091EE293FD003A351D /* ink_Bridging_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ink_Bridging_Header.h; sourceTree = "<group>"; };
 		F425827B133C38BDF6266895 /* Pods-ink_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ink_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ink_Swift/Pods-ink_Swift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,7 +339,14 @@
 		BAB4DE3C1EE286A800D26678 /* ink_Swift */ = {
 			isa = PBXGroup;
 			children = (
-				BAB4DE4F1EE28AE000D26678 /* Resources */,
+				BAFF08D21EE2930C003A351D /* Assets.xcassets */,
+				BAFF08D31EE2930C003A351D /* Base.lproj */,
+				BAFF08D81EE2930C003A351D /* Classes */,
+				BAFF093C1EE2930C003A351D /* General */,
+				BAFF09461EE2930C003A351D /* Helpers */,
+				BAFF09501EE2930C003A351D /* Macro */,
+				BAFF09531EE2930C003A351D /* MainTab */,
+				BAFF09641EE2930D003A351D /* Resources */,
 				BAB4DE3D1EE286A800D26678 /* AppDelegate.swift */,
 				BAB4DE3F1EE286A800D26678 /* ViewController.swift */,
 				BAB4DE411EE286A800D26678 /* Main.storyboard */,
@@ -90,76 +357,384 @@
 			path = ink_Swift;
 			sourceTree = "<group>";
 		};
-		BAB4DE4F1EE28AE000D26678 /* Resources */ = {
+		BAFF08D31EE2930C003A351D /* Base.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				BAB4DE521EE28BF000D26678 /* Animations */,
-				BAB4DE5D1EE28BF000D26678 /* RAMAnimatedTabBarController.swift */,
-				BAB4DE5E1EE28BF000D26678 /* RAMBadge */,
-				BAB4DE601EE28BF000D26678 /* RAMItemAnimationProtocol.swift */,
-				BAB4DE501EE28AE000D26678 /* ToolsAnimation.plist */,
+				BAFF08D41EE2930C003A351D /* LaunchScreen.storyboard */,
+				BAFF08D61EE2930C003A351D /* Main.storyboard */,
 			);
-			path = Resources;
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
-		BAB4DE521EE28BF000D26678 /* Animations */ = {
+		BAFF08D81EE2930C003A351D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				BAB4DE531EE28BF000D26678 /* BounceAnimation */,
-				BAB4DE551EE28BF000D26678 /* FrameAnimation */,
-				BAB4DE571EE28BF000D26678 /* FumeAnimation */,
-				BAB4DE591EE28BF000D26678 /* RotationAnimation */,
-				BAB4DE5B1EE28BF000D26678 /* TransitionAniamtions */,
+				BAFF08D91EE2930C003A351D /* Chat */,
+				BAFF090E1EE2930C003A351D /* Contacts */,
+				BAFF09131EE2930C003A351D /* CoreModule */,
+				BAFF09241EE2930C003A351D /* Discover */,
+				BAFF09291EE2930C003A351D /* Me */,
+				BAFF092E1EE2930C003A351D /* Message */,
+				BAFF09351EE2930C003A351D /* Moments */,
+				BAFF09381EE2930C003A351D /* Tabbar */,
+				BAFF093A1EE2930C003A351D /* Web */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BAFF08D91EE2930C003A351D /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				BAFF08DA1EE2930C003A351D /* Cells */,
+				BAFF08E71EE2930C003A351D /* ChatHelper */,
+				BAFF08F41EE2930C003A351D /* TSChatViewController+ActionBar.swift */,
+				BAFF08F51EE2930C003A351D /* TSChatViewController+CellEnums.swift */,
+				BAFF08F61EE2930C003A351D /* TSChatViewController+HandleData.swift */,
+				BAFF08F71EE2930C003A351D /* TSChatViewController+Interaction.swift */,
+				BAFF08F81EE2930C003A351D /* TSChatViewController+Keyboard.swift */,
+				BAFF08F91EE2930C003A351D /* TSChatViewController+Subviews.swift */,
+				BAFF08FA1EE2930C003A351D /* TSChatViewController+TestData.swift */,
+				BAFF08FB1EE2930C003A351D /* TSChatViewController.swift */,
+				BAFF08FC1EE2930C003A351D /* TSChatViewController.xib */,
+				BAFF08FD1EE2930C003A351D /* Views */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		BAFF08DA1EE2930C003A351D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BAFF08DB1EE2930C003A351D /* TSChatBaseCell.swift */,
+				BAFF08DC1EE2930C003A351D /* TSChatCellDelegate.swift */,
+				BAFF08DD1EE2930C003A351D /* TSChatImageCell.swift */,
+				BAFF08DE1EE2930C003A351D /* TSChatImageCell.xib */,
+				BAFF08DF1EE2930C003A351D /* TSChatSystemCell.swift */,
+				BAFF08E01EE2930C003A351D /* TSChatSystemCell.xib */,
+				BAFF08E11EE2930C003A351D /* TSChatTextCell.swift */,
+				BAFF08E21EE2930C003A351D /* TSChatTextCell.xib */,
+				BAFF08E31EE2930C003A351D /* TSChatTimeCell.swift */,
+				BAFF08E41EE2930C003A351D /* TSChatTimeCell.xib */,
+				BAFF08E51EE2930C003A351D /* TSChatVoiceCell.swift */,
+				BAFF08E61EE2930C003A351D /* TSChatVoiceCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BAFF08E71EE2930C003A351D /* ChatHelper */ = {
+			isa = PBXGroup;
+			children = (
+				BAFF08E81EE2930C003A351D /* AudioDelegate.swift */,
+				BAFF08E91EE2930C003A351D /* AudioFilesManager.swift */,
+				BAFF08EA1EE2930C003A351D /* AudioPlayManager.swift */,
+				BAFF08EB1EE2930C003A351D /* AudioRecordManager.swift */,
+				BAFF08EC1EE2930C003A351D /* ChatConfig.swift */,
+				BAFF08ED1EE2930C003A351D /* ImageFilesManager.swift */,
+				BAFF08EE1EE2930C003A351D /* TSChatDataManager.swift */,
+				BAFF08EF1EE2930C003A351D /* TSChatEmojiDictionary.swift */,
+				BAFF08F01EE2930C003A351D /* TSChatTextParser.swift */,
+				BAFF08F11EE2930C003A351D /* TSYYTextLinePositionModifier.swift */,
+				BAFF08F21EE2930C003A351D /* UIScrollView+ChatAdditions.swift */,
+				BAFF08F31EE2930C003A351D /* UITableView+ChatAdditions.swift */,
+			);
+			path = ChatHelper;
+			sourceTree = "<group>";
+		};
+		BAFF08FD1EE2930C003A351D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BAFF08FE1EE2930C003A351D /* TSChatActionBarView.swift */,
+				BAFF08FF1EE2930C003A351D /* TSChatActionBarView.xib */,
+				BAFF09001EE2930C003A351D /* TSChatButton+UI.swift */,
+				BAFF09011EE2930C003A351D /* TSChatButton.swift */,
+				BAFF09021EE2930C003A351D /* TSChatEmotionCell.swift */,
+				BAFF09031EE2930C003A351D /* TSChatEmotionCell.xib */,
+				BAFF09041EE2930C003A351D /* TSChatEmotionInputView.swift */,
+				BAFF09051EE2930C003A351D /* TSChatEmotionInputView.xib */,
+				BAFF09061EE2930C003A351D /* TSChatEmotionScollView.swift */,
+				BAFF09071EE2930C003A351D /* TSChatShareMoreCollectionViewCell.swift */,
+				BAFF09081EE2930C003A351D /* TSChatShareMoreCollectionViewCell.xib */,
+				BAFF09091EE2930C003A351D /* TSChatShareMoreView.swift */,
+				BAFF090A1EE2930C003A351D /* TSChatShareMoreView.xib */,
+				BAFF090B1EE2930C003A351D /* TSChatSystemEdgeLabel.swift */,
+				BAFF090C1EE2930C003A351D /* TSChatVoiceIndicatorView.swift */,
+				BAFF090D1EE2930C003A351D /* TSChatVoiceIndicatorView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BAFF090E1EE2930C003A351D /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				BAFF090F1EE2930C003A351D /* TSContactsViewController.swift */,
+				BAFF09101EE2930C003A351D /* TSContactsViewController.xib */,
+				BAFF09111EE2930C003A351D /* TSContactTableViewCell.swift */,
+				BAFF09121EE2930C003A351D /* TSContactTableViewCell.xib */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		BAFF09131EE2930C003A351D /* CoreModule */ = {
+			isa = PBXGroup;
+			children = (
+				BAFF09141EE2930C003A351D /* Http */,
+				BAFF09191EE2930C003A351D /* Models */,
+				BAFF09211EE2930C003A351D /* TSApplicationManager.swift */,
+				BAFF09221EE2930C003A351D /* TSLocationManager.swift */,
+				BAFF09231EE2930C003A351D /* TSUserManager.swift */,
+			);
+			path = CoreModule;
+			sourceTree = "<group>";
+		};
+		BAFF09141EE2930C003A351D /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				BAFF09151EE2930C003A351D /* HttpManager+UploadAudio.swift */,
+				BAFF09161EE2930C003A351D /* HttpManager+UploadImage.swift */,
+				BAFF09171EE2930C003A351D /* HttpManager.swift */,
+				BAFF09181EE2930C003A351D /* TSResponseSerializer.swift */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		BAFF09191EE2930C003A351D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BAFF091A1EE2930C003A351D /* TSChatModel.swift */,
+				BAFF091B1EE2930C003A351D /* TSChatSubModel.swift */,
+				BAFF091C1EE2930C003A351D /* TSContactModel.swift */,
+				BAFF091D1EE2930C003A351D /* TSMessageModel.swift */,
+				BAFF091E1EE2930C003A351D /* TSModel.swift */,
+				BAFF091F1EE2930C003A351D /* TSModelTransformer.swift */,
+				BAFF09201EE2930C003A351D /* TSUploadModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BAFF09241EE2930C003A351D /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				BAFF09251EE2930C003A351D /* TSDiscoverViewController.swift */,
+				BAFF09261EE2930C003A351D /* TSDiscoverViewController.xib */,
+				BAFF09271EE2930C003A351D /* TSImageTextTableViewCell.swift */,
+				BAFF09281EE2930C003A351D /* TSImageTextTableViewCell.xib */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		BAFF09291EE2930C003A351D /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				BAFF092A1EE2930C003A351D /* TSMeAvatarTableViewCell.swift */,
+				BAFF092B1EE2930C003A351D /* TSMeAvatarTableViewCell.xib */,
+				BAFF092C1EE2930C003A351D /* TSMeViewController.swift */,
+				BAFF092D1EE2930C003A351D /* TSMeViewController.xib */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		BAFF092E1EE2930C003A351D /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				BAFF092F1EE2930C003A351D /* TSMessageTableViewCell.swift */,
+				BAFF09301EE2930C003A351D /* TSMessageTableViewCell.xib */,
+				BAFF09311EE2930C003A351D /* TSMessageViewController.swift */,
+				BAFF09321EE2930C003A351D /* TSMessageViewController.xib */,
+				BAFF09331EE2930C003A351D /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		BAFF09331EE2930C003A351D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BAFF09341EE2930C003A351D /* TSMessageActionFloatView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BAFF09351EE2930C003A351D /* Moments */ = {
+			isa = PBXGroup;
+			children = (
+				BAFF09361EE2930C003A351D /* TSMomentsViewController.swift */,
+				BAFF09371EE2930C003A351D /* TSMomentsViewController.xib */,
+			);
+			path = Moments;
+			sourceTree = "<group>";
+		};
+		BAFF09381EE2930C003A351D /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				BAFF09391EE2930C003A351D /* TSTabbarViewController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		BAFF093A1EE2930C003A351D /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				BAFF093B1EE2930C003A351D /* TSWebViewController.swift */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		BAFF093C1EE2930C003A351D /* General */ = {
+			isa = PBXGroup;
+			children = (
+				BAFF093D1EE2930C003A351D /* TSFullyHorizontalFlowLayout.swift */,
+				BAFF093E1EE2930C003A351D /* TSGlobalHelper.swift */,
+				BAFF093F1EE2930C003A351D /* TSImagePicker.swift */,
+				BAFF09401EE2930C003A351D /* TSLogger.swift */,
+				BAFF09411EE2930C003A351D /* TSNavigationBar.swift */,
+				BAFF09421EE2930C003A351D /* TSProgressHUD.swift */,
+				BAFF09431EE2930C003A351D /* TSUIColor+WeChat.swift */,
+				BAFF09441EE2930C003A351D /* TSUIImage+WeChat.swift */,
+				BAFF09451EE2930C003A351D /* TSUIImageVIew+WeChat.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		BAFF09461EE2930C003A351D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BAFF09471EE2930C003A351D /* AboutApp.swift */,
+				BAFF09481EE2930C003A351D /* NSDate+Extension.swift */,
+				BAFF09491EE2930C003A351D /* NSDictionary+Extension.swift */,
+				BAFF094A1EE2930C003A351D /* NSObject+String.swift */,
+				BAFF094B1EE2930C003A351D /* PHAsset+Extension.swift */,
+				BAFF094C1EE2930C003A351D /* UIBarButtonItem+Block.swift */,
+				BAFF094D1EE2930C003A351D /* UISearchBar+Extension.swift */,
+				BAFF094E1EE2930C003A351D /* UIView+Frame.swift */,
+				BAFF094F1EE2930C003A351D /* UIViewController+Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BAFF09501EE2930C003A351D /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				BAFF09511EE2930C003A351D /* TSAppMacro.swift */,
+				BAFF09521EE2930C003A351D /* TSConfig.swift */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		BAFF09531EE2930C003A351D /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				BAFF09541EE2930D003A351D /* Animations */,
+				BAFF095F1EE2930D003A351D /* RAMAnimatedTabBarController.swift */,
+				BAFF09601EE2930D003A351D /* RAMBadge */,
+				BAFF09621EE2930D003A351D /* RAMItemAnimationProtocol.swift */,
+				BAFF09631EE2930D003A351D /* ToolsAnimation.plist */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		BAFF09541EE2930D003A351D /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				BAFF09551EE2930D003A351D /* BounceAnimation */,
+				BAFF09571EE2930D003A351D /* FrameAnimation */,
+				BAFF09591EE2930D003A351D /* FumeAnimation */,
+				BAFF095B1EE2930D003A351D /* RotationAnimation */,
+				BAFF095D1EE2930D003A351D /* TransitionAniamtions */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
 		};
-		BAB4DE531EE28BF000D26678 /* BounceAnimation */ = {
+		BAFF09551EE2930D003A351D /* BounceAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				BAB4DE541EE28BF000D26678 /* RAMBounceAnimation.swift */,
+				BAFF09561EE2930D003A351D /* RAMBounceAnimation.swift */,
 			);
 			path = BounceAnimation;
 			sourceTree = "<group>";
 		};
-		BAB4DE551EE28BF000D26678 /* FrameAnimation */ = {
+		BAFF09571EE2930D003A351D /* FrameAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				BAB4DE561EE28BF000D26678 /* RAMFrameItemAnimation.swift */,
+				BAFF09581EE2930D003A351D /* RAMFrameItemAnimation.swift */,
 			);
 			path = FrameAnimation;
 			sourceTree = "<group>";
 		};
-		BAB4DE571EE28BF000D26678 /* FumeAnimation */ = {
+		BAFF09591EE2930D003A351D /* FumeAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				BAB4DE581EE28BF000D26678 /* RAMFumeAnimation.swift */,
+				BAFF095A1EE2930D003A351D /* RAMFumeAnimation.swift */,
 			);
 			path = FumeAnimation;
 			sourceTree = "<group>";
 		};
-		BAB4DE591EE28BF000D26678 /* RotationAnimation */ = {
+		BAFF095B1EE2930D003A351D /* RotationAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				BAB4DE5A1EE28BF000D26678 /* RAMRotationAnimation.swift */,
+				BAFF095C1EE2930D003A351D /* RAMRotationAnimation.swift */,
 			);
 			path = RotationAnimation;
 			sourceTree = "<group>";
 		};
-		BAB4DE5B1EE28BF000D26678 /* TransitionAniamtions */ = {
+		BAFF095D1EE2930D003A351D /* TransitionAniamtions */ = {
 			isa = PBXGroup;
 			children = (
-				BAB4DE5C1EE28BF000D26678 /* RAMTransitionItemAnimations.swift */,
+				BAFF095E1EE2930D003A351D /* RAMTransitionItemAnimations.swift */,
 			);
 			path = TransitionAniamtions;
 			sourceTree = "<group>";
 		};
-		BAB4DE5E1EE28BF000D26678 /* RAMBadge */ = {
+		BAFF09601EE2930D003A351D /* RAMBadge */ = {
 			isa = PBXGroup;
 			children = (
-				BAB4DE5F1EE28BF000D26678 /* RAMBadge.swift */,
+				BAFF09611EE2930D003A351D /* RAMBadge.swift */,
 			);
 			path = RAMBadge;
+			sourceTree = "<group>";
+		};
+		BAFF09641EE2930D003A351D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BAFF09651EE2930D003A351D /* Assets.xcassets */,
+				BAFF09661EE2930D003A351D /* Audio */,
+				BAFF09731EE2930D003A351D /* country_code.txt */,
+				BAFF09741EE2930D003A351D /* Expression.bundle */,
+				BAFF09751EE2930D003A351D /* Expression.plist */,
+				BAFF09761EE2930D003A351D /* JSON */,
+				BAFF097B1EE2930D003A351D /* Kenny.jpg */,
+				BAFF097C1EE2930D003A351D /* Media.xcassets */,
+				BAFF097D1EE2930D003A351D /* wechat.playground */,
+				BAFF0A091EE293FD003A351D /* ink_Bridging_Header.h */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BAFF09661EE2930D003A351D /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				BAFF09671EE2930D003A351D /* beep.wav */,
+				BAFF09681EE2930D003A351D /* call.caf */,
+				BAFF09691EE2930D003A351D /* camera.wav */,
+				BAFF096A1EE2930D003A351D /* close.wav */,
+				BAFF096B1EE2930D003A351D /* hello.amr */,
+				BAFF096C1EE2930D003A351D /* msg.caf */,
+				BAFF096D1EE2930D003A351D /* msgtoolong.wav */,
+				BAFF096E1EE2930D003A351D /* pstncall.mp3 */,
+				BAFF096F1EE2930D003A351D /* sendmsg.caf */,
+				BAFF09701EE2930D003A351D /* shake_match.wav */,
+				BAFF09711EE2930D003A351D /* shake_nomatch.wav */,
+				BAFF09721EE2930D003A351D /* shake_sound_male.wav */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		BAFF09761EE2930D003A351D /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				BAFF09771EE2930D003A351D /* chat.json */,
+				BAFF09781EE2930D003A351D /* contact.json */,
+				BAFF09791EE2930D003A351D /* message.json */,
+				BAFF097A1EE2930D003A351D /* moments.json */,
+			);
+			path = JSON;
 			sourceTree = "<group>";
 		};
 		C87B0867A85A3BAFB6E631DF /* Frameworks */ = {
@@ -241,10 +816,56 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAFF09F31EE2930D003A351D /* beep.wav in Resources */,
+				BAFF09A31EE2930D003A351D /* TSChatActionBarView.xib in Resources */,
+				BAFF0A061EE2930D003A351D /* Kenny.jpg in Resources */,
+				BAFF09FC1EE2930D003A351D /* shake_match.wav in Resources */,
+				BAFF09CF1EE2930D003A351D /* TSMessageViewController.xib in Resources */,
+				BAFF09FE1EE2930D003A351D /* shake_sound_male.wav in Resources */,
+				BAFF09B31EE2930D003A351D /* TSContactsViewController.xib in Resources */,
+				BAFF09F41EE2930D003A351D /* call.caf in Resources */,
+				BAFF0A051EE2930D003A351D /* moments.json in Resources */,
 				BAB4DE481EE286A800D26678 /* LaunchScreen.storyboard in Resources */,
+				BAFF09D21EE2930D003A351D /* TSMomentsViewController.xib in Resources */,
+				BAFF09F71EE2930D003A351D /* hello.amr in Resources */,
+				BAFF09FA1EE2930D003A351D /* pstncall.mp3 in Resources */,
+				BAFF09FD1EE2930D003A351D /* shake_nomatch.wav in Resources */,
+				BAFF09861EE2930D003A351D /* TSChatSystemCell.xib in Resources */,
+				BAFF09FB1EE2930D003A351D /* sendmsg.caf in Resources */,
 				BAB4DE451EE286A800D26678 /* Assets.xcassets in Resources */,
+				BAFF09A11EE2930D003A351D /* TSChatViewController.xib in Resources */,
+				BAFF098A1EE2930D003A351D /* TSChatTimeCell.xib in Resources */,
+				BAFF09CB1EE2930D003A351D /* TSMeViewController.xib in Resources */,
+				BAFF097E1EE2930D003A351D /* Assets.xcassets in Resources */,
+				BAFF09801EE2930D003A351D /* Main.storyboard in Resources */,
+				BAFF0A031EE2930D003A351D /* contact.json in Resources */,
+				BAFF0A041EE2930D003A351D /* message.json in Resources */,
+				BAFF098C1EE2930D003A351D /* TSChatVoiceCell.xib in Resources */,
+				BAFF09F51EE2930D003A351D /* camera.wav in Resources */,
+				BAFF09C91EE2930D003A351D /* TSMeAvatarTableViewCell.xib in Resources */,
+				BAFF09CD1EE2930D003A351D /* TSMessageTableViewCell.xib in Resources */,
+				BAFF09F11EE2930D003A351D /* ToolsAnimation.plist in Resources */,
+				BAFF097F1EE2930D003A351D /* LaunchScreen.storyboard in Resources */,
+				BAFF0A071EE2930D003A351D /* Media.xcassets in Resources */,
+				BAFF0A001EE2930D003A351D /* Expression.bundle in Resources */,
+				BAFF09AC1EE2930D003A351D /* TSChatShareMoreCollectionViewCell.xib in Resources */,
+				BAFF09841EE2930D003A351D /* TSChatImageCell.xib in Resources */,
+				BAFF09FF1EE2930D003A351D /* country_code.txt in Resources */,
+				BAFF09B51EE2930D003A351D /* TSContactTableViewCell.xib in Resources */,
 				BAB4DE431EE286A800D26678 /* Main.storyboard in Resources */,
-				BAB4DE511EE28AE000D26678 /* ToolsAnimation.plist in Resources */,
+				BAFF09F61EE2930D003A351D /* close.wav in Resources */,
+				BAFF09C51EE2930D003A351D /* TSDiscoverViewController.xib in Resources */,
+				BAFF09F91EE2930D003A351D /* msgtoolong.wav in Resources */,
+				BAFF09A91EE2930D003A351D /* TSChatEmotionInputView.xib in Resources */,
+				BAFF0A021EE2930D003A351D /* chat.json in Resources */,
+				BAFF09C71EE2930D003A351D /* TSImageTextTableViewCell.xib in Resources */,
+				BAFF09B11EE2930D003A351D /* TSChatVoiceIndicatorView.xib in Resources */,
+				BAFF0A011EE2930D003A351D /* Expression.plist in Resources */,
+				BAFF09A71EE2930D003A351D /* TSChatEmotionCell.xib in Resources */,
+				BAFF09F81EE2930D003A351D /* msg.caf in Resources */,
+				BAFF09F21EE2930D003A351D /* Assets.xcassets in Resources */,
+				BAFF09881EE2930D003A351D /* TSChatTextCell.xib in Resources */,
+				BAFF09AE1EE2930D003A351D /* TSChatShareMoreView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,16 +924,99 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAB4DE631EE28BF000D26678 /* RAMFumeAnimation.swift in Sources */,
-				BAB4DE651EE28BF000D26678 /* RAMTransitionItemAnimations.swift in Sources */,
-				BAB4DE621EE28BF000D26678 /* RAMFrameItemAnimation.swift in Sources */,
-				BAB4DE611EE28BF000D26678 /* RAMBounceAnimation.swift in Sources */,
-				BAB4DE681EE28BF000D26678 /* RAMItemAnimationProtocol.swift in Sources */,
-				BAB4DE671EE28BF000D26678 /* RAMBadge.swift in Sources */,
+				BAFF09B91EE2930D003A351D /* TSResponseSerializer.swift in Sources */,
 				BAB4DE401EE286A800D26678 /* ViewController.swift in Sources */,
-				BAB4DE661EE28BF000D26678 /* RAMAnimatedTabBarController.swift in Sources */,
+				BAFF09911EE2930D003A351D /* ChatConfig.swift in Sources */,
+				BAFF09BC1EE2930D003A351D /* TSContactModel.swift in Sources */,
+				BAFF09DB1EE2930D003A351D /* TSUIColor+WeChat.swift in Sources */,
+				BAFF09981EE2930D003A351D /* UITableView+ChatAdditions.swift in Sources */,
+				BAFF09DA1EE2930D003A351D /* TSProgressHUD.swift in Sources */,
+				BAFF09971EE2930D003A351D /* UIScrollView+ChatAdditions.swift in Sources */,
+				BAFF09AA1EE2930D003A351D /* TSChatEmotionScollView.swift in Sources */,
+				BAFF09E41EE2930D003A351D /* UISearchBar+Extension.swift in Sources */,
+				BAFF09DE1EE2930D003A351D /* AboutApp.swift in Sources */,
+				BAFF098B1EE2930D003A351D /* TSChatVoiceCell.swift in Sources */,
+				BAFF09BF1EE2930D003A351D /* TSModelTransformer.swift in Sources */,
+				BAFF09BD1EE2930D003A351D /* TSMessageModel.swift in Sources */,
+				BAFF09B21EE2930D003A351D /* TSContactsViewController.swift in Sources */,
+				BAFF09D11EE2930D003A351D /* TSMomentsViewController.swift in Sources */,
+				BAFF09B71EE2930D003A351D /* HttpManager+UploadImage.swift in Sources */,
+				BAFF09EC1EE2930D003A351D /* RAMRotationAnimation.swift in Sources */,
+				BAFF09DD1EE2930D003A351D /* TSUIImageVIew+WeChat.swift in Sources */,
+				BAFF09A41EE2930D003A351D /* TSChatButton+UI.swift in Sources */,
+				BAFF09991EE2930D003A351D /* TSChatViewController+ActionBar.swift in Sources */,
+				BAFF09E21EE2930D003A351D /* PHAsset+Extension.swift in Sources */,
+				BAFF09821EE2930D003A351D /* TSChatCellDelegate.swift in Sources */,
+				BAFF09811EE2930D003A351D /* TSChatBaseCell.swift in Sources */,
+				BAFF09CA1EE2930D003A351D /* TSMeViewController.swift in Sources */,
+				BAFF098F1EE2930D003A351D /* AudioPlayManager.swift in Sources */,
+				BAFF09C81EE2930D003A351D /* TSMeAvatarTableViewCell.swift in Sources */,
+				BAFF09901EE2930D003A351D /* AudioRecordManager.swift in Sources */,
+				BAFF09E81EE2930D003A351D /* TSConfig.swift in Sources */,
+				BAFF09F01EE2930D003A351D /* RAMItemAnimationProtocol.swift in Sources */,
+				BAFF09851EE2930D003A351D /* TSChatSystemCell.swift in Sources */,
+				BAFF09B81EE2930D003A351D /* HttpManager.swift in Sources */,
+				BAFF09E71EE2930D003A351D /* TSAppMacro.swift in Sources */,
+				BAFF09E61EE2930D003A351D /* UIViewController+Extension.swift in Sources */,
+				BAFF09CC1EE2930D003A351D /* TSMessageTableViewCell.swift in Sources */,
+				BAFF09D81EE2930D003A351D /* TSLogger.swift in Sources */,
+				BAFF09A01EE2930D003A351D /* TSChatViewController.swift in Sources */,
+				BAFF09AB1EE2930D003A351D /* TSChatShareMoreCollectionViewCell.swift in Sources */,
+				BAFF09D61EE2930D003A351D /* TSGlobalHelper.swift in Sources */,
+				BAFF09C41EE2930D003A351D /* TSDiscoverViewController.swift in Sources */,
+				BAFF09941EE2930D003A351D /* TSChatEmojiDictionary.swift in Sources */,
+				BAFF09BE1EE2930D003A351D /* TSModel.swift in Sources */,
+				BAFF09A21EE2930D003A351D /* TSChatActionBarView.swift in Sources */,
+				BAFF09C21EE2930D003A351D /* TSLocationManager.swift in Sources */,
 				BAB4DE3E1EE286A800D26678 /* AppDelegate.swift in Sources */,
-				BAB4DE641EE28BF000D26678 /* RAMRotationAnimation.swift in Sources */,
+				BAFF09A51EE2930D003A351D /* TSChatButton.swift in Sources */,
+				BAFF098E1EE2930D003A351D /* AudioFilesManager.swift in Sources */,
+				BAFF09D41EE2930D003A351D /* TSWebViewController.swift in Sources */,
+				BAFF09E31EE2930D003A351D /* UIBarButtonItem+Block.swift in Sources */,
+				BAFF09891EE2930D003A351D /* TSChatTimeCell.swift in Sources */,
+				BAFF09D01EE2930D003A351D /* TSMessageActionFloatView.swift in Sources */,
+				BAFF09871EE2930D003A351D /* TSChatTextCell.swift in Sources */,
+				BAFF09D91EE2930D003A351D /* TSNavigationBar.swift in Sources */,
+				BAFF09B61EE2930D003A351D /* HttpManager+UploadAudio.swift in Sources */,
+				BAFF09C01EE2930D003A351D /* TSUploadModel.swift in Sources */,
+				BAFF09EE1EE2930D003A351D /* RAMAnimatedTabBarController.swift in Sources */,
+				BAFF09831EE2930D003A351D /* TSChatImageCell.swift in Sources */,
+				BAFF099A1EE2930D003A351D /* TSChatViewController+CellEnums.swift in Sources */,
+				BAFF09D31EE2930D003A351D /* TSTabbarViewController.swift in Sources */,
+				BAFF09E11EE2930D003A351D /* NSObject+String.swift in Sources */,
+				BAFF09951EE2930D003A351D /* TSChatTextParser.swift in Sources */,
+				BAFF09EF1EE2930D003A351D /* RAMBadge.swift in Sources */,
+				BAFF09EA1EE2930D003A351D /* RAMFrameItemAnimation.swift in Sources */,
+				BAFF09DC1EE2930D003A351D /* TSUIImage+WeChat.swift in Sources */,
+				BAFF09E01EE2930D003A351D /* NSDictionary+Extension.swift in Sources */,
+				BAFF09DF1EE2930D003A351D /* NSDate+Extension.swift in Sources */,
+				BAFF09CE1EE2930D003A351D /* TSMessageViewController.swift in Sources */,
+				BAFF09D51EE2930D003A351D /* TSFullyHorizontalFlowLayout.swift in Sources */,
+				BAFF09961EE2930D003A351D /* TSYYTextLinePositionModifier.swift in Sources */,
+				BAFF09C31EE2930D003A351D /* TSUserManager.swift in Sources */,
+				BAFF09A81EE2930D003A351D /* TSChatEmotionInputView.swift in Sources */,
+				BAFF09BB1EE2930D003A351D /* TSChatSubModel.swift in Sources */,
+				BAFF09E91EE2930D003A351D /* RAMBounceAnimation.swift in Sources */,
+				BAFF099D1EE2930D003A351D /* TSChatViewController+Keyboard.swift in Sources */,
+				BAFF098D1EE2930D003A351D /* AudioDelegate.swift in Sources */,
+				BAFF09C61EE2930D003A351D /* TSImageTextTableViewCell.swift in Sources */,
+				BAFF09931EE2930D003A351D /* TSChatDataManager.swift in Sources */,
+				BAFF09E51EE2930D003A351D /* UIView+Frame.swift in Sources */,
+				BAFF09C11EE2930D003A351D /* TSApplicationManager.swift in Sources */,
+				BAFF09A61EE2930D003A351D /* TSChatEmotionCell.swift in Sources */,
+				BAFF09921EE2930D003A351D /* ImageFilesManager.swift in Sources */,
+				BAFF099C1EE2930D003A351D /* TSChatViewController+Interaction.swift in Sources */,
+				BAFF09B41EE2930D003A351D /* TSContactTableViewCell.swift in Sources */,
+				BAFF099F1EE2930D003A351D /* TSChatViewController+TestData.swift in Sources */,
+				BAFF099E1EE2930D003A351D /* TSChatViewController+Subviews.swift in Sources */,
+				BAFF09D71EE2930D003A351D /* TSImagePicker.swift in Sources */,
+				BAFF09AD1EE2930D003A351D /* TSChatShareMoreView.swift in Sources */,
+				BAFF09BA1EE2930D003A351D /* TSChatModel.swift in Sources */,
+				BAFF099B1EE2930D003A351D /* TSChatViewController+HandleData.swift in Sources */,
+				BAFF09AF1EE2930D003A351D /* TSChatSystemEdgeLabel.swift in Sources */,
+				BAFF09EB1EE2930D003A351D /* RAMFumeAnimation.swift in Sources */,
+				BAFF09B01EE2930D003A351D /* TSChatVoiceIndicatorView.swift in Sources */,
+				BAFF09ED1EE2930D003A351D /* RAMTransitionItemAnimations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +1037,22 @@
 				BAB4DE471EE286A800D26678 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BAFF08D41EE2930C003A351D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAFF08D51EE2930C003A351D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BAFF08D61EE2930C003A351D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAFF08D71EE2930C003A351D /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -440,6 +1160,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sf.InkStone.ink-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ink_Swift/Resources/ink_Bridging_Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -453,6 +1174,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sf.InkStone.ink-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ink_Swift/Resources/ink_Bridging_Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

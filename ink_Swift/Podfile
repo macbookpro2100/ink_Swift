@@ -20,7 +20,7 @@ target 'ink_Swift' do
   pod 'Moya/RxSwift'
   pod 'SwiftyJSON'
   pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift3'
-
+  pod 'ObjectMapper'
  
   pod 'Moya/ReactiveSwift'
   pod 'XLPagerTabStrip', '~> 7.0'
