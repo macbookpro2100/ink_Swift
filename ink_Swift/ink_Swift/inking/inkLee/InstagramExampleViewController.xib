@@ -22,7 +22,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ti3-C7-RAA">
-                    <rect key="frame" x="0.0" y="104" width="375" height="563"/>
+                    <rect key="frame" x="0.0" y="60" width="375" height="607"/>
                 </scrollView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gUp-QE-04X">
                     <rect key="frame" x="28" y="622" width="84" height="33"/>
@@ -37,7 +37,7 @@
                     </connections>
                 </button>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="PVh-Vs-A1y" customClass="ButtonBarView" customModule="XLPagerTabStrip">
-                    <rect key="frame" x="0.0" y="64" width="375" height="40"/>
+                    <rect key="frame" x="0.0" y="20" width="375" height="40"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="z1o-ur-28I"/>
                     </constraints>
@@ -58,9 +58,8 @@
                 <constraint firstAttribute="trailing" secondItem="PVh-Vs-A1y" secondAttribute="trailing" id="Eci-MD-nQy"/>
                 <constraint firstItem="Ti3-C7-RAA" firstAttribute="top" secondItem="PVh-Vs-A1y" secondAttribute="bottom" id="NOk-lT-KG1"/>
                 <constraint firstAttribute="trailing" secondItem="Ti3-C7-RAA" secondAttribute="trailing" id="OeO-nD-tHn"/>
-                <constraint firstItem="Ti3-C7-RAA" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="104" id="XLf-TA-2FD"/>
                 <constraint firstItem="Ti3-C7-RAA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="YTb-0h-5S4"/>
-                <constraint firstItem="PVh-Vs-A1y" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="pw9-Ki-cn6"/>
+                <constraint firstItem="PVh-Vs-A1y" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="pw9-Ki-cn6"/>
                 <constraint firstItem="PVh-Vs-A1y" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="rpu-aS-3m9"/>
             </constraints>
         </view>

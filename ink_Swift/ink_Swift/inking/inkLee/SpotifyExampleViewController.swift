@@ -53,6 +53,6 @@ class SpotifyExampleViewController: ButtonBarPagerTabStripViewController {
     
     @IBAction func closeAction(_ sender: UIButton) {
          
-        self.navigationController?.popViewController(animated: true)
+        dismiss(animated: true, completion: nil)
     }
 }

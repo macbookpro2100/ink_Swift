@@ -14,6 +14,11 @@ class InstagramExampleViewController: ButtonBarPagerTabStripViewController {
     @IBOutlet weak var shadowView: UIView!
     let blueInstagramColor = UIColor(red: 37/255.0, green: 111/255.0, blue: 206/255.0, alpha: 1.0)
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+    }
+    
     override func viewDidLoad() {
         // change selected bar color
         settings.style.buttonBarBackgroundColor = .white
@@ -32,6 +37,7 @@ class InstagramExampleViewController: ButtonBarPagerTabStripViewController {
             oldCell?.label.textColor = .black
             newCell?.label.textColor = self?.blueInstagramColor
         }
+        
         super.viewDidLoad()
     }
     
@@ -46,7 +52,7 @@ class InstagramExampleViewController: ButtonBarPagerTabStripViewController {
     // MARK: - Custom Action
     
     @IBAction func closeAction(_ sender: UIButton) {
-        self.navigationController?.popViewController(animated: true)
+        dismiss(animated: true, completion: nil)
 
     }
 }

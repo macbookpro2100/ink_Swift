@@ -105,11 +105,14 @@ extension InkExportViewController: UITableViewDelegate {
 //            let vc = IeeExportViewController.ts_initFromNib()
 //            self.ts_pushAndHideTabbar(vc)
             let vc = SpotifyExampleViewController.ts_initFromNib()
-            self.ts_pushAndHideTabbar(vc)
+//            self.ts_pushAndHideTabbar(vc) push hase bug
+            self.navigationController?.present(vc, animated: false, completion: {
+            })
         }
         if indexPath.section == 1 && indexPath.row == 1 {
             let vc = InstagramExampleViewController.ts_initFromNib()
-            self.ts_pushAndHideTabbar(vc)
+            self.navigationController?.present(vc, animated: false, completion: {
+            })
 
            
         }
