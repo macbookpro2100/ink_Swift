@@ -335,6 +335,14 @@
 			path = le;
 			sourceTree = "<group>";
 		};
+		BA4F0A851EE2E8500075534E /* inkLee */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = inkLee;
+			path = inking/inkLee;
+			sourceTree = "<group>";
+		};
 		BAB4DE311EE286A800D26678 = {
 			isa = PBXGroup;
 			children = (
@@ -356,6 +364,7 @@
 		BAB4DE3C1EE286A800D26678 /* ink_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				BA4F0A851EE2E8500075534E /* inkLee */,
 				BA4F0A761EE2E26C0075534E /* le */,
 				BA4F0A721EE2E24C0075534E /* InkExportViewController.swift */,
 				BA4F0A731EE2E24C0075534E /* InkExportViewController.xib */,
