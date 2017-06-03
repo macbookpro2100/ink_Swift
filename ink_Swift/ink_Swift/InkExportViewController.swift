@@ -43,7 +43,11 @@ class InkExportViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        self.tabBarController?.tabBar.isHidden = false;
+        
+    }
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+         
     }
     
     deinit {
@@ -93,9 +97,15 @@ extension InkExportViewController: UITableViewDelegate {
         if indexPath.section == 1 && indexPath.row == 0 {
             
             let vc = IeeExportViewController.ts_initFromNib()
-            self.navigationController!.pushViewController(vc, animated: true)
+            self.ts_pushAndHideTabbar(vc)
             
         }
+        if indexPath.section == 1 && indexPath.row == 1 {
+      
+        }
+        
+        
+        
         
         
         
