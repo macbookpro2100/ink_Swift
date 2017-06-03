@@ -93,7 +93,7 @@ extension IeeExportViewController: UITableViewDelegate {
         }
         if indexPath.section == 1 && indexPath.row == 0 {
             
-            let vc = ViewController.ts_initFromNib()
+            let vc = InkLee2ViewController.ts_initFromNib()
             self.navigationController!.pushViewController(vc, animated: true)
             
         }
