@@ -101,8 +101,16 @@ extension InkExportViewController: UITableViewDelegate {
             
         }
         if indexPath.section == 1 && indexPath.row == 1 {
-      
+           let sb = UIStoryboard(name: "PagedBasedApp", bundle: nil)
+           let vc = sb.instantiateViewController(withIdentifier: "RootViewController") as! RootViewController
+           self.navigationController!.pushViewController(vc, animated: true)
         }
+        if indexPath.section == 2 && indexPath.row == 0 {
+            
+            
+//           self.ts_pushAndHideTabbar(vc)
+        }
+        
         
         
         

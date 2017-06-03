@@ -23,15 +23,10 @@
 		BA4F0A9C1EE2E8BD0075534E /* yodaTux.png in Resources */ = {isa = PBXBuildFile; fileRef = BA4F0A911EE2E8BD0075534E /* yodaTux.png */; };
 		BA4F0A9F1EE2E9230075534E /* InkLee2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F0A9D1EE2E9230075534E /* InkLee2ViewController.swift */; };
 		BA4F0AA01EE2E9230075534E /* InkLee2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4F0A9E1EE2E9230075534E /* InkLee2ViewController.xib */; };
-		BA4F0AA91EE2EE4D0075534E /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F0AA41EE2EE4D0075534E /* DataProvider.swift */; };
-		BA4F0AAA1EE2EE4D0075534E /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F0AA51EE2EE4D0075534E /* PostCell.swift */; };
-		BA4F0AAB1EE2EE4D0075534E /* PostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4F0AA61EE2EE4D0075534E /* PostCell.xib */; };
-		BA4F0AAC1EE2EE4D0075534E /* YoutubeIconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F0AA71EE2EE4D0075534E /* YoutubeIconCell.swift */; };
-		BA4F0AAD1EE2EE4D0075534E /* YoutubeIconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4F0AA81EE2EE4D0075534E /* YoutubeIconCell.xib */; };
-		BA4F0AB51EE2EF340075534E /* ChildExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F0AB31EE2EF340075534E /* ChildExampleViewController.swift */; };
-		BA4F0AB61EE2EF340075534E /* TableChildExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F0AB41EE2EF340075534E /* TableChildExampleViewController.swift */; };
-		BA4F0ABD1EE2F4DC0075534E /* IIIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F0ABB1EE2F4DC0075534E /* IIIViewController.swift */; };
-		BA4F0ABE1EE2F4DC0075534E /* IIIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4F0ABC1EE2F4DC0075534E /* IIIViewController.xib */; };
+		BA4F0B041EE304E90075534E /* PagedBasedApp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4F0AFB1EE304E90075534E /* PagedBasedApp.storyboard */; };
+		BA4F0B051EE304E90075534E /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F0AFD1EE304E90075534E /* DataViewController.swift */; };
+		BA4F0B081EE304E90075534E /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F0B001EE304E90075534E /* ModelController.swift */; };
+		BA4F0B091EE304E90075534E /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F0B011EE304E90075534E /* RootViewController.swift */; };
 		BAB4DE3E1EE286A800D26678 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE3D1EE286A800D26678 /* AppDelegate.swift */; };
 		BAB4DE401EE286A800D26678 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE3F1EE286A800D26678 /* ViewController.swift */; };
 		BAB4DE431EE286A800D26678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB4DE411EE286A800D26678 /* Main.storyboard */; };
@@ -195,15 +190,10 @@
 		BA4F0A911EE2E8BD0075534E /* yodaTux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yodaTux.png; sourceTree = "<group>"; };
 		BA4F0A9D1EE2E9230075534E /* InkLee2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InkLee2ViewController.swift; sourceTree = "<group>"; };
 		BA4F0A9E1EE2E9230075534E /* InkLee2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InkLee2ViewController.xib; sourceTree = "<group>"; };
-		BA4F0AA41EE2EE4D0075534E /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
-		BA4F0AA51EE2EE4D0075534E /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
-		BA4F0AA61EE2EE4D0075534E /* PostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostCell.xib; sourceTree = "<group>"; };
-		BA4F0AA71EE2EE4D0075534E /* YoutubeIconCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeIconCell.swift; sourceTree = "<group>"; };
-		BA4F0AA81EE2EE4D0075534E /* YoutubeIconCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YoutubeIconCell.xib; sourceTree = "<group>"; };
-		BA4F0AB31EE2EF340075534E /* ChildExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildExampleViewController.swift; sourceTree = "<group>"; };
-		BA4F0AB41EE2EF340075534E /* TableChildExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableChildExampleViewController.swift; sourceTree = "<group>"; };
-		BA4F0ABB1EE2F4DC0075534E /* IIIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IIIViewController.swift; sourceTree = "<group>"; };
-		BA4F0ABC1EE2F4DC0075534E /* IIIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IIIViewController.xib; sourceTree = "<group>"; };
+		BA4F0AFC1EE304E90075534E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PagedBasedApp.storyboard; sourceTree = "<group>"; };
+		BA4F0AFD1EE304E90075534E /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		BA4F0B001EE304E90075534E /* ModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		BA4F0B011EE304E90075534E /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		BAB4DE3A1EE286A800D26678 /* ink_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ink_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB4DE3D1EE286A800D26678 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAB4DE3F1EE286A800D26678 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -379,7 +369,7 @@
 		BA4F0A851EE2E8500075534E /* inkLee */ = {
 			isa = PBXGroup;
 			children = (
-				BA4F0AA21EE2EE4D0075534E /* XLPagerTab */,
+				BA4F0AF71EE304E90075534E /* PagedBasedApp */,
 			);
 			name = inkLee;
 			path = inking/inkLee;
@@ -403,36 +393,15 @@
 			path = inkLee;
 			sourceTree = "<group>";
 		};
-		BA4F0AA21EE2EE4D0075534E /* XLPagerTab */ = {
+		BA4F0AF71EE304E90075534E /* PagedBasedApp */ = {
 			isa = PBXGroup;
 			children = (
-				BA4F0AB21EE2EF340075534E /* ChildControllers */,
-				BA4F0AA31EE2EE4D0075534E /* cell */,
-				BA4F0ABB1EE2F4DC0075534E /* IIIViewController.swift */,
-				BA4F0ABC1EE2F4DC0075534E /* IIIViewController.xib */,
+				BA4F0AFB1EE304E90075534E /* PagedBasedApp.storyboard */,
+				BA4F0AFD1EE304E90075534E /* DataViewController.swift */,
+				BA4F0B001EE304E90075534E /* ModelController.swift */,
+				BA4F0B011EE304E90075534E /* RootViewController.swift */,
 			);
-			path = XLPagerTab;
-			sourceTree = "<group>";
-		};
-		BA4F0AA31EE2EE4D0075534E /* cell */ = {
-			isa = PBXGroup;
-			children = (
-				BA4F0AA41EE2EE4D0075534E /* DataProvider.swift */,
-				BA4F0AA51EE2EE4D0075534E /* PostCell.swift */,
-				BA4F0AA61EE2EE4D0075534E /* PostCell.xib */,
-				BA4F0AA71EE2EE4D0075534E /* YoutubeIconCell.swift */,
-				BA4F0AA81EE2EE4D0075534E /* YoutubeIconCell.xib */,
-			);
-			path = cell;
-			sourceTree = "<group>";
-		};
-		BA4F0AB21EE2EF340075534E /* ChildControllers */ = {
-			isa = PBXGroup;
-			children = (
-				BA4F0AB31EE2EF340075534E /* ChildExampleViewController.swift */,
-				BA4F0AB41EE2EF340075534E /* TableChildExampleViewController.swift */,
-			);
-			path = ChildControllers;
+			path = PagedBasedApp;
 			sourceTree = "<group>";
 		};
 		BAB4DE311EE286A800D26678 = {
@@ -939,7 +908,6 @@
 			files = (
 				BAFF09F31EE2930D003A351D /* beep.wav in Resources */,
 				BAFF09A31EE2930D003A351D /* TSChatActionBarView.xib in Resources */,
-				BA4F0ABE1EE2F4DC0075534E /* IIIViewController.xib in Resources */,
 				BAFF0A061EE2930D003A351D /* Kenny.jpg in Resources */,
 				BA4F0AA01EE2E9230075534E /* InkLee2ViewController.xib in Resources */,
 				BAFF09FC1EE2930D003A351D /* shake_match.wav in Resources */,
@@ -949,6 +917,7 @@
 				BAFF09B31EE2930D003A351D /* TSContactsViewController.xib in Resources */,
 				BAFF09F41EE2930D003A351D /* call.caf in Resources */,
 				BAFF0A051EE2930D003A351D /* moments.json in Resources */,
+				BA4F0B041EE304E90075534E /* PagedBasedApp.storyboard in Resources */,
 				BAB4DE481EE286A800D26678 /* LaunchScreen.storyboard in Resources */,
 				BAFF09D21EE2930D003A351D /* TSMomentsViewController.xib in Resources */,
 				BAFF09F71EE2930D003A351D /* hello.amr in Resources */,
@@ -969,7 +938,6 @@
 				BAFF098C1EE2930D003A351D /* TSChatVoiceCell.xib in Resources */,
 				BAFF09F51EE2930D003A351D /* camera.wav in Resources */,
 				BAFF09C91EE2930D003A351D /* TSMeAvatarTableViewCell.xib in Resources */,
-				BA4F0AAB1EE2EE4D0075534E /* PostCell.xib in Resources */,
 				BAFF09CD1EE2930D003A351D /* TSMessageTableViewCell.xib in Resources */,
 				BA4F0A841EE2E59E0075534E /* IeeExportViewController.xib in Resources */,
 				BAFF09F11EE2930D003A351D /* ToolsAnimation.plist in Resources */,
@@ -996,7 +964,6 @@
 				BAFF09B11EE2930D003A351D /* TSChatVoiceIndicatorView.xib in Resources */,
 				BAFF0A011EE2930D003A351D /* Expression.plist in Resources */,
 				BAFF09A71EE2930D003A351D /* TSChatEmotionCell.xib in Resources */,
-				BA4F0AAD1EE2EE4D0075534E /* YoutubeIconCell.xib in Resources */,
 				BAFF09F81EE2930D003A351D /* msg.caf in Resources */,
 				BAFF09F21EE2930D003A351D /* Assets.xcassets in Resources */,
 				BAFF09881EE2930D003A351D /* TSChatTextCell.xib in Resources */,
@@ -1067,7 +1034,6 @@
 				BAFF09DB1EE2930D003A351D /* TSUIColor+WeChat.swift in Sources */,
 				BA4F0A831EE2E59E0075534E /* IeeExportViewController.swift in Sources */,
 				BAFF09981EE2930D003A351D /* UITableView+ChatAdditions.swift in Sources */,
-				BA4F0AA91EE2EE4D0075534E /* DataProvider.swift in Sources */,
 				BAFF09DA1EE2930D003A351D /* TSProgressHUD.swift in Sources */,
 				BAFF09971EE2930D003A351D /* UIScrollView+ChatAdditions.swift in Sources */,
 				BA4F0A9F1EE2E9230075534E /* InkLee2ViewController.swift in Sources */,
@@ -1078,7 +1044,6 @@
 				BAFF09BF1EE2930D003A351D /* TSModelTransformer.swift in Sources */,
 				BAFF09BD1EE2930D003A351D /* TSMessageModel.swift in Sources */,
 				BAFF09B21EE2930D003A351D /* TSContactsViewController.swift in Sources */,
-				BA4F0AB51EE2EF340075534E /* ChildExampleViewController.swift in Sources */,
 				BAFF09D11EE2930D003A351D /* TSMomentsViewController.swift in Sources */,
 				BAFF09B71EE2930D003A351D /* HttpManager+UploadImage.swift in Sources */,
 				BAFF09EC1EE2930D003A351D /* RAMRotationAnimation.swift in Sources */,
@@ -1110,7 +1075,6 @@
 				BAFF09C21EE2930D003A351D /* TSLocationManager.swift in Sources */,
 				BAB4DE3E1EE286A800D26678 /* AppDelegate.swift in Sources */,
 				BAFF09A51EE2930D003A351D /* TSChatButton.swift in Sources */,
-				BA4F0AAA1EE2EE4D0075534E /* PostCell.swift in Sources */,
 				BAFF098E1EE2930D003A351D /* AudioFilesManager.swift in Sources */,
 				BAFF09D41EE2930D003A351D /* TSWebViewController.swift in Sources */,
 				BAFF09E31EE2930D003A351D /* UIBarButtonItem+Block.swift in Sources */,
@@ -1128,10 +1092,10 @@
 				BAFF09E11EE2930D003A351D /* NSObject+String.swift in Sources */,
 				BAFF09951EE2930D003A351D /* TSChatTextParser.swift in Sources */,
 				BAFF09EF1EE2930D003A351D /* RAMBadge.swift in Sources */,
+				BA4F0B081EE304E90075534E /* ModelController.swift in Sources */,
 				BAFF09EA1EE2930D003A351D /* RAMFrameItemAnimation.swift in Sources */,
 				BAFF09DC1EE2930D003A351D /* TSUIImage+WeChat.swift in Sources */,
 				BAFF09E01EE2930D003A351D /* NSDictionary+Extension.swift in Sources */,
-				BA4F0ABD1EE2F4DC0075534E /* IIIViewController.swift in Sources */,
 				BAFF09DF1EE2930D003A351D /* NSDate+Extension.swift in Sources */,
 				BAFF09CE1EE2930D003A351D /* TSMessageViewController.swift in Sources */,
 				BAFF09D51EE2930D003A351D /* TSFullyHorizontalFlowLayout.swift in Sources */,
@@ -1145,7 +1109,6 @@
 				BAFF09C61EE2930D003A351D /* TSImageTextTableViewCell.swift in Sources */,
 				BAFF09931EE2930D003A351D /* TSChatDataManager.swift in Sources */,
 				BAFF09E51EE2930D003A351D /* UIView+Frame.swift in Sources */,
-				BA4F0AAC1EE2EE4D0075534E /* YoutubeIconCell.swift in Sources */,
 				BAFF09C11EE2930D003A351D /* TSApplicationManager.swift in Sources */,
 				BAFF09A61EE2930D003A351D /* TSChatEmotionCell.swift in Sources */,
 				BAFF09921EE2930D003A351D /* ImageFilesManager.swift in Sources */,
@@ -1153,13 +1116,14 @@
 				BAFF09B41EE2930D003A351D /* TSContactTableViewCell.swift in Sources */,
 				BAFF099F1EE2930D003A351D /* TSChatViewController+TestData.swift in Sources */,
 				BAFF099E1EE2930D003A351D /* TSChatViewController+Subviews.swift in Sources */,
+				BA4F0B091EE304E90075534E /* RootViewController.swift in Sources */,
 				BAFF09D71EE2930D003A351D /* TSImagePicker.swift in Sources */,
 				BAFF09AD1EE2930D003A351D /* TSChatShareMoreView.swift in Sources */,
 				BAFF09BA1EE2930D003A351D /* TSChatModel.swift in Sources */,
+				BA4F0B051EE304E90075534E /* DataViewController.swift in Sources */,
 				BAFF099B1EE2930D003A351D /* TSChatViewController+HandleData.swift in Sources */,
 				BAFF09AF1EE2930D003A351D /* TSChatSystemEdgeLabel.swift in Sources */,
 				BAFF09EB1EE2930D003A351D /* RAMFumeAnimation.swift in Sources */,
-				BA4F0AB61EE2EF340075534E /* TableChildExampleViewController.swift in Sources */,
 				BAFF09B01EE2930D003A351D /* TSChatVoiceIndicatorView.swift in Sources */,
 				BAFF09ED1EE2930D003A351D /* RAMTransitionItemAnimations.swift in Sources */,
 			);
@@ -1168,6 +1132,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		BA4F0AFB1EE304E90075534E /* PagedBasedApp.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA4F0AFC1EE304E90075534E /* Base */,
+			);
+			name = PagedBasedApp.storyboard;
+			sourceTree = "<group>";
+		};
 		BAB4DE411EE286A800D26678 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
