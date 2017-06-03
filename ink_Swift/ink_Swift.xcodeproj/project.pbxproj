@@ -13,6 +13,15 @@
 		BAB4DE431EE286A800D26678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB4DE411EE286A800D26678 /* Main.storyboard */; };
 		BAB4DE451EE286A800D26678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAB4DE441EE286A800D26678 /* Assets.xcassets */; };
 		BAB4DE481EE286A800D26678 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB4DE461EE286A800D26678 /* LaunchScreen.storyboard */; };
+		BAB4DE511EE28AE000D26678 /* ToolsAnimation.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAB4DE501EE28AE000D26678 /* ToolsAnimation.plist */; };
+		BAB4DE611EE28BF000D26678 /* RAMBounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE541EE28BF000D26678 /* RAMBounceAnimation.swift */; };
+		BAB4DE621EE28BF000D26678 /* RAMFrameItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE561EE28BF000D26678 /* RAMFrameItemAnimation.swift */; };
+		BAB4DE631EE28BF000D26678 /* RAMFumeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE581EE28BF000D26678 /* RAMFumeAnimation.swift */; };
+		BAB4DE641EE28BF000D26678 /* RAMRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE5A1EE28BF000D26678 /* RAMRotationAnimation.swift */; };
+		BAB4DE651EE28BF000D26678 /* RAMTransitionItemAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE5C1EE28BF000D26678 /* RAMTransitionItemAnimations.swift */; };
+		BAB4DE661EE28BF000D26678 /* RAMAnimatedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE5D1EE28BF000D26678 /* RAMAnimatedTabBarController.swift */; };
+		BAB4DE671EE28BF000D26678 /* RAMBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE5F1EE28BF000D26678 /* RAMBadge.swift */; };
+		BAB4DE681EE28BF000D26678 /* RAMItemAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE601EE28BF000D26678 /* RAMItemAnimationProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +34,15 @@
 		BAB4DE441EE286A800D26678 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAB4DE471EE286A800D26678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAB4DE491EE286A800D26678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAB4DE501EE28AE000D26678 /* ToolsAnimation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ToolsAnimation.plist; sourceTree = "<group>"; };
+		BAB4DE541EE28BF000D26678 /* RAMBounceAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBounceAnimation.swift; sourceTree = "<group>"; };
+		BAB4DE561EE28BF000D26678 /* RAMFrameItemAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFrameItemAnimation.swift; sourceTree = "<group>"; };
+		BAB4DE581EE28BF000D26678 /* RAMFumeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMFumeAnimation.swift; sourceTree = "<group>"; };
+		BAB4DE5A1EE28BF000D26678 /* RAMRotationAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMRotationAnimation.swift; sourceTree = "<group>"; };
+		BAB4DE5C1EE28BF000D26678 /* RAMTransitionItemAnimations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMTransitionItemAnimations.swift; sourceTree = "<group>"; };
+		BAB4DE5D1EE28BF000D26678 /* RAMAnimatedTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMAnimatedTabBarController.swift; sourceTree = "<group>"; };
+		BAB4DE5F1EE28BF000D26678 /* RAMBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMBadge.swift; sourceTree = "<group>"; };
+		BAB4DE601EE28BF000D26678 /* RAMItemAnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMItemAnimationProtocol.swift; sourceTree = "<group>"; };
 		F425827B133C38BDF6266895 /* Pods-ink_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ink_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ink_Swift/Pods-ink_Swift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +79,7 @@
 		BAB4DE3C1EE286A800D26678 /* ink_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				BAB4DE4F1EE28AE000D26678 /* Resources */,
 				BAB4DE3D1EE286A800D26678 /* AppDelegate.swift */,
 				BAB4DE3F1EE286A800D26678 /* ViewController.swift */,
 				BAB4DE411EE286A800D26678 /* Main.storyboard */,
@@ -69,6 +88,78 @@
 				BAB4DE491EE286A800D26678 /* Info.plist */,
 			);
 			path = ink_Swift;
+			sourceTree = "<group>";
+		};
+		BAB4DE4F1EE28AE000D26678 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BAB4DE521EE28BF000D26678 /* Animations */,
+				BAB4DE5D1EE28BF000D26678 /* RAMAnimatedTabBarController.swift */,
+				BAB4DE5E1EE28BF000D26678 /* RAMBadge */,
+				BAB4DE601EE28BF000D26678 /* RAMItemAnimationProtocol.swift */,
+				BAB4DE501EE28AE000D26678 /* ToolsAnimation.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BAB4DE521EE28BF000D26678 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				BAB4DE531EE28BF000D26678 /* BounceAnimation */,
+				BAB4DE551EE28BF000D26678 /* FrameAnimation */,
+				BAB4DE571EE28BF000D26678 /* FumeAnimation */,
+				BAB4DE591EE28BF000D26678 /* RotationAnimation */,
+				BAB4DE5B1EE28BF000D26678 /* TransitionAniamtions */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		BAB4DE531EE28BF000D26678 /* BounceAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				BAB4DE541EE28BF000D26678 /* RAMBounceAnimation.swift */,
+			);
+			path = BounceAnimation;
+			sourceTree = "<group>";
+		};
+		BAB4DE551EE28BF000D26678 /* FrameAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				BAB4DE561EE28BF000D26678 /* RAMFrameItemAnimation.swift */,
+			);
+			path = FrameAnimation;
+			sourceTree = "<group>";
+		};
+		BAB4DE571EE28BF000D26678 /* FumeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				BAB4DE581EE28BF000D26678 /* RAMFumeAnimation.swift */,
+			);
+			path = FumeAnimation;
+			sourceTree = "<group>";
+		};
+		BAB4DE591EE28BF000D26678 /* RotationAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				BAB4DE5A1EE28BF000D26678 /* RAMRotationAnimation.swift */,
+			);
+			path = RotationAnimation;
+			sourceTree = "<group>";
+		};
+		BAB4DE5B1EE28BF000D26678 /* TransitionAniamtions */ = {
+			isa = PBXGroup;
+			children = (
+				BAB4DE5C1EE28BF000D26678 /* RAMTransitionItemAnimations.swift */,
+			);
+			path = TransitionAniamtions;
+			sourceTree = "<group>";
+		};
+		BAB4DE5E1EE28BF000D26678 /* RAMBadge */ = {
+			isa = PBXGroup;
+			children = (
+				BAB4DE5F1EE28BF000D26678 /* RAMBadge.swift */,
+			);
+			path = RAMBadge;
 			sourceTree = "<group>";
 		};
 		C87B0867A85A3BAFB6E631DF /* Frameworks */ = {
@@ -153,6 +244,7 @@
 				BAB4DE481EE286A800D26678 /* LaunchScreen.storyboard in Resources */,
 				BAB4DE451EE286A800D26678 /* Assets.xcassets in Resources */,
 				BAB4DE431EE286A800D26678 /* Main.storyboard in Resources */,
+				BAB4DE511EE28AE000D26678 /* ToolsAnimation.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,8 +303,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAB4DE631EE28BF000D26678 /* RAMFumeAnimation.swift in Sources */,
+				BAB4DE651EE28BF000D26678 /* RAMTransitionItemAnimations.swift in Sources */,
+				BAB4DE621EE28BF000D26678 /* RAMFrameItemAnimation.swift in Sources */,
+				BAB4DE611EE28BF000D26678 /* RAMBounceAnimation.swift in Sources */,
+				BAB4DE681EE28BF000D26678 /* RAMItemAnimationProtocol.swift in Sources */,
+				BAB4DE671EE28BF000D26678 /* RAMBadge.swift in Sources */,
 				BAB4DE401EE286A800D26678 /* ViewController.swift in Sources */,
+				BAB4DE661EE28BF000D26678 /* RAMAnimatedTabBarController.swift in Sources */,
 				BAB4DE3E1EE286A800D26678 /* AppDelegate.swift in Sources */,
+				BAB4DE641EE28BF000D26678 /* RAMRotationAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +476,7 @@
 				BAB4DE4E1EE286A800D26678 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
