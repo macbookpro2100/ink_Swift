@@ -15,8 +15,10 @@ class InkExportViewController: UIViewController {
             ("Spring", TSAsset.Ff_IconShowAlbum.image),
             ],
         [
-            ("扫一扫", TSAsset.Ff_IconQRCode.image),
-            ("摇一摇", TSAsset.Ff_IconShake.image),
+//            ("扫一扫", TSAsset.Ff_IconQRCode.image),
+            ("SpotifyExampleViewController", TSAsset.Ff_IconShake.image),
+            ("InstagramExampleViewController", TSAsset.Ff_IconShake.image),
+            ("SpotifyExampleViewController", TSAsset.Ff_IconShake.image),
             ],
         [
             ("附近的人", TSAsset.Ff_IconLocationService.image),
@@ -92,23 +94,27 @@ extension InkExportViewController: UITableViewDelegate {
 //            let sb = UIStoryboard(name: "Spring", bundle: nil)
 //            let vc = sb.instantiateViewController(withIdentifier: "SpringViewController") as! SpringViewController
 //            self.navigationController!.pushViewController(vc, animated: true)
+            
+            let sb = UIStoryboard(name: "PagedBasedApp", bundle: nil)
+            let vc = sb.instantiateViewController(withIdentifier: "RootViewController") as! RootViewController
+            self.navigationController!.pushViewController(vc, animated: true)
 
         }
         if indexPath.section == 1 && indexPath.row == 0 {
             
-            let vc = IeeExportViewController.ts_initFromNib()
+//            let vc = IeeExportViewController.ts_initFromNib()
+//            self.ts_pushAndHideTabbar(vc)
+            let vc = SpotifyExampleViewController.ts_initFromNib()
             self.ts_pushAndHideTabbar(vc)
-            
         }
         if indexPath.section == 1 && indexPath.row == 1 {
-           let sb = UIStoryboard(name: "PagedBasedApp", bundle: nil)
-           let vc = sb.instantiateViewController(withIdentifier: "RootViewController") as! RootViewController
-           self.navigationController!.pushViewController(vc, animated: true)
+            let vc = InstagramExampleViewController.ts_initFromNib()
+            self.ts_pushAndHideTabbar(vc)
+
+           
         }
-        if indexPath.section == 2 && indexPath.row == 0 {
+        if indexPath.section == 1 && indexPath.row == 2 {
             
-            
-//           self.ts_pushAndHideTabbar(vc)
         }
         
         

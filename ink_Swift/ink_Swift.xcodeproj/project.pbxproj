@@ -27,6 +27,18 @@
 		BA4F0B051EE304E90075534E /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F0AFD1EE304E90075534E /* DataViewController.swift */; };
 		BA4F0B081EE304E90075534E /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F0B001EE304E90075534E /* ModelController.swift */; };
 		BA4F0B091EE304E90075534E /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F0B011EE304E90075534E /* RootViewController.swift */; };
+		BA4F0B0D1EE306C90075534E /* SpotifyExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F0B0B1EE306C90075534E /* SpotifyExampleViewController.swift */; };
+		BA4F0B0E1EE306C90075534E /* SpotifyExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4F0B0C1EE306C90075534E /* SpotifyExampleViewController.xib */; };
+		BA4F0B121EE308280075534E /* ChildExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F0B101EE308280075534E /* ChildExampleViewController.swift */; };
+		BA4F0B131EE308280075534E /* TableChildExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F0B111EE308280075534E /* TableChildExampleViewController.swift */; };
+		BA4F0B181EE3085B0075534E /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F0B151EE3085B0075534E /* DataProvider.swift */; };
+		BA4F0B191EE3085B0075534E /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F0B161EE3085B0075534E /* PostCell.swift */; };
+		BA4F0B1A1EE3085B0075534E /* PostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4F0B171EE3085B0075534E /* PostCell.xib */; };
+		BA4F0B1C1EE30B130075534E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA4F0B1B1EE30B130075534E /* Assets.xcassets */; };
+		BA4F0B1F1EE30B9F0075534E /* YoutubeIconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F0B1D1EE30B9F0075534E /* YoutubeIconCell.swift */; };
+		BA4F0B201EE30B9F0075534E /* YoutubeIconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4F0B1E1EE30B9F0075534E /* YoutubeIconCell.xib */; };
+		BA4F0B271EE30F4B0075534E /* InstagramExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F0B251EE30F4B0075534E /* InstagramExampleViewController.swift */; };
+		BA4F0B281EE30F4B0075534E /* InstagramExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4F0B261EE30F4B0075534E /* InstagramExampleViewController.xib */; };
 		BAB4DE3E1EE286A800D26678 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE3D1EE286A800D26678 /* AppDelegate.swift */; };
 		BAB4DE401EE286A800D26678 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE3F1EE286A800D26678 /* ViewController.swift */; };
 		BAB4DE431EE286A800D26678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB4DE411EE286A800D26678 /* Main.storyboard */; };
@@ -194,6 +206,18 @@
 		BA4F0AFD1EE304E90075534E /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		BA4F0B001EE304E90075534E /* ModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		BA4F0B011EE304E90075534E /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		BA4F0B0B1EE306C90075534E /* SpotifyExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotifyExampleViewController.swift; sourceTree = "<group>"; };
+		BA4F0B0C1EE306C90075534E /* SpotifyExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpotifyExampleViewController.xib; sourceTree = "<group>"; };
+		BA4F0B101EE308280075534E /* ChildExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildExampleViewController.swift; sourceTree = "<group>"; };
+		BA4F0B111EE308280075534E /* TableChildExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableChildExampleViewController.swift; sourceTree = "<group>"; };
+		BA4F0B151EE3085B0075534E /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		BA4F0B161EE3085B0075534E /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		BA4F0B171EE3085B0075534E /* PostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostCell.xib; sourceTree = "<group>"; };
+		BA4F0B1B1EE30B130075534E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA4F0B1D1EE30B9F0075534E /* YoutubeIconCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeIconCell.swift; sourceTree = "<group>"; };
+		BA4F0B1E1EE30B9F0075534E /* YoutubeIconCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YoutubeIconCell.xib; sourceTree = "<group>"; };
+		BA4F0B251EE30F4B0075534E /* InstagramExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramExampleViewController.swift; sourceTree = "<group>"; };
+		BA4F0B261EE30F4B0075534E /* InstagramExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstagramExampleViewController.xib; sourceTree = "<group>"; };
 		BAB4DE3A1EE286A800D26678 /* ink_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ink_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB4DE3D1EE286A800D26678 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAB4DE3F1EE286A800D26678 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -369,7 +393,14 @@
 		BA4F0A851EE2E8500075534E /* inkLee */ = {
 			isa = PBXGroup;
 			children = (
+				BA4F0B1B1EE30B130075534E /* Assets.xcassets */,
+				BA4F0B141EE3085B0075534E /* Helpers */,
+				BA4F0B0F1EE308280075534E /* ChildControllers */,
 				BA4F0AF71EE304E90075534E /* PagedBasedApp */,
+				BA4F0B0B1EE306C90075534E /* SpotifyExampleViewController.swift */,
+				BA4F0B0C1EE306C90075534E /* SpotifyExampleViewController.xib */,
+				BA4F0B251EE30F4B0075534E /* InstagramExampleViewController.swift */,
+				BA4F0B261EE30F4B0075534E /* InstagramExampleViewController.xib */,
 			);
 			name = inkLee;
 			path = inking/inkLee;
@@ -402,6 +433,27 @@
 				BA4F0B011EE304E90075534E /* RootViewController.swift */,
 			);
 			path = PagedBasedApp;
+			sourceTree = "<group>";
+		};
+		BA4F0B0F1EE308280075534E /* ChildControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA4F0B1D1EE30B9F0075534E /* YoutubeIconCell.swift */,
+				BA4F0B1E1EE30B9F0075534E /* YoutubeIconCell.xib */,
+				BA4F0B101EE308280075534E /* ChildExampleViewController.swift */,
+				BA4F0B111EE308280075534E /* TableChildExampleViewController.swift */,
+			);
+			path = ChildControllers;
+			sourceTree = "<group>";
+		};
+		BA4F0B141EE3085B0075534E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BA4F0B151EE3085B0075534E /* DataProvider.swift */,
+				BA4F0B161EE3085B0075534E /* PostCell.swift */,
+				BA4F0B171EE3085B0075534E /* PostCell.xib */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		BAB4DE311EE286A800D26678 = {
@@ -908,7 +960,9 @@
 			files = (
 				BAFF09F31EE2930D003A351D /* beep.wav in Resources */,
 				BAFF09A31EE2930D003A351D /* TSChatActionBarView.xib in Resources */,
+				BA4F0B1A1EE3085B0075534E /* PostCell.xib in Resources */,
 				BAFF0A061EE2930D003A351D /* Kenny.jpg in Resources */,
+				BA4F0B281EE30F4B0075534E /* InstagramExampleViewController.xib in Resources */,
 				BA4F0AA01EE2E9230075534E /* InkLee2ViewController.xib in Resources */,
 				BAFF09FC1EE2930D003A351D /* shake_match.wav in Resources */,
 				BAFF09CF1EE2930D003A351D /* TSMessageViewController.xib in Resources */,
@@ -926,6 +980,7 @@
 				BAFF09861EE2930D003A351D /* TSChatSystemCell.xib in Resources */,
 				BAFF09FB1EE2930D003A351D /* sendmsg.caf in Resources */,
 				BAB4DE451EE286A800D26678 /* Assets.xcassets in Resources */,
+				BA4F0B0E1EE306C90075534E /* SpotifyExampleViewController.xib in Resources */,
 				BAFF09A11EE2930D003A351D /* TSChatViewController.xib in Resources */,
 				BAFF098A1EE2930D003A351D /* TSChatTimeCell.xib in Resources */,
 				BAFF09CB1EE2930D003A351D /* TSMeViewController.xib in Resources */,
@@ -950,6 +1005,7 @@
 				BAFF09841EE2930D003A351D /* TSChatImageCell.xib in Resources */,
 				BAFF09FF1EE2930D003A351D /* country_code.txt in Resources */,
 				BA4F0A9B1EE2E8BD0075534E /* scienceTux.png in Resources */,
+				BA4F0B1C1EE30B130075534E /* Assets.xcassets in Resources */,
 				BA4F0A751EE2E24C0075534E /* InkExportViewController.xib in Resources */,
 				BAFF09B51EE2930D003A351D /* TSContactTableViewCell.xib in Resources */,
 				BAB4DE431EE286A800D26678 /* Main.storyboard in Resources */,
@@ -969,6 +1025,7 @@
 				BAFF09881EE2930D003A351D /* TSChatTextCell.xib in Resources */,
 				BA4F0A931EE2E8BD0075534E /* djTux.png in Resources */,
 				BAFF09AE1EE2930D003A351D /* TSChatShareMoreView.xib in Resources */,
+				BA4F0B201EE30B9F0075534E /* YoutubeIconCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1040,11 +1097,14 @@
 				BAFF09AA1EE2930D003A351D /* TSChatEmotionScollView.swift in Sources */,
 				BAFF09E41EE2930D003A351D /* UISearchBar+Extension.swift in Sources */,
 				BAFF09DE1EE2930D003A351D /* AboutApp.swift in Sources */,
+				BA4F0B181EE3085B0075534E /* DataProvider.swift in Sources */,
 				BAFF098B1EE2930D003A351D /* TSChatVoiceCell.swift in Sources */,
+				BA4F0B191EE3085B0075534E /* PostCell.swift in Sources */,
 				BAFF09BF1EE2930D003A351D /* TSModelTransformer.swift in Sources */,
 				BAFF09BD1EE2930D003A351D /* TSMessageModel.swift in Sources */,
 				BAFF09B21EE2930D003A351D /* TSContactsViewController.swift in Sources */,
 				BAFF09D11EE2930D003A351D /* TSMomentsViewController.swift in Sources */,
+				BA4F0B121EE308280075534E /* ChildExampleViewController.swift in Sources */,
 				BAFF09B71EE2930D003A351D /* HttpManager+UploadImage.swift in Sources */,
 				BAFF09EC1EE2930D003A351D /* RAMRotationAnimation.swift in Sources */,
 				BAFF09DD1EE2930D003A351D /* TSUIImageVIew+WeChat.swift in Sources */,
@@ -1053,6 +1113,7 @@
 				BAFF09E21EE2930D003A351D /* PHAsset+Extension.swift in Sources */,
 				BAFF09821EE2930D003A351D /* TSChatCellDelegate.swift in Sources */,
 				BAFF09811EE2930D003A351D /* TSChatBaseCell.swift in Sources */,
+				BA4F0B0D1EE306C90075534E /* SpotifyExampleViewController.swift in Sources */,
 				BAFF09CA1EE2930D003A351D /* TSMeViewController.swift in Sources */,
 				BAFF098F1EE2930D003A351D /* AudioPlayManager.swift in Sources */,
 				BAFF09C81EE2930D003A351D /* TSMeAvatarTableViewCell.swift in Sources */,
@@ -1112,6 +1173,7 @@
 				BAFF09C11EE2930D003A351D /* TSApplicationManager.swift in Sources */,
 				BAFF09A61EE2930D003A351D /* TSChatEmotionCell.swift in Sources */,
 				BAFF09921EE2930D003A351D /* ImageFilesManager.swift in Sources */,
+				BA4F0B1F1EE30B9F0075534E /* YoutubeIconCell.swift in Sources */,
 				BAFF099C1EE2930D003A351D /* TSChatViewController+Interaction.swift in Sources */,
 				BAFF09B41EE2930D003A351D /* TSContactTableViewCell.swift in Sources */,
 				BAFF099F1EE2930D003A351D /* TSChatViewController+TestData.swift in Sources */,
@@ -1124,6 +1186,8 @@
 				BAFF099B1EE2930D003A351D /* TSChatViewController+HandleData.swift in Sources */,
 				BAFF09AF1EE2930D003A351D /* TSChatSystemEdgeLabel.swift in Sources */,
 				BAFF09EB1EE2930D003A351D /* RAMFumeAnimation.swift in Sources */,
+				BA4F0B271EE30F4B0075534E /* InstagramExampleViewController.swift in Sources */,
+				BA4F0B131EE308280075534E /* TableChildExampleViewController.swift in Sources */,
 				BAFF09B01EE2930D003A351D /* TSChatVoiceIndicatorView.swift in Sources */,
 				BAFF09ED1EE2930D003A351D /* RAMTransitionItemAnimations.swift in Sources */,
 			);
