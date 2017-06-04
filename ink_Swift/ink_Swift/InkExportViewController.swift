@@ -18,7 +18,8 @@ class InkExportViewController: UIViewController {
 //            ("扫一扫", TSAsset.Ff_IconQRCode.image),
             ("SpotifyExampleViewController", TSAsset.Ff_IconShake.image),
             ("InstagramExampleViewController", TSAsset.Ff_IconShake.image),
-            ("SpotifyExampleViewController", TSAsset.Ff_IconShake.image),
+            ("SegmentedExampleViewController", TSAsset.Ff_IconShake.image),
+            ("SegmentedExampleViewController", TSAsset.Ff_IconShake.image),
             ],
         [
             ("附近的人", TSAsset.Ff_IconLocationService.image),
@@ -117,8 +118,20 @@ extension InkExportViewController: UITableViewDelegate {
            
         }
         if indexPath.section == 1 && indexPath.row == 2 {
+            let vc = SegmentedExampleViewController.ts_initFromNib()
+            self.navigationController?.present(vc, animated: false, completion: {
+            })
+//            self.ts_pushAndHideTabbar(vc)
             
         }
+        if indexPath.section == 1 && indexPath.row == 3 {
+            let vc = SegmentedExampleViewController.ts_initFromNib()
+            self.navigationController?.present(vc, animated: false, completion: {
+            })
+            
+        }
+        
+        
         
         
         

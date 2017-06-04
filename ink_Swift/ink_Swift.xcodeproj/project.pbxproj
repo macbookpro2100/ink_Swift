@@ -44,6 +44,8 @@
 		BAB4DE431EE286A800D26678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB4DE411EE286A800D26678 /* Main.storyboard */; };
 		BAB4DE451EE286A800D26678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAB4DE441EE286A800D26678 /* Assets.xcassets */; };
 		BAB4DE481EE286A800D26678 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB4DE461EE286A800D26678 /* LaunchScreen.storyboard */; };
+		BABB9D3D1EE3ADEF00EF9071 /* SegmentedExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB9D3B1EE3ADEF00EF9071 /* SegmentedExampleViewController.swift */; };
+		BABB9D3E1EE3ADEF00EF9071 /* SegmentedExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BABB9D3C1EE3ADEF00EF9071 /* SegmentedExampleViewController.xib */; };
 		BAFF097E1EE2930D003A351D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFF08D21EE2930C003A351D /* Assets.xcassets */; };
 		BAFF097F1EE2930D003A351D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFF08D41EE2930C003A351D /* LaunchScreen.storyboard */; };
 		BAFF09801EE2930D003A351D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFF08D61EE2930C003A351D /* Main.storyboard */; };
@@ -225,6 +227,8 @@
 		BAB4DE441EE286A800D26678 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAB4DE471EE286A800D26678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAB4DE491EE286A800D26678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BABB9D3B1EE3ADEF00EF9071 /* SegmentedExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedExampleViewController.swift; sourceTree = "<group>"; };
+		BABB9D3C1EE3ADEF00EF9071 /* SegmentedExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SegmentedExampleViewController.xib; sourceTree = "<group>"; };
 		BAFF08D21EE2930C003A351D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAFF08D51EE2930C003A351D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAFF08D71EE2930C003A351D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
@@ -401,6 +405,8 @@
 				BA4F0B0C1EE306C90075534E /* SpotifyExampleViewController.xib */,
 				BA4F0B251EE30F4B0075534E /* InstagramExampleViewController.swift */,
 				BA4F0B261EE30F4B0075534E /* InstagramExampleViewController.xib */,
+				BABB9D3B1EE3ADEF00EF9071 /* SegmentedExampleViewController.swift */,
+				BABB9D3C1EE3ADEF00EF9071 /* SegmentedExampleViewController.xib */,
 			);
 			name = inkLee;
 			path = inking/inkLee;
@@ -978,6 +984,7 @@
 				BAFF09FA1EE2930D003A351D /* pstncall.mp3 in Resources */,
 				BAFF09FD1EE2930D003A351D /* shake_nomatch.wav in Resources */,
 				BAFF09861EE2930D003A351D /* TSChatSystemCell.xib in Resources */,
+				BABB9D3E1EE3ADEF00EF9071 /* SegmentedExampleViewController.xib in Resources */,
 				BAFF09FB1EE2930D003A351D /* sendmsg.caf in Resources */,
 				BAB4DE451EE286A800D26678 /* Assets.xcassets in Resources */,
 				BA4F0B0E1EE306C90075534E /* SpotifyExampleViewController.xib in Resources */,
@@ -1164,6 +1171,7 @@
 				BAFF09C31EE2930D003A351D /* TSUserManager.swift in Sources */,
 				BAFF09A81EE2930D003A351D /* TSChatEmotionInputView.swift in Sources */,
 				BAFF09BB1EE2930D003A351D /* TSChatSubModel.swift in Sources */,
+				BABB9D3D1EE3ADEF00EF9071 /* SegmentedExampleViewController.swift in Sources */,
 				BAFF09E91EE2930D003A351D /* RAMBounceAnimation.swift in Sources */,
 				BAFF099D1EE2930D003A351D /* TSChatViewController+Keyboard.swift in Sources */,
 				BAFF098D1EE2930D003A351D /* AudioDelegate.swift in Sources */,
