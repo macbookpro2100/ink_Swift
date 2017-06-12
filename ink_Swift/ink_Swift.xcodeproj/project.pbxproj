@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		42B318970640CB10494D83F2 /* Pods_ink_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7992E9379EF2F3A54DED7C /* Pods_ink_Swift.framework */; };
+		BA056F4E1EEEC8FE0002AA33 /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA056F4B1EEEC8FE0002AA33 /* Sort.swift */; };
+		BA056F4F1EEEC8FE0002AA33 /* SortClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA056F4C1EEEC8FE0002AA33 /* SortClass.swift */; };
+		BA056F501EEEC8FE0002AA33 /* SortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA056F4D1EEEC8FE0002AA33 /* SortView.swift */; };
+		BA056F531EEEC9140002AA33 /* SortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA056F511EEEC9140002AA33 /* SortViewController.swift */; };
+		BA056F541EEEC9140002AA33 /* SortViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA056F521EEEC9140002AA33 /* SortViewController.xib */; };
 		BA4F0A741EE2E24C0075534E /* InkExportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F0A721EE2E24C0075534E /* InkExportViewController.swift */; };
 		BA4F0A751EE2E24C0075534E /* InkExportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4F0A731EE2E24C0075534E /* InkExportViewController.xib */; };
 		BA4F0A831EE2E59E0075534E /* IeeExportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F0A811EE2E59E0075534E /* IeeExportViewController.swift */; };
@@ -189,6 +194,11 @@
 /* Begin PBXFileReference section */
 		5E7992E9379EF2F3A54DED7C /* Pods_ink_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ink_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BBEEBDE126F0E6C342F9BF3 /* Pods-ink_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ink_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ink_Swift/Pods-ink_Swift.release.xcconfig"; sourceTree = "<group>"; };
+		BA056F4B1EEEC8FE0002AA33 /* Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
+		BA056F4C1EEEC8FE0002AA33 /* SortClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortClass.swift; sourceTree = "<group>"; };
+		BA056F4D1EEEC8FE0002AA33 /* SortView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortView.swift; sourceTree = "<group>"; };
+		BA056F511EEEC9140002AA33 /* SortViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortViewController.swift; sourceTree = "<group>"; };
+		BA056F521EEEC9140002AA33 /* SortViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SortViewController.xib; sourceTree = "<group>"; };
 		BA4F0A721EE2E24C0075534E /* InkExportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InkExportViewController.swift; sourceTree = "<group>"; };
 		BA4F0A731EE2E24C0075534E /* InkExportViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InkExportViewController.xib; sourceTree = "<group>"; };
 		BA4F0A811EE2E59E0075534E /* IeeExportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IeeExportViewController.swift; sourceTree = "<group>"; };
@@ -384,6 +394,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA056F4A1EEEC8FE0002AA33 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				BA056F4B1EEEC8FE0002AA33 /* Sort.swift */,
+				BA056F4C1EEEC8FE0002AA33 /* SortClass.swift */,
+				BA056F4D1EEEC8FE0002AA33 /* SortView.swift */,
+				BA056F511EEEC9140002AA33 /* SortViewController.swift */,
+				BA056F521EEEC9140002AA33 /* SortViewController.xib */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
 		BA4F0A761EE2E26C0075534E /* le */ = {
 			isa = PBXGroup;
 			children = (
@@ -397,6 +419,7 @@
 		BA4F0A851EE2E8500075534E /* inkLee */ = {
 			isa = PBXGroup;
 			children = (
+				BA056F4A1EEEC8FE0002AA33 /* Sort */,
 				BA4F0B1B1EE30B130075534E /* Assets.xcassets */,
 				BA4F0B141EE3085B0075534E /* Helpers */,
 				BA4F0B0F1EE308280075534E /* ChildControllers */,
@@ -1002,6 +1025,7 @@
 				BAFF09C91EE2930D003A351D /* TSMeAvatarTableViewCell.xib in Resources */,
 				BAFF09CD1EE2930D003A351D /* TSMessageTableViewCell.xib in Resources */,
 				BA4F0A841EE2E59E0075534E /* IeeExportViewController.xib in Resources */,
+				BA056F541EEEC9140002AA33 /* SortViewController.xib in Resources */,
 				BAFF09F11EE2930D003A351D /* ToolsAnimation.plist in Resources */,
 				BA4F0A991EE2E8BD0075534E /* ramboTux.png in Resources */,
 				BA4F0A951EE2E8BD0075534E /* indianaTux.png in Resources */,
@@ -1095,6 +1119,7 @@
 				BAB4DE401EE286A800D26678 /* ViewController.swift in Sources */,
 				BAFF09911EE2930D003A351D /* ChatConfig.swift in Sources */,
 				BAFF09BC1EE2930D003A351D /* TSContactModel.swift in Sources */,
+				BA056F501EEEC8FE0002AA33 /* SortView.swift in Sources */,
 				BAFF09DB1EE2930D003A351D /* TSUIColor+WeChat.swift in Sources */,
 				BA4F0A831EE2E59E0075534E /* IeeExportViewController.swift in Sources */,
 				BAFF09981EE2930D003A351D /* UITableView+ChatAdditions.swift in Sources */,
@@ -1119,6 +1144,7 @@
 				BAFF09991EE2930D003A351D /* TSChatViewController+ActionBar.swift in Sources */,
 				BAFF09E21EE2930D003A351D /* PHAsset+Extension.swift in Sources */,
 				BAFF09821EE2930D003A351D /* TSChatCellDelegate.swift in Sources */,
+				BA056F531EEEC9140002AA33 /* SortViewController.swift in Sources */,
 				BAFF09811EE2930D003A351D /* TSChatBaseCell.swift in Sources */,
 				BA4F0B0D1EE306C90075534E /* SpotifyExampleViewController.swift in Sources */,
 				BAFF09CA1EE2930D003A351D /* TSMeViewController.swift in Sources */,
@@ -1128,6 +1154,7 @@
 				BAFF09E81EE2930D003A351D /* TSConfig.swift in Sources */,
 				BAFF09F01EE2930D003A351D /* RAMItemAnimationProtocol.swift in Sources */,
 				BAFF09851EE2930D003A351D /* TSChatSystemCell.swift in Sources */,
+				BA056F4F1EEEC8FE0002AA33 /* SortClass.swift in Sources */,
 				BAFF09B81EE2930D003A351D /* HttpManager.swift in Sources */,
 				BAFF09E71EE2930D003A351D /* TSAppMacro.swift in Sources */,
 				BAFF09E61EE2930D003A351D /* UIViewController+Extension.swift in Sources */,
@@ -1156,6 +1183,7 @@
 				BAFF09EE1EE2930D003A351D /* RAMAnimatedTabBarController.swift in Sources */,
 				BAFF09831EE2930D003A351D /* TSChatImageCell.swift in Sources */,
 				BAFF099A1EE2930D003A351D /* TSChatViewController+CellEnums.swift in Sources */,
+				BA056F4E1EEEC8FE0002AA33 /* Sort.swift in Sources */,
 				BAFF09D31EE2930D003A351D /* TSTabbarViewController.swift in Sources */,
 				BAFF09E11EE2930D003A351D /* NSObject+String.swift in Sources */,
 				BAFF09951EE2930D003A351D /* TSChatTextParser.swift in Sources */,

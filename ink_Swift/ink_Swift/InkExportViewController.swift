@@ -22,7 +22,7 @@ class InkExportViewController: UIViewController {
             ("SegmentedExampleViewController", TSAsset.Ff_IconShake.image),
             ],
         [
-            ("附近的人", TSAsset.Ff_IconLocationService.image),
+            ("排序", TSAsset.Ff_IconLocationService.image),
             ("漂流瓶", TSAsset.Ff_IconBottle.image),
             ],
         [
@@ -130,15 +130,11 @@ extension InkExportViewController: UITableViewDelegate {
             })
             
         }
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        if indexPath.section == 2 && indexPath.row == 0 {
+            let vc = SortViewController.ts_initFromNib()
+            self.ts_pushAndHideTabbar(vc)
+        }
+
         tableView.deselectRow(at: indexPath, animated: true)
     }
  
