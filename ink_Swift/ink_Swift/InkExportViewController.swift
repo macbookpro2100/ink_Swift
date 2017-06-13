@@ -13,6 +13,7 @@ class InkExportViewController: UIViewController {
     fileprivate let itemDataSouce: [[(name: String, iconImage: UIImage)]] = [
         [
             ("Spring", TSAsset.Ff_IconShowAlbum.image),
+            ("PagedBasedApp", TSAsset.Ff_IconShake.image),
             ],
         [
 //            ("扫一扫", TSAsset.Ff_IconQRCode.image),
@@ -23,7 +24,7 @@ class InkExportViewController: UIViewController {
             ],
         [
             ("排序", TSAsset.Ff_IconLocationService.image),
-            ("漂流瓶", TSAsset.Ff_IconBottle.image),
+            ("MVVM Login", TSAsset.Ff_IconBottle.image),
             ],
         [
             //            ("购物", TSAsset.Icon_bustime.image),
@@ -94,12 +95,16 @@ extension InkExportViewController: UITableViewDelegate {
         if indexPath.section == 0 && indexPath.row == 0 {
 //            let sb = UIStoryboard(name: "Spring", bundle: nil)
 //            let vc = sb.instantiateViewController(withIdentifier: "SpringViewController") as! SpringViewController
-//            self.navigationController!.pushViewController(vc, animated: true)
-            
+////            self.navigationController!.pushViewController(vc, animated: true)
+//            self.ts_pushAndHideTabbar(vc)
+
+
+        }
+        if indexPath.section == 0 && indexPath.row == 1 {
             let sb = UIStoryboard(name: "PagedBasedApp", bundle: nil)
             let vc = sb.instantiateViewController(withIdentifier: "RootViewController") as! RootViewController
-            self.navigationController!.pushViewController(vc, animated: true)
-
+            self.ts_pushAndHideTabbar(vc)
+            
         }
         if indexPath.section == 1 && indexPath.row == 0 {
             
@@ -132,6 +137,10 @@ extension InkExportViewController: UITableViewDelegate {
         }
         if indexPath.section == 2 && indexPath.row == 0 {
             let vc = SortViewController.ts_initFromNib()
+            self.ts_pushAndHideTabbar(vc)
+        }
+        if indexPath.section == 2 && indexPath.row == 1 {
+            let vc = RegisterViewController.ts_initFromNib()
             self.ts_pushAndHideTabbar(vc)
         }
 

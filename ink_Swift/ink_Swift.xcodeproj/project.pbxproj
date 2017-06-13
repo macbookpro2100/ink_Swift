@@ -51,6 +51,16 @@
 		BAB4DE481EE286A800D26678 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB4DE461EE286A800D26678 /* LaunchScreen.storyboard */; };
 		BABB9D3D1EE3ADEF00EF9071 /* SegmentedExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB9D3B1EE3ADEF00EF9071 /* SegmentedExampleViewController.swift */; };
 		BABB9D3E1EE3ADEF00EF9071 /* SegmentedExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BABB9D3C1EE3ADEF00EF9071 /* SegmentedExampleViewController.xib */; };
+		BAD53D6D1EF020E500292BF2 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD53D631EF020E500292BF2 /* Hero.swift */; };
+		BAD53D6E1EF020E500292BF2 /* heros.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAD53D641EF020E500292BF2 /* heros.plist */; };
+		BAD53D6F1EF020E500292BF2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD53D651EF020E500292BF2 /* LoginViewController.swift */; };
+		BAD53D701EF020E500292BF2 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD53D661EF020E500292BF2 /* LoginViewModel.swift */; };
+		BAD53D711EF020E500292BF2 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD53D671EF020E500292BF2 /* Protocol.swift */; };
+		BAD53D721EF020E500292BF2 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD53D681EF020E500292BF2 /* RegisterViewController.swift */; };
+		BAD53D731EF020E500292BF2 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD53D691EF020E500292BF2 /* RegisterViewModel.swift */; };
+		BAD53D741EF020E500292BF2 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD53D6A1EF020E500292BF2 /* Service.swift */; };
+		BAD53D761EF0212C00292BF2 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD53D751EF0212C00292BF2 /* RegisterViewController.xib */; };
+		BAD53D781EF0266B00292BF2 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD53D771EF0266B00292BF2 /* LoginViewController.xib */; };
 		BAFF097E1EE2930D003A351D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFF08D21EE2930C003A351D /* Assets.xcassets */; };
 		BAFF097F1EE2930D003A351D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFF08D41EE2930C003A351D /* LaunchScreen.storyboard */; };
 		BAFF09801EE2930D003A351D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFF08D61EE2930C003A351D /* Main.storyboard */; };
@@ -239,6 +249,16 @@
 		BAB4DE491EE286A800D26678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BABB9D3B1EE3ADEF00EF9071 /* SegmentedExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedExampleViewController.swift; sourceTree = "<group>"; };
 		BABB9D3C1EE3ADEF00EF9071 /* SegmentedExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SegmentedExampleViewController.xib; sourceTree = "<group>"; };
+		BAD53D631EF020E500292BF2 /* Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		BAD53D641EF020E500292BF2 /* heros.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = heros.plist; sourceTree = "<group>"; };
+		BAD53D651EF020E500292BF2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BAD53D661EF020E500292BF2 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		BAD53D671EF020E500292BF2 /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		BAD53D681EF020E500292BF2 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		BAD53D691EF020E500292BF2 /* RegisterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		BAD53D6A1EF020E500292BF2 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		BAD53D751EF0212C00292BF2 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		BAD53D771EF0266B00292BF2 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		BAFF08D21EE2930C003A351D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAFF08D51EE2930C003A351D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAFF08D71EE2930C003A351D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
@@ -419,6 +439,7 @@
 		BA4F0A851EE2E8500075534E /* inkLee */ = {
 			isa = PBXGroup;
 			children = (
+				BAD53D561EF01F1800292BF2 /* moreView */,
 				BA056F4A1EEEC8FE0002AA33 /* Sort */,
 				BA4F0B1B1EE30B130075534E /* Assets.xcassets */,
 				BA4F0B141EE3085B0075534E /* Helpers */,
@@ -526,6 +547,31 @@
 				BAB4DE491EE286A800D26678 /* Info.plist */,
 			);
 			path = ink_Swift;
+			sourceTree = "<group>";
+		};
+		BAD53D561EF01F1800292BF2 /* moreView */ = {
+			isa = PBXGroup;
+			children = (
+				BAD53D601EF020E500292BF2 /* login */,
+			);
+			path = moreView;
+			sourceTree = "<group>";
+		};
+		BAD53D601EF020E500292BF2 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				BAD53D631EF020E500292BF2 /* Hero.swift */,
+				BAD53D641EF020E500292BF2 /* heros.plist */,
+				BAD53D651EF020E500292BF2 /* LoginViewController.swift */,
+				BAD53D661EF020E500292BF2 /* LoginViewModel.swift */,
+				BAD53D671EF020E500292BF2 /* Protocol.swift */,
+				BAD53D681EF020E500292BF2 /* RegisterViewController.swift */,
+				BAD53D691EF020E500292BF2 /* RegisterViewModel.swift */,
+				BAD53D6A1EF020E500292BF2 /* Service.swift */,
+				BAD53D751EF0212C00292BF2 /* RegisterViewController.xib */,
+				BAD53D771EF0266B00292BF2 /* LoginViewController.xib */,
+			);
+			path = login;
 			sourceTree = "<group>";
 		};
 		BAFF08D31EE2930C003A351D /* Base.lproj */ = {
@@ -996,10 +1042,12 @@
 				BAFF09FC1EE2930D003A351D /* shake_match.wav in Resources */,
 				BAFF09CF1EE2930D003A351D /* TSMessageViewController.xib in Resources */,
 				BA4F0A9C1EE2E8BD0075534E /* yodaTux.png in Resources */,
+				BAD53D761EF0212C00292BF2 /* RegisterViewController.xib in Resources */,
 				BAFF09FE1EE2930D003A351D /* shake_sound_male.wav in Resources */,
 				BAFF09B31EE2930D003A351D /* TSContactsViewController.xib in Resources */,
 				BAFF09F41EE2930D003A351D /* call.caf in Resources */,
 				BAFF0A051EE2930D003A351D /* moments.json in Resources */,
+				BAD53D6E1EF020E500292BF2 /* heros.plist in Resources */,
 				BA4F0B041EE304E90075534E /* PagedBasedApp.storyboard in Resources */,
 				BAB4DE481EE286A800D26678 /* LaunchScreen.storyboard in Resources */,
 				BAFF09D21EE2930D003A351D /* TSMomentsViewController.xib in Resources */,
@@ -1046,6 +1094,7 @@
 				BA4F0A941EE2E8BD0075534E /* einsteinTux.png in Resources */,
 				BAFF09A91EE2930D003A351D /* TSChatEmotionInputView.xib in Resources */,
 				BAFF0A021EE2930D003A351D /* chat.json in Resources */,
+				BAD53D781EF0266B00292BF2 /* LoginViewController.xib in Resources */,
 				BAFF09C71EE2930D003A351D /* TSImageTextTableViewCell.xib in Resources */,
 				BA4F0A981EE2E8BD0075534E /* Property List.plist in Resources */,
 				BAFF09B11EE2930D003A351D /* TSChatVoiceIndicatorView.xib in Resources */,
@@ -1126,6 +1175,7 @@
 				BAFF09DA1EE2930D003A351D /* TSProgressHUD.swift in Sources */,
 				BAFF09971EE2930D003A351D /* UIScrollView+ChatAdditions.swift in Sources */,
 				BA4F0A9F1EE2E9230075534E /* InkLee2ViewController.swift in Sources */,
+				BAD53D6D1EF020E500292BF2 /* Hero.swift in Sources */,
 				BAFF09AA1EE2930D003A351D /* TSChatEmotionScollView.swift in Sources */,
 				BAFF09E41EE2930D003A351D /* UISearchBar+Extension.swift in Sources */,
 				BAFF09DE1EE2930D003A351D /* AboutApp.swift in Sources */,
@@ -1141,6 +1191,7 @@
 				BAFF09EC1EE2930D003A351D /* RAMRotationAnimation.swift in Sources */,
 				BAFF09DD1EE2930D003A351D /* TSUIImageVIew+WeChat.swift in Sources */,
 				BAFF09A41EE2930D003A351D /* TSChatButton+UI.swift in Sources */,
+				BAD53D701EF020E500292BF2 /* LoginViewModel.swift in Sources */,
 				BAFF09991EE2930D003A351D /* TSChatViewController+ActionBar.swift in Sources */,
 				BAFF09E21EE2930D003A351D /* PHAsset+Extension.swift in Sources */,
 				BAFF09821EE2930D003A351D /* TSChatCellDelegate.swift in Sources */,
@@ -1169,6 +1220,7 @@
 				BAFF09A21EE2930D003A351D /* TSChatActionBarView.swift in Sources */,
 				BAFF09C21EE2930D003A351D /* TSLocationManager.swift in Sources */,
 				BAB4DE3E1EE286A800D26678 /* AppDelegate.swift in Sources */,
+				BAD53D711EF020E500292BF2 /* Protocol.swift in Sources */,
 				BAFF09A51EE2930D003A351D /* TSChatButton.swift in Sources */,
 				BAFF098E1EE2930D003A351D /* AudioFilesManager.swift in Sources */,
 				BAFF09D41EE2930D003A351D /* TSWebViewController.swift in Sources */,
@@ -1177,6 +1229,7 @@
 				BAFF09D01EE2930D003A351D /* TSMessageActionFloatView.swift in Sources */,
 				BAFF09871EE2930D003A351D /* TSChatTextCell.swift in Sources */,
 				BAFF09D91EE2930D003A351D /* TSNavigationBar.swift in Sources */,
+				BAD53D741EF020E500292BF2 /* Service.swift in Sources */,
 				BA4F0A741EE2E24C0075534E /* InkExportViewController.swift in Sources */,
 				BAFF09B61EE2930D003A351D /* HttpManager+UploadAudio.swift in Sources */,
 				BAFF09C01EE2930D003A351D /* TSUploadModel.swift in Sources */,
@@ -1192,10 +1245,12 @@
 				BAFF09EA1EE2930D003A351D /* RAMFrameItemAnimation.swift in Sources */,
 				BAFF09DC1EE2930D003A351D /* TSUIImage+WeChat.swift in Sources */,
 				BAFF09E01EE2930D003A351D /* NSDictionary+Extension.swift in Sources */,
+				BAD53D6F1EF020E500292BF2 /* LoginViewController.swift in Sources */,
 				BAFF09DF1EE2930D003A351D /* NSDate+Extension.swift in Sources */,
 				BAFF09CE1EE2930D003A351D /* TSMessageViewController.swift in Sources */,
 				BAFF09D51EE2930D003A351D /* TSFullyHorizontalFlowLayout.swift in Sources */,
 				BAFF09961EE2930D003A351D /* TSYYTextLinePositionModifier.swift in Sources */,
+				BAD53D721EF020E500292BF2 /* RegisterViewController.swift in Sources */,
 				BAFF09C31EE2930D003A351D /* TSUserManager.swift in Sources */,
 				BAFF09A81EE2930D003A351D /* TSChatEmotionInputView.swift in Sources */,
 				BAFF09BB1EE2930D003A351D /* TSChatSubModel.swift in Sources */,
@@ -1209,6 +1264,7 @@
 				BAFF09C11EE2930D003A351D /* TSApplicationManager.swift in Sources */,
 				BAFF09A61EE2930D003A351D /* TSChatEmotionCell.swift in Sources */,
 				BAFF09921EE2930D003A351D /* ImageFilesManager.swift in Sources */,
+				BAD53D731EF020E500292BF2 /* RegisterViewModel.swift in Sources */,
 				BA4F0B1F1EE30B9F0075534E /* YoutubeIconCell.swift in Sources */,
 				BAFF099C1EE2930D003A351D /* TSChatViewController+Interaction.swift in Sources */,
 				BAFF09B41EE2930D003A351D /* TSContactTableViewCell.swift in Sources */,
