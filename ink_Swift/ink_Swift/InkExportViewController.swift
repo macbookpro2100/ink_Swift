@@ -93,10 +93,10 @@ extension InkExportViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("点击了\(indexPath.row)")
         if indexPath.section == 0 && indexPath.row == 0 {
-//            let sb = UIStoryboard(name: "Spring", bundle: nil)
-//            let vc = sb.instantiateViewController(withIdentifier: "SpringViewController") as! SpringViewController
-////            self.navigationController!.pushViewController(vc, animated: true)
-//            self.ts_pushAndHideTabbar(vc)
+            let sb = UIStoryboard(name: "Spring", bundle: nil)
+            let vc = sb.instantiateViewController(withIdentifier: "SpringViewController") as! SpringViewController
+//            self.navigationController!.pushViewController(vc, animated: true)
+            self.ts_pushAndHideTabbar(vc)
 
 
         }

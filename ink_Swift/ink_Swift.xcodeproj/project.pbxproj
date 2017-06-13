@@ -61,6 +61,10 @@
 		BAD53D741EF020E500292BF2 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD53D6A1EF020E500292BF2 /* Service.swift */; };
 		BAD53D761EF0212C00292BF2 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD53D751EF0212C00292BF2 /* RegisterViewController.xib */; };
 		BAD53D781EF0266B00292BF2 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD53D771EF0266B00292BF2 /* LoginViewController.xib */; };
+		BAD53D821EF0435600292BF2 /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD53D7E1EF0435600292BF2 /* CodeViewController.swift */; };
+		BAD53D831EF0435600292BF2 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD53D7F1EF0435600292BF2 /* OptionsViewController.swift */; };
+		BAD53D841EF0435600292BF2 /* Spring.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD53D801EF0435600292BF2 /* Spring.storyboard */; };
+		BAD53D851EF0435600292BF2 /* SpringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD53D811EF0435600292BF2 /* SpringViewController.swift */; };
 		BAFF097E1EE2930D003A351D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFF08D21EE2930C003A351D /* Assets.xcassets */; };
 		BAFF097F1EE2930D003A351D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFF08D41EE2930C003A351D /* LaunchScreen.storyboard */; };
 		BAFF09801EE2930D003A351D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFF08D61EE2930C003A351D /* Main.storyboard */; };
@@ -259,6 +263,10 @@
 		BAD53D6A1EF020E500292BF2 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		BAD53D751EF0212C00292BF2 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 		BAD53D771EF0266B00292BF2 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		BAD53D7E1EF0435600292BF2 /* CodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
+		BAD53D7F1EF0435600292BF2 /* OptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		BAD53D801EF0435600292BF2 /* Spring.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Spring.storyboard; sourceTree = "<group>"; };
+		BAD53D811EF0435600292BF2 /* SpringViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringViewController.swift; sourceTree = "<group>"; };
 		BAFF08D21EE2930C003A351D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAFF08D51EE2930C003A351D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAFF08D71EE2930C003A351D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
@@ -552,6 +560,7 @@
 		BAD53D561EF01F1800292BF2 /* moreView */ = {
 			isa = PBXGroup;
 			children = (
+				BAD53D7D1EF0435600292BF2 /* spring */,
 				BAD53D601EF020E500292BF2 /* login */,
 			);
 			path = moreView;
@@ -572,6 +581,17 @@
 				BAD53D771EF0266B00292BF2 /* LoginViewController.xib */,
 			);
 			path = login;
+			sourceTree = "<group>";
+		};
+		BAD53D7D1EF0435600292BF2 /* spring */ = {
+			isa = PBXGroup;
+			children = (
+				BAD53D7E1EF0435600292BF2 /* CodeViewController.swift */,
+				BAD53D7F1EF0435600292BF2 /* OptionsViewController.swift */,
+				BAD53D801EF0435600292BF2 /* Spring.storyboard */,
+				BAD53D811EF0435600292BF2 /* SpringViewController.swift */,
+			);
+			path = spring;
 			sourceTree = "<group>";
 		};
 		BAFF08D31EE2930C003A351D /* Base.lproj */ = {
@@ -1074,6 +1094,7 @@
 				BAFF09CD1EE2930D003A351D /* TSMessageTableViewCell.xib in Resources */,
 				BA4F0A841EE2E59E0075534E /* IeeExportViewController.xib in Resources */,
 				BA056F541EEEC9140002AA33 /* SortViewController.xib in Resources */,
+				BAD53D841EF0435600292BF2 /* Spring.storyboard in Resources */,
 				BAFF09F11EE2930D003A351D /* ToolsAnimation.plist in Resources */,
 				BA4F0A991EE2E8BD0075534E /* ramboTux.png in Resources */,
 				BA4F0A951EE2E8BD0075534E /* indianaTux.png in Resources */,
@@ -1173,6 +1194,7 @@
 				BA4F0A831EE2E59E0075534E /* IeeExportViewController.swift in Sources */,
 				BAFF09981EE2930D003A351D /* UITableView+ChatAdditions.swift in Sources */,
 				BAFF09DA1EE2930D003A351D /* TSProgressHUD.swift in Sources */,
+				BAD53D831EF0435600292BF2 /* OptionsViewController.swift in Sources */,
 				BAFF09971EE2930D003A351D /* UIScrollView+ChatAdditions.swift in Sources */,
 				BA4F0A9F1EE2E9230075534E /* InkLee2ViewController.swift in Sources */,
 				BAD53D6D1EF020E500292BF2 /* Hero.swift in Sources */,
@@ -1186,6 +1208,7 @@
 				BAFF09BD1EE2930D003A351D /* TSMessageModel.swift in Sources */,
 				BAFF09B21EE2930D003A351D /* TSContactsViewController.swift in Sources */,
 				BAFF09D11EE2930D003A351D /* TSMomentsViewController.swift in Sources */,
+				BAD53D821EF0435600292BF2 /* CodeViewController.swift in Sources */,
 				BA4F0B121EE308280075534E /* ChildExampleViewController.swift in Sources */,
 				BAFF09B71EE2930D003A351D /* HttpManager+UploadImage.swift in Sources */,
 				BAFF09EC1EE2930D003A351D /* RAMRotationAnimation.swift in Sources */,
@@ -1281,6 +1304,7 @@
 				BA4F0B271EE30F4B0075534E /* InstagramExampleViewController.swift in Sources */,
 				BA4F0B131EE308280075534E /* TableChildExampleViewController.swift in Sources */,
 				BAFF09B01EE2930D003A351D /* TSChatVoiceIndicatorView.swift in Sources */,
+				BAD53D851EF0435600292BF2 /* SpringViewController.swift in Sources */,
 				BAFF09ED1EE2930D003A351D /* RAMTransitionItemAnimations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
