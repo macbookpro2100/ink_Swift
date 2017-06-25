@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TSDiscoverViewController: UIViewController {
+class TSRxDiscoverViewController: UIViewController {
     @IBOutlet weak var listTableView: UITableView!
     fileprivate let itemDataSouce: [[(name: String, iconImage: UIImage)]] = [
         [
@@ -29,7 +29,7 @@ class TSDiscoverViewController: UIViewController {
     ]
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "发现"
+        self.title = "Rx"
         self.view.backgroundColor = UIColor.viewBackgroundColor
         self.listTableView.ts_registerCellNib(TSImageTextTableViewCell.self)
         self.listTableView.estimatedRowHeight = 44
@@ -61,7 +61,7 @@ class TSDiscoverViewController: UIViewController {
 }
 
 // MARK: @protocol - UITableViewDelegate
-extension TSDiscoverViewController: UITableViewDelegate {
+extension TSRxDiscoverViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         if section == 0 {
             return 15
@@ -80,7 +80,7 @@ extension TSDiscoverViewController: UITableViewDelegate {
 }
 
 // MARK: @protocol - UITableViewDataSource
-extension TSDiscoverViewController: UITableViewDataSource {
+extension TSRxDiscoverViewController: UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         return self.itemDataSouce.count
     }

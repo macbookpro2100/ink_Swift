@@ -44,6 +44,8 @@
 		BA4F0B201EE30B9F0075534E /* YoutubeIconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4F0B1E1EE30B9F0075534E /* YoutubeIconCell.xib */; };
 		BA4F0B271EE30F4B0075534E /* InstagramExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F0B251EE30F4B0075534E /* InstagramExampleViewController.swift */; };
 		BA4F0B281EE30F4B0075534E /* InstagramExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4F0B261EE30F4B0075534E /* InstagramExampleViewController.xib */; };
+		BA8989C71EFF6B0800F8C2F3 /* TSRxDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8989C51EFF6B0800F8C2F3 /* TSRxDiscoverViewController.swift */; };
+		BA8989C81EFF6B0800F8C2F3 /* TSRxDiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA8989C61EFF6B0800F8C2F3 /* TSRxDiscoverViewController.xib */; };
 		BAB4DE3E1EE286A800D26678 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE3D1EE286A800D26678 /* AppDelegate.swift */; };
 		BAB4DE401EE286A800D26678 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE3F1EE286A800D26678 /* ViewController.swift */; };
 		BAB4DE431EE286A800D26678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB4DE411EE286A800D26678 /* Main.storyboard */; };
@@ -173,6 +175,8 @@
 		BA4F0B1E1EE30B9F0075534E /* YoutubeIconCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YoutubeIconCell.xib; sourceTree = "<group>"; };
 		BA4F0B251EE30F4B0075534E /* InstagramExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramExampleViewController.swift; sourceTree = "<group>"; };
 		BA4F0B261EE30F4B0075534E /* InstagramExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstagramExampleViewController.xib; sourceTree = "<group>"; };
+		BA8989C51EFF6B0800F8C2F3 /* TSRxDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSRxDiscoverViewController.swift; sourceTree = "<group>"; };
+		BA8989C61EFF6B0800F8C2F3 /* TSRxDiscoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSRxDiscoverViewController.xib; sourceTree = "<group>"; };
 		BAB4DE3A1EE286A800D26678 /* ink_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ink_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB4DE3D1EE286A800D26678 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAB4DE3F1EE286A800D26678 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -372,6 +376,15 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		BA8989C41EFF6B0800F8C2F3 /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+				BA8989C51EFF6B0800F8C2F3 /* TSRxDiscoverViewController.swift */,
+				BA8989C61EFF6B0800F8C2F3 /* TSRxDiscoverViewController.xib */,
+			);
+			path = Rx;
+			sourceTree = "<group>";
+		};
 		BAB4DE311EE286A800D26678 = {
 			isa = PBXGroup;
 			children = (
@@ -464,6 +477,7 @@
 		BAFF08D81EE2930C003A351D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BA8989C41EFF6B0800F8C2F3 /* Rx */,
 				BAFF09131EE2930C003A351D /* CoreModule */,
 				BAFF09241EE2930C003A351D /* Discover */,
 			);
@@ -790,6 +804,7 @@
 				BAFF0A071EE2930D003A351D /* Media.xcassets in Resources */,
 				BAFF0A001EE2930D003A351D /* Expression.bundle in Resources */,
 				BAFF09FF1EE2930D003A351D /* country_code.txt in Resources */,
+				BA8989C81EFF6B0800F8C2F3 /* TSRxDiscoverViewController.xib in Resources */,
 				BA4F0A9B1EE2E8BD0075534E /* scienceTux.png in Resources */,
 				BA4F0B1C1EE30B130075534E /* Assets.xcassets in Resources */,
 				BA4F0A751EE2E24C0075534E /* InkExportViewController.xib in Resources */,
@@ -897,6 +912,7 @@
 				BAFF09E61EE2930D003A351D /* UIViewController+Extension.swift in Sources */,
 				BAFF09D81EE2930D003A351D /* TSLogger.swift in Sources */,
 				BAFF09D61EE2930D003A351D /* TSGlobalHelper.swift in Sources */,
+				BA8989C71EFF6B0800F8C2F3 /* TSRxDiscoverViewController.swift in Sources */,
 				BAFF09C41EE2930D003A351D /* TSDiscoverViewController.swift in Sources */,
 				BAFF09BE1EE2930D003A351D /* TSModel.swift in Sources */,
 				BAB4DE3E1EE286A800D26678 /* AppDelegate.swift in Sources */,
