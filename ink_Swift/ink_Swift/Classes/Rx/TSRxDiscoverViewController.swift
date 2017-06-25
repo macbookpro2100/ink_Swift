@@ -13,7 +13,7 @@ class TSRxDiscoverViewController: UIViewController {
     fileprivate let itemDataSouce: [[(name: String, iconImage: UIImage)]] = [
         [
             ("number add", TSAsset.Ff_IconShowAlbum.image),
-            ("扫一扫", TSAsset.Ff_IconQRCode.image),
+            ("SimpleValidation", TSAsset.Ff_IconQRCode.image),
             ("摇一摇", TSAsset.Ff_IconShake.image),
             ("附近的人", TSAsset.Ff_IconLocationService.image),
             ("漂流瓶", TSAsset.Ff_IconBottle.image),
@@ -78,7 +78,7 @@ extension TSRxDiscoverViewController: UITableViewDelegate {
             self.ts_pushAndHideTabbar(vc)
             break;
         case 1:
-            let vc = SortViewController.ts_initFromNib()
+            let vc = SimpleValidationViewController.ts_initFromNib()
             self.ts_pushAndHideTabbar(vc)
             break;
         case 2:

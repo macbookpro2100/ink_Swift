@@ -48,6 +48,8 @@
 		BA8989C81EFF6B0800F8C2F3 /* TSRxDiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA8989C61EFF6B0800F8C2F3 /* TSRxDiscoverViewController.xib */; };
 		BA8989CC1EFF9FDA00F8C2F3 /* NumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8989CA1EFF9FDA00F8C2F3 /* NumbersViewController.swift */; };
 		BA8989CD1EFF9FDA00F8C2F3 /* NumbersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA8989CB1EFF9FDA00F8C2F3 /* NumbersViewController.xib */; };
+		BA8989D01EFFA2E900F8C2F3 /* SimpleValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8989CE1EFFA2E900F8C2F3 /* SimpleValidationViewController.swift */; };
+		BA8989D11EFFA2E900F8C2F3 /* SimpleValidationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA8989CF1EFFA2E900F8C2F3 /* SimpleValidationViewController.xib */; };
 		BAB4DE3E1EE286A800D26678 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE3D1EE286A800D26678 /* AppDelegate.swift */; };
 		BAB4DE401EE286A800D26678 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE3F1EE286A800D26678 /* ViewController.swift */; };
 		BAB4DE431EE286A800D26678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB4DE411EE286A800D26678 /* Main.storyboard */; };
@@ -181,6 +183,8 @@
 		BA8989C61EFF6B0800F8C2F3 /* TSRxDiscoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSRxDiscoverViewController.xib; sourceTree = "<group>"; };
 		BA8989CA1EFF9FDA00F8C2F3 /* NumbersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumbersViewController.swift; sourceTree = "<group>"; };
 		BA8989CB1EFF9FDA00F8C2F3 /* NumbersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumbersViewController.xib; sourceTree = "<group>"; };
+		BA8989CE1EFFA2E900F8C2F3 /* SimpleValidationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleValidationViewController.swift; sourceTree = "<group>"; };
+		BA8989CF1EFFA2E900F8C2F3 /* SimpleValidationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleValidationViewController.xib; sourceTree = "<group>"; };
 		BAB4DE3A1EE286A800D26678 /* ink_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ink_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB4DE3D1EE286A800D26678 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAB4DE3F1EE286A800D26678 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -387,6 +391,8 @@
 				BA8989C61EFF6B0800F8C2F3 /* TSRxDiscoverViewController.xib */,
 				BA8989CA1EFF9FDA00F8C2F3 /* NumbersViewController.swift */,
 				BA8989CB1EFF9FDA00F8C2F3 /* NumbersViewController.xib */,
+				BA8989CE1EFFA2E900F8C2F3 /* SimpleValidationViewController.swift */,
+				BA8989CF1EFFA2E900F8C2F3 /* SimpleValidationViewController.xib */,
 			);
 			path = Rx;
 			sourceTree = "<group>";
@@ -775,6 +781,7 @@
 				BAFF09F31EE2930D003A351D /* beep.wav in Resources */,
 				BA8989CD1EFF9FDA00F8C2F3 /* NumbersViewController.xib in Resources */,
 				BA4F0B1A1EE3085B0075534E /* PostCell.xib in Resources */,
+				BA8989D11EFFA2E900F8C2F3 /* SimpleValidationViewController.xib in Resources */,
 				BAFF0A061EE2930D003A351D /* Kenny.jpg in Resources */,
 				BA4F0B281EE30F4B0075534E /* InstagramExampleViewController.xib in Resources */,
 				BA4F0AA01EE2E9230075534E /* InkLee2ViewController.xib in Resources */,
@@ -898,6 +905,7 @@
 				BAD53D6D1EF020E500292BF2 /* Hero.swift in Sources */,
 				BAFF09E41EE2930D003A351D /* UISearchBar+Extension.swift in Sources */,
 				BAFF09DE1EE2930D003A351D /* AboutApp.swift in Sources */,
+				BA8989D01EFFA2E900F8C2F3 /* SimpleValidationViewController.swift in Sources */,
 				BA4F0B181EE3085B0075534E /* DataProvider.swift in Sources */,
 				BA4F0B191EE3085B0075534E /* PostCell.swift in Sources */,
 				BAFF09BF1EE2930D003A351D /* TSModelTransformer.swift in Sources */,
