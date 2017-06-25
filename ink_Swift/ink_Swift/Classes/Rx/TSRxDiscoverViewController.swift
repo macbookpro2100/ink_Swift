@@ -14,7 +14,7 @@ class TSRxDiscoverViewController: UIViewController {
         [
             ("number add", TSAsset.Ff_IconShowAlbum.image),
             ("SimpleValidation", TSAsset.Ff_IconQRCode.image),
-            ("摇一摇", TSAsset.Ff_IconShake.image),
+            ("Calculator", TSAsset.Ff_IconShake.image),
             ("附近的人", TSAsset.Ff_IconLocationService.image),
             ("漂流瓶", TSAsset.Ff_IconBottle.image),
             ("游戏", TSAsset.MoreGame.image),
@@ -82,7 +82,8 @@ extension TSRxDiscoverViewController: UITableViewDelegate {
             self.ts_pushAndHideTabbar(vc)
             break;
         case 2:
-            let vc = SortViewController.ts_initFromNib()
+            let sb = UIStoryboard(name: "Calculator", bundle: nil)
+            let vc = sb.instantiateViewController(withIdentifier: "CalculatorViewController") as! CalculatorViewController
             self.ts_pushAndHideTabbar(vc)
             break;
         case 3:

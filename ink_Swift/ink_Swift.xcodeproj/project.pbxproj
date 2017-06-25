@@ -50,6 +50,10 @@
 		BA8989CD1EFF9FDA00F8C2F3 /* NumbersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA8989CB1EFF9FDA00F8C2F3 /* NumbersViewController.xib */; };
 		BA8989D01EFFA2E900F8C2F3 /* SimpleValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8989CE1EFFA2E900F8C2F3 /* SimpleValidationViewController.swift */; };
 		BA8989D11EFFA2E900F8C2F3 /* SimpleValidationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA8989CF1EFFA2E900F8C2F3 /* SimpleValidationViewController.xib */; };
+		BA8989D41EFFA51B00F8C2F3 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8989D21EFFA51B00F8C2F3 /* CalculatorViewController.swift */; };
+		BA8989D71EFFA54100F8C2F3 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8989D61EFFA54100F8C2F3 /* Calculator.swift */; };
+		BA8989D91EFFA58000F8C2F3 /* Calculator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8989D81EFFA58000F8C2F3 /* Calculator.storyboard */; };
+		BA8989DB1EFFA63400F8C2F3 /* Observable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8989DA1EFFA63400F8C2F3 /* Observable+Extensions.swift */; };
 		BAB4DE3E1EE286A800D26678 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE3D1EE286A800D26678 /* AppDelegate.swift */; };
 		BAB4DE401EE286A800D26678 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4DE3F1EE286A800D26678 /* ViewController.swift */; };
 		BAB4DE431EE286A800D26678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB4DE411EE286A800D26678 /* Main.storyboard */; };
@@ -185,6 +189,10 @@
 		BA8989CB1EFF9FDA00F8C2F3 /* NumbersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumbersViewController.xib; sourceTree = "<group>"; };
 		BA8989CE1EFFA2E900F8C2F3 /* SimpleValidationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleValidationViewController.swift; sourceTree = "<group>"; };
 		BA8989CF1EFFA2E900F8C2F3 /* SimpleValidationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleValidationViewController.xib; sourceTree = "<group>"; };
+		BA8989D21EFFA51B00F8C2F3 /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		BA8989D61EFFA54100F8C2F3 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		BA8989D81EFFA58000F8C2F3 /* Calculator.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Calculator.storyboard; sourceTree = "<group>"; };
+		BA8989DA1EFFA63400F8C2F3 /* Observable+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Extensions.swift"; sourceTree = "<group>"; };
 		BAB4DE3A1EE286A800D26678 /* ink_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ink_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB4DE3D1EE286A800D26678 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAB4DE3F1EE286A800D26678 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -387,12 +395,16 @@
 		BA8989C41EFF6B0800F8C2F3 /* Rx */ = {
 			isa = PBXGroup;
 			children = (
+				BA8989DA1EFFA63400F8C2F3 /* Observable+Extensions.swift */,
+				BA8989D81EFFA58000F8C2F3 /* Calculator.storyboard */,
+				BA8989D61EFFA54100F8C2F3 /* Calculator.swift */,
 				BA8989C51EFF6B0800F8C2F3 /* TSRxDiscoverViewController.swift */,
 				BA8989C61EFF6B0800F8C2F3 /* TSRxDiscoverViewController.xib */,
 				BA8989CA1EFF9FDA00F8C2F3 /* NumbersViewController.swift */,
 				BA8989CB1EFF9FDA00F8C2F3 /* NumbersViewController.xib */,
 				BA8989CE1EFFA2E900F8C2F3 /* SimpleValidationViewController.swift */,
 				BA8989CF1EFFA2E900F8C2F3 /* SimpleValidationViewController.xib */,
+				BA8989D21EFFA51B00F8C2F3 /* CalculatorViewController.swift */,
 			);
 			path = Rx;
 			sourceTree = "<group>";
@@ -824,6 +836,7 @@
 				BA4F0A751EE2E24C0075534E /* InkExportViewController.xib in Resources */,
 				BAB4DE431EE286A800D26678 /* Main.storyboard in Resources */,
 				BAFF09F61EE2930D003A351D /* close.wav in Resources */,
+				BA8989D91EFFA58000F8C2F3 /* Calculator.storyboard in Resources */,
 				BAFF09C51EE2930D003A351D /* TSDiscoverViewController.xib in Resources */,
 				BAFF09F91EE2930D003A351D /* msgtoolong.wav in Resources */,
 				BA4F0A941EE2E8BD0075534E /* einsteinTux.png in Resources */,
@@ -907,6 +920,7 @@
 				BAFF09DE1EE2930D003A351D /* AboutApp.swift in Sources */,
 				BA8989D01EFFA2E900F8C2F3 /* SimpleValidationViewController.swift in Sources */,
 				BA4F0B181EE3085B0075534E /* DataProvider.swift in Sources */,
+				BA8989DB1EFFA63400F8C2F3 /* Observable+Extensions.swift in Sources */,
 				BA4F0B191EE3085B0075534E /* PostCell.swift in Sources */,
 				BAFF09BF1EE2930D003A351D /* TSModelTransformer.swift in Sources */,
 				BAFF09BD1EE2930D003A351D /* TSMessageModel.swift in Sources */,
@@ -929,6 +943,7 @@
 				BAFF09D61EE2930D003A351D /* TSGlobalHelper.swift in Sources */,
 				BA8989C71EFF6B0800F8C2F3 /* TSRxDiscoverViewController.swift in Sources */,
 				BAFF09C41EE2930D003A351D /* TSDiscoverViewController.swift in Sources */,
+				BA8989D71EFFA54100F8C2F3 /* Calculator.swift in Sources */,
 				BAFF09BE1EE2930D003A351D /* TSModel.swift in Sources */,
 				BAB4DE3E1EE286A800D26678 /* AppDelegate.swift in Sources */,
 				BAD53D711EF020E500292BF2 /* Protocol.swift in Sources */,
@@ -945,6 +960,7 @@
 				BAFF09EA1EE2930D003A351D /* RAMFrameItemAnimation.swift in Sources */,
 				BAFF09DC1EE2930D003A351D /* TSUIImage+WeChat.swift in Sources */,
 				BA8989CC1EFF9FDA00F8C2F3 /* NumbersViewController.swift in Sources */,
+				BA8989D41EFFA51B00F8C2F3 /* CalculatorViewController.swift in Sources */,
 				BAFF09E01EE2930D003A351D /* NSDictionary+Extension.swift in Sources */,
 				BAD53D6F1EF020E500292BF2 /* LoginViewController.swift in Sources */,
 				BAFF09DF1EE2930D003A351D /* NSDate+Extension.swift in Sources */,
