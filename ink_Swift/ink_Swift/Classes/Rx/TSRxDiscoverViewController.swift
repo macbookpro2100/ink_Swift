@@ -12,20 +12,15 @@ class TSRxDiscoverViewController: UIViewController {
     @IBOutlet weak var listTableView: UITableView!
     fileprivate let itemDataSouce: [[(name: String, iconImage: UIImage)]] = [
         [
-            ("朋友圈", TSAsset.Ff_IconShowAlbum.image),
-        ],
-        [
+            ("number add", TSAsset.Ff_IconShowAlbum.image),
             ("扫一扫", TSAsset.Ff_IconQRCode.image),
             ("摇一摇", TSAsset.Ff_IconShake.image),
-        ],
-        [
             ("附近的人", TSAsset.Ff_IconLocationService.image),
             ("漂流瓶", TSAsset.Ff_IconBottle.image),
-        ],
-        [
-//            ("购物", TSAsset.Icon_bustime.image),
             ("游戏", TSAsset.MoreGame.image),
+            
         ],
+       
     ]
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -76,6 +71,35 @@ extension TSRxDiscoverViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        let selectindex = indexPath.row
+        switch selectindex {
+        case 0:
+            let vc = NumbersViewController.ts_initFromNib()
+            self.ts_pushAndHideTabbar(vc)
+            break;
+        case 1:
+            let vc = SortViewController.ts_initFromNib()
+            self.ts_pushAndHideTabbar(vc)
+            break;
+        case 2:
+            let vc = SortViewController.ts_initFromNib()
+            self.ts_pushAndHideTabbar(vc)
+            break;
+        case 3:
+            let vc = SortViewController.ts_initFromNib()
+            self.ts_pushAndHideTabbar(vc)
+            break;
+        case 4:
+            let vc = SortViewController.ts_initFromNib()
+            self.ts_pushAndHideTabbar(vc)
+            break;
+        case 5:
+            let vc = SortViewController.ts_initFromNib()
+            self.ts_pushAndHideTabbar(vc)
+            break;
+        default:
+            break;
+        }
     }
 }
 
