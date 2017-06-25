@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 import UIKit
-
+import TimedSilver
 
 // MARK: Custom Badge
 
@@ -282,17 +282,17 @@ open class RAMAnimatedTabBarController: UITabBarController {
     
     let viewControllerArray = [
         InkExportViewController.ts_initFromNib(),
-        TSMessageViewController.ts_initFromNib(),  //消息
-        TSContactsViewController.ts_initFromNib(), //联系人
+        TSDiscoverViewController.ts_initFromNib(),  //消息
+        TSDiscoverViewController.ts_initFromNib(), //联系人
         TSDiscoverViewController.ts_initFromNib(), //发现
-        TSMeViewController.ts_initFromNib()   //我
+        TSDiscoverViewController.ts_initFromNib()   //我
     ]
     
     let navigationVCArray = NSMutableArray()
     for (index, controller) in viewControllerArray.enumerated() {
-        controller.tabBarItem!.title = titleArray.get(index: index)
-        controller.tabBarItem!.image = normalImagesArray.get(index: index).withRenderingMode(.alwaysOriginal)
-        controller.tabBarItem!.selectedImage = selectedImagesArray.get(index: index).withRenderingMode(.alwaysOriginal)
+        controller.tabBarItem!.title = titleArray[index]
+        controller.tabBarItem!.image = normalImagesArray[index].withRenderingMode(.alwaysOriginal)
+        controller.tabBarItem!.selectedImage = selectedImagesArray[index].withRenderingMode(.alwaysOriginal)
         controller.tabBarItem!.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.lightGray], for: UIControlState())
         controller.tabBarItem!.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.tabbarSelectedTextColor], for: .selected)
         let navigationController = UINavigationController(rootViewController: controller)
