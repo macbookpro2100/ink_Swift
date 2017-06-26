@@ -66,6 +66,10 @@
 		BAB7C3591F00DB51006B8D22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAB7C3581F00DB51006B8D22 /* Assets.xcassets */; };
 		BAB7C3621F00DCBE006B8D22 /* Article2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB7C3601F00DCBE006B8D22 /* Article2TableViewCell.swift */; };
 		BAB7C3631F00DCBE006B8D22 /* Article2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAB7C3611F00DCBE006B8D22 /* Article2TableViewCell.xib */; };
+		BAB7C3651F00E020006B8D22 /* KivaLoanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB7C3641F00E020006B8D22 /* KivaLoanTableViewController.swift */; };
+		BAB7C3681F00E043006B8D22 /* KivaLoanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB7C3661F00E043006B8D22 /* KivaLoanTableViewCell.swift */; };
+		BAB7C3691F00E043006B8D22 /* KivaLoanTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAB7C3671F00E043006B8D22 /* KivaLoanTableViewCell.xib */; };
+		BAB7C36B1F00E0E5006B8D22 /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB7C36A1F00E0E5006B8D22 /* Loan.swift */; };
 		BABB9D3D1EE3ADEF00EF9071 /* SegmentedExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB9D3B1EE3ADEF00EF9071 /* SegmentedExampleViewController.swift */; };
 		BABB9D3E1EE3ADEF00EF9071 /* SegmentedExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BABB9D3C1EE3ADEF00EF9071 /* SegmentedExampleViewController.xib */; };
 		BAD53D6D1EF020E500292BF2 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD53D631EF020E500292BF2 /* Hero.swift */; };
@@ -214,6 +218,10 @@
 		BAB7C3581F00DB51006B8D22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAB7C3601F00DCBE006B8D22 /* Article2TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article2TableViewCell.swift; sourceTree = "<group>"; };
 		BAB7C3611F00DCBE006B8D22 /* Article2TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Article2TableViewCell.xib; sourceTree = "<group>"; };
+		BAB7C3641F00E020006B8D22 /* KivaLoanTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KivaLoanTableViewController.swift; sourceTree = "<group>"; };
+		BAB7C3661F00E043006B8D22 /* KivaLoanTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KivaLoanTableViewCell.swift; sourceTree = "<group>"; };
+		BAB7C3671F00E043006B8D22 /* KivaLoanTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KivaLoanTableViewCell.xib; sourceTree = "<group>"; };
+		BAB7C36A1F00E0E5006B8D22 /* Loan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
 		BABB9D3B1EE3ADEF00EF9071 /* SegmentedExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedExampleViewController.swift; sourceTree = "<group>"; };
 		BABB9D3C1EE3ADEF00EF9071 /* SegmentedExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SegmentedExampleViewController.xib; sourceTree = "<group>"; };
 		BAD53D631EF020E500292BF2 /* Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
@@ -469,6 +477,7 @@
 		BAB7C3441F00C0D8006B8D22 /* Moments */ = {
 			isa = PBXGroup;
 			children = (
+				BAB7C36A1F00E0E5006B8D22 /* Loan.swift */,
 				BAB7C3581F00DB51006B8D22 /* Assets.xcassets */,
 				BAB7C3451F00C0D8006B8D22 /* TSAppCodaViewController.swift */,
 				BAB7C3461F00C0D8006B8D22 /* TSAppCodaViewController.xib */,
@@ -476,6 +485,9 @@
 				BAB7C3561F00DB23006B8D22 /* ArticleTableViewController.swift */,
 				BAB7C3601F00DCBE006B8D22 /* Article2TableViewCell.swift */,
 				BAB7C3611F00DCBE006B8D22 /* Article2TableViewCell.xib */,
+				BAB7C3641F00E020006B8D22 /* KivaLoanTableViewController.swift */,
+				BAB7C3661F00E043006B8D22 /* KivaLoanTableViewCell.swift */,
+				BAB7C3671F00E043006B8D22 /* KivaLoanTableViewCell.xib */,
 			);
 			path = Moments;
 			sourceTree = "<group>";
@@ -843,6 +855,7 @@
 				BAFF09FB1EE2930D003A351D /* sendmsg.caf in Resources */,
 				BAB4DE451EE286A800D26678 /* Assets.xcassets in Resources */,
 				BA4F0B0E1EE306C90075534E /* SpotifyExampleViewController.xib in Resources */,
+				BAB7C3691F00E043006B8D22 /* KivaLoanTableViewCell.xib in Resources */,
 				BAFF097E1EE2930D003A351D /* Assets.xcassets in Resources */,
 				BAFF09801EE2930D003A351D /* Main.storyboard in Resources */,
 				BAB7C3591F00DB51006B8D22 /* Assets.xcassets in Resources */,
@@ -947,6 +960,7 @@
 				BAFF09DA1EE2930D003A351D /* TSProgressHUD.swift in Sources */,
 				BAD53D831EF0435600292BF2 /* OptionsViewController.swift in Sources */,
 				BA4F0A9F1EE2E9230075534E /* InkLee2ViewController.swift in Sources */,
+				BAB7C3651F00E020006B8D22 /* KivaLoanTableViewController.swift in Sources */,
 				BAD53D6D1EF020E500292BF2 /* Hero.swift in Sources */,
 				BAFF09E41EE2930D003A351D /* UISearchBar+Extension.swift in Sources */,
 				BAFF09DE1EE2930D003A351D /* AboutApp.swift in Sources */,
@@ -959,6 +973,7 @@
 				BAFF09BD1EE2930D003A351D /* TSMessageModel.swift in Sources */,
 				BAD53D821EF0435600292BF2 /* CodeViewController.swift in Sources */,
 				BA4F0B121EE308280075534E /* ChildExampleViewController.swift in Sources */,
+				BAB7C3681F00E043006B8D22 /* KivaLoanTableViewCell.swift in Sources */,
 				BAFF09B71EE2930D003A351D /* HttpManager+UploadImage.swift in Sources */,
 				BAFF09EC1EE2930D003A351D /* RAMRotationAnimation.swift in Sources */,
 				BAFF09DD1EE2930D003A351D /* TSUIImageVIew+WeChat.swift in Sources */,
@@ -968,6 +983,7 @@
 				BA056F531EEEC9140002AA33 /* SortViewController.swift in Sources */,
 				BA4F0B0D1EE306C90075534E /* SpotifyExampleViewController.swift in Sources */,
 				BAFF09E81EE2930D003A351D /* TSConfig.swift in Sources */,
+				BAB7C36B1F00E0E5006B8D22 /* Loan.swift in Sources */,
 				BAFF09F01EE2930D003A351D /* RAMItemAnimationProtocol.swift in Sources */,
 				BA056F4F1EEEC8FE0002AA33 /* SortClass.swift in Sources */,
 				BAB7C3621F00DCBE006B8D22 /* Article2TableViewCell.swift in Sources */,
