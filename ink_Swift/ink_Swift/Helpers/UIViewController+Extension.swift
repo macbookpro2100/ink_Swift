@@ -49,6 +49,13 @@ extension UIViewController {
     }
     
     /**
+     push
+     */
+    public func ts_nav_pushView(_ viewController: UIViewController) {
+        self.ts_pushViewController(viewController, animated: true, hideTabbar: false)
+    }
+    
+    /**
      present
      */
     public func ts_presentViewController(_ viewController: UIViewController, completion:(() -> Void)?) {
