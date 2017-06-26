@@ -13,7 +13,7 @@ class TSAppCodaViewController: UIViewController {
     fileprivate let itemDataSouce: [[(name: String, iconImage: UIImage)]] = [
         [
             ("AnimalTableViewController", TSAsset.Ff_IconShowAlbum.image),
-            ("SimpleValidation", TSAsset.Ff_IconQRCode.image),
+            ("ArticleTableViewController", TSAsset.Ff_IconQRCode.image),
             ("Calculator", TSAsset.Ff_IconShake.image),
             ("附近的人", TSAsset.Ff_IconLocationService.image),
             ("漂流瓶", TSAsset.Ff_IconBottle.image),
@@ -78,8 +78,8 @@ extension TSAppCodaViewController: UITableViewDelegate {
             self.ts_nav_pushView(vc)
             break;
         case 1:
-//            let vc = SimpleValidationViewController.ts_initFromNib()
-//            self.ts_pushAndHideTabbar(vc)
+            let vc = ArticleTableViewController.init(style: UITableViewStyle.grouped)
+            self.ts_nav_pushView(vc)
             break;
         case 2:
  
