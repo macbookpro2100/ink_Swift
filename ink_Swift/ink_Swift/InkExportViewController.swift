@@ -27,7 +27,7 @@ class InkExportViewController: UIViewController {
             ("MVVM Login", TSAsset.Ff_IconBottle.image),
             ],
         [
-            //            ("购物", TSAsset.Icon_bustime.image),
+            ("InkFormTableViewController", TSAsset.MoreGame.image),
             ("游戏", TSAsset.MoreGame.image),
             ],
         ]
@@ -143,6 +143,13 @@ extension InkExportViewController: UITableViewDelegate {
             let vc = RegisterViewController.ts_initFromNib()
             self.ts_pushAndHideTabbar(vc)
         }
+        
+//        if indexPath.section == 3 && indexPath.row == 0 {
+//            let vc = InkFormTableViewController.init(style: .grouped)
+//            self.ts_pushAndHideTabbar(vc)
+//        }
+        
+        
 
         tableView.deselectRow(at: indexPath, animated: true)
     }
