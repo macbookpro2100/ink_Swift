@@ -262,7 +262,7 @@ open class RAMAnimatedTabBarController: UITabBarController {
 //    let containers = self.createViewContainers()
 //    
 //    self.createCustomIcons(containers)
-    let titleArray = ["Ink","微信", "Rx", "发现", "我"]
+    let titleArray = ["Ink","微信", "Rx", "AppCoda", "我"]
     
     let normalImagesArray = [
         TSAsset.Tabbar_mainframe.image,
@@ -284,7 +284,7 @@ open class RAMAnimatedTabBarController: UITabBarController {
         InkExportViewController.ts_initFromNib(),
         TSDiscoverViewController.ts_initFromNib(),  //消息
         TSRxDiscoverViewController.ts_initFromNib(), //联系人
-//        TSDiscoverViewController.ts_initFromNib(), //发现
+        TSAppCodaViewController.ts_initFromNib(), //发现
 //        TSDiscoverViewController.ts_initFromNib()   //我
     ]
     
