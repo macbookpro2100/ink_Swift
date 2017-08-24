@@ -44,6 +44,10 @@
 		BA4F0B201EE30B9F0075534E /* YoutubeIconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4F0B1E1EE30B9F0075534E /* YoutubeIconCell.xib */; };
 		BA4F0B271EE30F4B0075534E /* InstagramExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4F0B251EE30F4B0075534E /* InstagramExampleViewController.swift */; };
 		BA4F0B281EE30F4B0075534E /* InstagramExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA4F0B261EE30F4B0075534E /* InstagramExampleViewController.xib */; };
+		BA8499DD1F4AB3B900EF93D9 /* XmlTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8499DC1F4AB3B900EF93D9 /* XmlTableViewController.swift */; };
+		BA8499E01F4AB41100EF93D9 /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8499DE1F4AB41100EF93D9 /* SongCell.swift */; };
+		BA8499E11F4AB41100EF93D9 /* SongCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA8499DF1F4AB41100EF93D9 /* SongCell.xib */; };
+		BA8499E31F4AB42B00EF93D9 /* SuperSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8499E21F4AB42B00EF93D9 /* SuperSong.swift */; };
 		BA8989C71EFF6B0800F8C2F3 /* TSRxDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8989C51EFF6B0800F8C2F3 /* TSRxDiscoverViewController.swift */; };
 		BA8989C81EFF6B0800F8C2F3 /* TSRxDiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA8989C61EFF6B0800F8C2F3 /* TSRxDiscoverViewController.xib */; };
 		BA8989CC1EFF9FDA00F8C2F3 /* NumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8989CA1EFF9FDA00F8C2F3 /* NumbersViewController.swift */; };
@@ -194,6 +198,10 @@
 		BA4F0B1E1EE30B9F0075534E /* YoutubeIconCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YoutubeIconCell.xib; sourceTree = "<group>"; };
 		BA4F0B251EE30F4B0075534E /* InstagramExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramExampleViewController.swift; sourceTree = "<group>"; };
 		BA4F0B261EE30F4B0075534E /* InstagramExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstagramExampleViewController.xib; sourceTree = "<group>"; };
+		BA8499DC1F4AB3B900EF93D9 /* XmlTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XmlTableViewController.swift; sourceTree = "<group>"; };
+		BA8499DE1F4AB41100EF93D9 /* SongCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
+		BA8499DF1F4AB41100EF93D9 /* SongCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SongCell.xib; sourceTree = "<group>"; };
+		BA8499E21F4AB42B00EF93D9 /* SuperSong.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperSong.swift; sourceTree = "<group>"; };
 		BA8989C51EFF6B0800F8C2F3 /* TSRxDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSRxDiscoverViewController.swift; sourceTree = "<group>"; };
 		BA8989C61EFF6B0800F8C2F3 /* TSRxDiscoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSRxDiscoverViewController.xib; sourceTree = "<group>"; };
 		BA8989CA1EFF9FDA00F8C2F3 /* NumbersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumbersViewController.swift; sourceTree = "<group>"; };
@@ -420,6 +428,17 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		BA8499DB1F4AB38700EF93D9 /* xml_view */ = {
+			isa = PBXGroup;
+			children = (
+				BA8499DC1F4AB3B900EF93D9 /* XmlTableViewController.swift */,
+				BA8499DE1F4AB41100EF93D9 /* SongCell.swift */,
+				BA8499DF1F4AB41100EF93D9 /* SongCell.xib */,
+				BA8499E21F4AB42B00EF93D9 /* SuperSong.swift */,
+			);
+			name = xml_view;
+			sourceTree = "<group>";
+		};
 		BA8989C41EFF6B0800F8C2F3 /* Rx */ = {
 			isa = PBXGroup;
 			children = (
@@ -483,6 +502,7 @@
 		BAB7C3441F00C0D8006B8D22 /* Moments */ = {
 			isa = PBXGroup;
 			children = (
+				BA8499DB1F4AB38700EF93D9 /* xml_view */,
 				BAB7C36A1F00E0E5006B8D22 /* Loan.swift */,
 				BAB7C3581F00DB51006B8D22 /* Assets.xcassets */,
 				BAB7C3451F00C0D8006B8D22 /* TSAppCodaViewController.swift */,
@@ -857,6 +877,7 @@
 				BAFF09FA1EE2930D003A351D /* pstncall.mp3 in Resources */,
 				BAB7C3481F00C0D8006B8D22 /* TSAppCodaViewController.xib in Resources */,
 				BAFF09FD1EE2930D003A351D /* shake_nomatch.wav in Resources */,
+				BA8499E11F4AB41100EF93D9 /* SongCell.xib in Resources */,
 				BABB9D3E1EE3ADEF00EF9071 /* SegmentedExampleViewController.xib in Resources */,
 				BAFF09FB1EE2930D003A351D /* sendmsg.caf in Resources */,
 				BAB4DE451EE286A800D26678 /* Assets.xcassets in Resources */,
@@ -975,6 +996,7 @@
 				BA8989DB1EFFA63400F8C2F3 /* Observable+Extensions.swift in Sources */,
 				BA4F0B191EE3085B0075534E /* PostCell.swift in Sources */,
 				BAFF09BF1EE2930D003A351D /* TSModelTransformer.swift in Sources */,
+				BA8499DD1F4AB3B900EF93D9 /* XmlTableViewController.swift in Sources */,
 				BAB7C3571F00DB23006B8D22 /* ArticleTableViewController.swift in Sources */,
 				BAFF09BD1EE2930D003A351D /* TSMessageModel.swift in Sources */,
 				BAD53D821EF0435600292BF2 /* CodeViewController.swift in Sources */,
@@ -1009,6 +1031,7 @@
 				BA4F0A741EE2E24C0075534E /* InkExportViewController.swift in Sources */,
 				BAFF09B61EE2930D003A351D /* HttpManager+UploadAudio.swift in Sources */,
 				BAFF09C01EE2930D003A351D /* TSUploadModel.swift in Sources */,
+				BA8499E01F4AB41100EF93D9 /* SongCell.swift in Sources */,
 				BAFF09EE1EE2930D003A351D /* RAMAnimatedTabBarController.swift in Sources */,
 				BA056F4E1EEEC8FE0002AA33 /* Sort.swift in Sources */,
 				BAFF09E11EE2930D003A351D /* NSObject+String.swift in Sources */,
@@ -1039,6 +1062,7 @@
 				BA4F0B271EE30F4B0075534E /* InstagramExampleViewController.swift in Sources */,
 				BA4F0B131EE308280075534E /* TableChildExampleViewController.swift in Sources */,
 				BAD53D851EF0435600292BF2 /* SpringViewController.swift in Sources */,
+				BA8499E31F4AB42B00EF93D9 /* SuperSong.swift in Sources */,
 				BAFF09ED1EE2930D003A351D /* RAMTransitionItemAnimations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

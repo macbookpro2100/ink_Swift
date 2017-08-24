@@ -15,7 +15,7 @@ class TSAppCodaViewController: UIViewController {
             ("AnimalTableViewController", TSAsset.Ff_IconShowAlbum.image),
             ("ArticleTableViewController", TSAsset.Ff_IconQRCode.image),
             ("KivaLoanTableViewController", TSAsset.Ff_IconShake.image),
-            ("附近的人", TSAsset.Ff_IconLocationService.image),
+            ("XML", TSAsset.Ff_IconLocationService.image),
             ("漂流瓶", TSAsset.Ff_IconBottle.image),
             ("游戏", TSAsset.MoreGame.image),
             
@@ -88,6 +88,10 @@ extension TSAppCodaViewController: UITableViewDelegate {
  
             break;
         case 3:
+            
+            
+            let vc = XmlTableViewController.init()
+            self.ts_nav_pushView(vc)
  
             break;
         case 4:
