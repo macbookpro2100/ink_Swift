@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SegmentedExampleViewController" customModule="ink_Swift" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="5YE-Js-k6U" id="axh-qP-L0a"/>
+                <outlet property="segmentedControl" destination="1mP-8c-Arb" id="7wl-SH-pFv"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5YE-Js-k6U">
+                    <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </scrollView>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wYN-BN-4xu">
+                    <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="Wkn-kJ-Au3"/>
+                    </constraints>
+                    <items>
+                        <navigationItem id="K68-h4-a0G">
+                            <nil key="title"/>
+                            <barButtonItem key="leftBarButtonItem" image="back_icon" id="ajr-1e-WYf">
+                                <connections>
+                                    <action selector="closeAction:" destination="-1" id="rl0-Sa-ybw"/>
+                                </connections>
+                            </barButtonItem>
+                            <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="1mP-8c-Arb">
+                                <rect key="frame" x="56" y="7.5" width="249" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
+                            <barButtonItem key="rightBarButtonItem" title="reload" id="AMg-sj-IsW">
+                                <connections>
+                                    <action selector="reloadTapped:" destination="-1" id="5VP-dq-aJ3"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="5YE-Js-k6U" secondAttribute="bottom" id="316-2n-mIe"/>
+                <constraint firstItem="wYN-BN-4xu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="BP4-du-R2P"/>
+                <constraint firstItem="5YE-Js-k6U" firstAttribute="top" secondItem="wYN-BN-4xu" secondAttribute="bottom" id="RGR-VD-UtC"/>
+                <constraint firstItem="5YE-Js-k6U" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="T7u-CV-exc"/>
+                <constraint firstItem="5YE-Js-k6U" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="aoG-SH-e6g"/>
+                <constraint firstItem="wYN-BN-4xu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="crb-ln-tas"/>
+                <constraint firstAttribute="trailing" secondItem="5YE-Js-k6U" secondAttribute="trailing" id="h3b-rb-wsV"/>
+                <constraint firstAttribute="trailing" secondItem="wYN-BN-4xu" secondAttribute="trailing" id="ngw-lc-09z"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back_icon" width="18" height="16"/>
+    </resources>
+</document>
