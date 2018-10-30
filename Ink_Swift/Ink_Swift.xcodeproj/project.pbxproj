@@ -14,7 +14,6 @@
 		0A4BF6291FBDB57F00CC977C /* Ink_SwiftTools+Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4BF6241FBDB57F00CC977C /* Ink_SwiftTools+Session.swift */; };
 		162B68E1745672187B240369 /* Pods_Ink_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8B428A1AF1E8CF3CE5BE22 /* Pods_Ink_Swift.framework */; };
 		FD0A98131E0CE8B5004654A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD0A98121E0CE8B5004654A2 /* Assets.xcassets */; };
-		FD0A98161E0CE8B5004654A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0A98141E0CE8B5004654A2 /* LaunchScreen.storyboard */; };
 		FD0A98241E0CEB41004654A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0A98201E0CEB41004654A2 /* AppDelegate.swift */; };
 		FD0A98251E0CEB41004654A2 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0A98221E0CEB41004654A2 /* UIView+Extension.swift */; };
 		FD0C061F1E113E4F0067A9C1 /* String+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C061E1E113E4F0067A9C1 /* String+Extenstion.swift */; };
@@ -116,7 +115,6 @@
 		6E904E7323719DED283607E0 /* Pods-Ink_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ink_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ink_Swift/Pods-Ink_Swift.release.xcconfig"; sourceTree = "<group>"; };
 		FD0A98081E0CE8B5004654A2 /* Ink_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ink_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD0A98121E0CE8B5004654A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FD0A98151E0CE8B5004654A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD0A98171E0CE8B5004654A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD0A98201E0CEB41004654A2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD0A98221E0CEB41004654A2 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
@@ -297,7 +295,6 @@
 			children = (
 				FD0A981D1E0CEB41004654A2 /* Classes */,
 				FD0A98121E0CE8B5004654A2 /* Assets.xcassets */,
-				FD0A98141E0CE8B5004654A2 /* LaunchScreen.storyboard */,
 				FD0A98171E0CE8B5004654A2 /* Info.plist */,
 			);
 			path = Ink_Swift;
@@ -876,7 +873,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD0A98161E0CE8B5004654A2 /* LaunchScreen.storyboard in Resources */,
 				FD617F5A1E250DA300A92620 /* WKJSPOST.html in Resources */,
 				FD3DC2821E1345FC00A63069 /* LXFContactCell.xib in Resources */,
 				FD5633BF1E0E31BC007B15D6 /* LXFLoginTopView.xib in Resources */,
@@ -1045,17 +1041,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		FD0A98141E0CE8B5004654A2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD0A98151E0CE8B5004654A2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		FD0A98181E0CE8B5004654A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1156,6 +1141,7 @@
 			baseConfigurationReference = 3AFA7EF2906C8D9A792BCE00 /* Pods-Ink_Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
@@ -1189,6 +1175,7 @@
 			baseConfigurationReference = 6E904E7323719DED283607E0 /* Pods-Ink_Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
