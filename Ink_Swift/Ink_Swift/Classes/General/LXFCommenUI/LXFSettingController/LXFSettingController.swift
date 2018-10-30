@@ -37,6 +37,13 @@ class LXFSettingController: LXFBaseController {
         let footView = UIView(frame: CGRect(x: 0, y: 0, width: 0, height: 0.4))
         footView.backgroundColor = kSplitLineColor
         tableView.tableFooterView = footView
+        
+        if #available(iOS 11.0, *) {
+            tableView.contentInsetAdjustmentBehavior = .never
+        } else {
+            self.automaticallyAdjustsScrollViewInsets = false;
+        };
+        
         return tableView
         }()
     // models

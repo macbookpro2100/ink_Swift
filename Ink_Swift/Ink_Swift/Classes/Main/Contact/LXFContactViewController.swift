@@ -47,6 +47,15 @@ class LXFContactViewController: LXFBaseController {
         table.sectionIndexBackgroundColor = UIColor.clear
         // 改变索引被选中的背景颜色
         // table.sectionIndexTrackingBackgroundColor = UIColor.green
+        
+        if #available(iOS 11.0, *) {
+            table.contentInsetAdjustmentBehavior = .never
+        } else {
+            self.automaticallyAdjustsScrollViewInsets = false;
+        };
+        
+       
+        
         return table
     }()
     // MARK: footerView

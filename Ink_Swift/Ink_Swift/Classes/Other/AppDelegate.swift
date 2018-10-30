@@ -37,6 +37,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // 显示窗口
         window?.makeKeyAndVisible()
         
+        
+        
         return true
     }
 
