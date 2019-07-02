@@ -1,0 +1,61 @@
+PODS:
+  - Alamofire (5.0.0-beta.6)
+  - CollectionKit (2.4.0):
+    - CollectionKit/Core (= 2.4.0)
+  - CollectionKit/Core (2.4.0)
+  - Hero (1.4.0)
+  - Kingfisher (5.6.0)
+  - matrix-wechat (0.5.1):
+    - matrix-wechat/matrixARC (= 0.5.1)
+    - matrix-wechat/matrixNonARC1 (= 0.5.1)
+    - matrix-wechat/matrixNonARC2 (= 0.5.1)
+  - matrix-wechat/matrixARC (0.5.1):
+    - matrix-wechat/matrixNonARC1
+  - matrix-wechat/matrixNonARC1 (0.5.1)
+  - matrix-wechat/matrixNonARC2 (0.5.1):
+    - matrix-wechat/matrixARC
+  - SnapKit (5.0.0)
+  - SwiftyJSON (5.0.0)
+  - YetAnotherAnimationLibrary (1.4.0)
+
+DEPENDENCIES:
+  - Alamofire (from `Third/Alamofire-master/`)
+  - CollectionKit (from `Third/CollectionKit-master/`)
+  - Hero (from `Third/Hero-master/`)
+  - Kingfisher (from `Third/Kingfisher-master/`)
+  - matrix-wechat (from `Third/matrix-master/`)
+  - SnapKit (from `Third/SnapKit-develop/`)
+  - SwiftyJSON (from `Third/SwiftyJSON-master/`)
+  - YetAnotherAnimationLibrary (from `Third/YetAnotherAnimationLibrary-master/`)
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :path: Third/Alamofire-master/
+  CollectionKit:
+    :path: Third/CollectionKit-master/
+  Hero:
+    :path: Third/Hero-master/
+  Kingfisher:
+    :path: Third/Kingfisher-master/
+  matrix-wechat:
+    :path: Third/matrix-master/
+  SnapKit:
+    :path: Third/SnapKit-develop/
+  SwiftyJSON:
+    :path: Third/SwiftyJSON-master/
+  YetAnotherAnimationLibrary:
+    :path: Third/YetAnotherAnimationLibrary-master/
+
+SPEC CHECKSUMS:
+  Alamofire: 6489937ac513442606370fbcda7c5d25a6d51dd7
+  CollectionKit: 0b5dcf99659e4af4db456d8f85ca07e1ab7b98ab
+  Hero: 32bc08bfced1652f4b201393b7a1fab35cf535ad
+  Kingfisher: 27853333bd951d70a1d65926f1251298aedb6b28
+  matrix-wechat: fdddfc8a7c809422b42fdfbca00fecf89791e6a9
+  SnapKit: a6c45cff49c5b68b876364777076c80832930588
+  SwiftyJSON: 52e578874d0f33fdb1b1b34ed1e5e662af3ecf2a
+  YetAnotherAnimationLibrary: 07671cd0d1caf06e6aed9ce54500df23c7d130e6
+
+PODFILE CHECKSUM: bb8370dbd7833932f4560d0879bfc076d00d3398
+
+COCOAPODS: 1.5.3

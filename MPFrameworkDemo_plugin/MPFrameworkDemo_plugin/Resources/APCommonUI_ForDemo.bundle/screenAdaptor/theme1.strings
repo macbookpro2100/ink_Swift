@@ -1,0 +1,14 @@
+
+
+//
+"TITLEBAR_ITEM_LEFT_RIGHT_MARGIN"     = "16";
+// "STATUSBAR_DEFAULT_COLOR"       = "CONSTANT(AU_COLOR_UNIVERSAL_BG)"; // 使用 AntUI中的常量色值
+"TITLEBAR_TEXTSIZE"             = "15";
+"TITLEBAR_TEXTSIZE_BOLD"        = "15, bold"; // 代表粗字体
+"TITLEBAR_LINE_COLOR"           = "#dddddd";
+"TITLEBAR_ICON_COLOR"           = "#dddddd, 0.4";
+"TITLEBAR_ICON_SIZE"            = "320, 44"; //
+"SEARCHBAR_VOICE_ICON_IMAGE"    = "APCommonUI.bundle/searchbar/voice_button";
+
+"AU_TEXT_ADAPTOR_HEIGHT"    =   "6";
+

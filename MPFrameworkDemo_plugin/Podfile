@@ -1,0 +1,19 @@
+
+platform :ios, '10.0'
+# source "https://code.aliyun.com/mpaas-public/podspecs.git"
+target 'MPFrameworkDemo_plugin' do
+# 监控
+    pod 'matrix-wechat',:path => 'Third/matrix-master/'
+# Sarted
+    pod 'SnapKit',:path => 'Third/SnapKit-develop/'
+    pod 'CollectionKit',:path => 'Third/CollectionKit-master/'
+    pod 'Hero',:path => 'Third/Hero-master/'
+    pod 'YetAnotherAnimationLibrary',:path => 'Third/YetAnotherAnimationLibrary-master/'
+    
+#Learn
+    pod 'Alamofire',:path => 'Third/Alamofire-master/'
+    pod 'Kingfisher',:path => 'Third/Kingfisher-master/'
+    pod 'SwiftyJSON',:path => 'Third/SwiftyJSON-master/'
+
+end
+
