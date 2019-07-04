@@ -63,19 +63,6 @@
             //                    @"filePath": string};
             //            [[NSNotificationCenter defaultCenter] postNotificationName:@"FileNotification" object:nil userInfo:dict];
 
-            // save 本地Doucument
-
-//            NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-//            NSString *documentsDirectory = [paths lastObject];
-//
-//            NSString *targetItemPath = [documentsDirectory stringByAppendingPathComponent:[NSString stringWithFormat:@"%@", fileName]];
-//            NSLog(@"targetItemPath %@",targetItemPath);
-//            NSFileManager *fileManage = [NSFileManager defaultManager];
-//
-//            if (![fileManage fileExistsAtPath:targetItemPath]) {
-//                BOOL isSuccess = [fileManage copyItemAtPath:string toPath:targetItemPath error:nil];
-//                NSLog(@"name=%@ %@",fileName,isSuccess ? @"✅拷贝成功" : @"拷贝失败");
-//            }
             return DTFrameworkCallbackResultReturnYES;
         }
     }

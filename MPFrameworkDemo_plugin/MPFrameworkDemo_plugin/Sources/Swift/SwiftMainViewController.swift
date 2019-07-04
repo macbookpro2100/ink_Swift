@@ -2,7 +2,7 @@
 //  SwiftMainViewController.swift
 //  MPFrameworkDemo_plugin
 //
-//  Created by 李砚(EX-LIYAN010) on 7/1/19.
+//  Created by  macbookpro2100 on 7/1/19.
 //  Copyright © 2019 macbookpro2100. All rights reserved.
 //
 
