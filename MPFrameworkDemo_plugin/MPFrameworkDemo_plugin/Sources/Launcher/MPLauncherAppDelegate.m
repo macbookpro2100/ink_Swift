@@ -20,7 +20,7 @@
 //typedef void (^DoraemonANRBlock)(NSDictionary *);
 #import "ForbiddenScreenShotMarkView.h"
 #import "MPFrameworkDemo_plugin-Swift.h"
-#import "InkNavigationController.h"
+
 
 @interface MPLauncherAppDelegate ()
 //每秒运行一次

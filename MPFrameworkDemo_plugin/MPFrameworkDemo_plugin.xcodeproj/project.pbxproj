@@ -25,7 +25,6 @@
 		55E73DD125F33D8ED5F87E46 /* APMobileFramework.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A606DDD8BA1BEF17ABCB40CB /* APMobileFramework.bundle */; };
 		57C911323F894DA9A5E4390F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21093BC85E5F0A41631996AE /* Accelerate.framework */; };
 		80888F33FBEB91B76B742D62 /* MobileRuntime.plist in Resources */ = {isa = PBXBuildFile; fileRef = 161F24C4BB525C74E2394D8F /* MobileRuntime.plist */; };
-		8191E963246D808900C98E3D /* InkNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8191E961246D808800C98E3D /* InkNavigationController.m */; };
 		81EA533D246D766B00D06021 /* UIView+Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA5339246D766900D06021 /* UIView+Adapter.m */; };
 		81EA533E246D766B00D06021 /* UIImage+Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA533A246D766A00D06021 /* UIImage+Adapter.m */; };
 		81EA539E246D7DA800D06021 /* InkBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA539A246D7DA800D06021 /* InkBaseViewController.m */; };
@@ -424,8 +423,6 @@
 		6A61594399CBB1605504D998 /* MPLauncherAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPLauncherAppDelegate.m; sourceTree = "<group>"; };
 		73F27248CD2988CEF7424592 /* yw_1222.jpg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; path = yw_1222.jpg; sourceTree = "<group>"; };
 		788E2B952212DDDAB673ADCE /* meta.config */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = meta.config; sourceTree = "<group>"; };
-		8191E961246D808800C98E3D /* InkNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InkNavigationController.m; sourceTree = "<group>"; };
-		8191E962246D808900C98E3D /* InkNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InkNavigationController.h; sourceTree = "<group>"; };
 		81EA5339246D766900D06021 /* UIView+Adapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Adapter.m"; sourceTree = "<group>"; };
 		81EA533A246D766A00D06021 /* UIImage+Adapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Adapter.m"; sourceTree = "<group>"; };
 		81EA533B246D766B00D06021 /* UIImage+Adapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Adapter.h"; sourceTree = "<group>"; };
@@ -1298,8 +1295,6 @@
 		C982B35463252E4C06194C09 /* Launcher */ = {
 			isa = PBXGroup;
 			children = (
-				8191E962246D808900C98E3D /* InkNavigationController.h */,
-				8191E961246D808800C98E3D /* InkNavigationController.m */,
 				81EA5399246D7DA700D06021 /* InkBaseViewController.h */,
 				81EA539A246D7DA800D06021 /* InkBaseViewController.m */,
 				81EA539B246D7DA800D06021 /* WaterMark */,
@@ -2952,7 +2947,6 @@
 				D6B9BDBA22C4B0100020D856 /* BalloonMarker.swift in Sources */,
 				D6827DF022714FE1007DDB69 /* LOTShapeFill.m in Sources */,
 				D6827DF822714FE1007DDB69 /* NSValue+Compat.m in Sources */,
-				8191E963246D808900C98E3D /* InkNavigationController.m in Sources */,
 				D6827DDD22714FE1007DDB69 /* LOTRoundedRectAnimator.m in Sources */,
 				D6827DB822714FE1007DDB69 /* PopMenuDemoViewController.m in Sources */,
 				D6827DA022714FE1007DDB69 /* AURefreshViewDemoViewController.m in Sources */,
