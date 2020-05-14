@@ -23,7 +23,7 @@
 {
     [super viewDidLoad];
     
-    [[AURegisterManager shareInstance] registerAUObject:[[AntUIShellObject alloc] init]];
+//    [[AURegisterManager shareInstance] registerAUObject:[[AntUIShellObject alloc] init]];
     
     self.view.backgroundColor = [UIColor whiteColor];
     UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:self.view.bounds];

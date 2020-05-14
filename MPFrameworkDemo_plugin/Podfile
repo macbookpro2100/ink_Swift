@@ -2,6 +2,7 @@
 platform :ios, '10.0'
 # source "https://code.aliyun.com/mpaas-public/podspecs.git"
 target 'MPFrameworkDemo_plugin' do
+pod 'mPaas',:path => 'Third/mPaas/'
 # 监控
     pod 'matrix-wechat',:path => 'Third/matrix-master/'
 # Sarted
@@ -14,6 +15,7 @@ target 'MPFrameworkDemo_plugin' do
     pod 'Alamofire',:path => 'Third/Alamofire-master/'
     pod 'Kingfisher',:path => 'Third/Kingfisher-master/'
     pod 'SwiftyJSON',:path => 'Third/SwiftyJSON-master/'
+    pod 'Charts',:path => 'Third/Charts-master/'
 
 end
 

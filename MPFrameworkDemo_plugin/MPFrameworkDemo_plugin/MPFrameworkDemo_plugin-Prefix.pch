@@ -23,7 +23,8 @@
 #import <AntUI/AUThemeService+remoteService.h>
 
 
-
+#import "UIView+Adapter.h"
+#import "UIImage+Adapter.h"
 
 #import "AssistDemoDefaultLabelUtil.h"
 #import "DemoBaseViewController.h"
@@ -50,6 +51,7 @@ alpha:a]
 #define DEMO_START
 #define DEMO_END
 
+#define AUTitleBarSegment_DefaultHeight 44
 
 #import <AntUI/AUDefine.h>
 

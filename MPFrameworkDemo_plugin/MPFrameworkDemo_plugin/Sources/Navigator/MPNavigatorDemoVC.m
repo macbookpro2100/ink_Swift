@@ -8,7 +8,7 @@
 
 #import "MPNavigatorDemoVC.h"
 #import "MPNavigatorScrollVC.h"
-#import "AUDoubleTitleView.h"
+#import <AntUI/AUDoubleTitleView.h>
 
 @interface MPNavigatorDemoVC ()
 
