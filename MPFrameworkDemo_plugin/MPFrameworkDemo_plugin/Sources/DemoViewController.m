@@ -10,7 +10,10 @@
 #import "MPFrameworkBizAService.h"
 #import "MPNavigatorDemoVC.h"
 #import "BSBacktraceLogger.h"
-#import "DoraemonSandboxViewController.h"
+#import "BSBacktraceLogger.h"
+#import <DoraemonKit/DoraemonSandboxViewController.h>
+//#import "MatrixViewController.h"
+#import "DoraemonDemoHomeViewController.h"
 #import "MatrixViewController.h"
 
 
@@ -55,9 +58,15 @@
     [self.navigationController pushViewController:vc animated:YES];
 }
 
--(void)clickFilePath{
-    DoraemonSandboxViewController *vc =  [DoraemonSandboxViewController new];
-    [self.navigationController pushViewController:vc animated:YES];
+- (void)clickFilePath {
+    DoraemonSandboxViewController *vc = [DoraemonSandboxViewController new];
+    DTNavigationController *nav = [[DTNavigationController alloc] initWithRootViewController:vc];
+    
+    [self.navigationController presentViewController:nav animated:YES completion:^{
+        
+    }];
+    
+    
 }
 
 - (void)startAppBizA {

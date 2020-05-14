@@ -3,9 +3,31 @@ PODS:
   - Charts (3.3.0):
     - Charts/Core (= 3.3.0)
   - Charts/Core (3.3.0)
+  - CocoaLumberjack (3.6.0):
+    - CocoaLumberjack/Core (= 3.6.0)
+  - CocoaLumberjack/Core (3.6.0)
   - CollectionKit (2.4.0):
     - CollectionKit/Core (= 2.4.0)
   - CollectionKit/Core (2.4.0)
+  - DoraemonKit/Core (2.0.0):
+    - DoraemonKit/other
+    - FBRetainCycleDetector
+  - DoraemonKit/other (2.0.0)
+  - DoraemonKit/WithDatabase (2.0.0):
+    - DoraemonKit/Core
+    - YYDebugDatabase
+  - DoraemonKit/WithLogger (2.0.0):
+    - CocoaLumberjack
+    - DoraemonKit/Core
+  - DoraemonKit/WithMLeaksFinder (2.0.0):
+    - DoraemonKit/Core
+  - FBRetainCycleDetector (0.1.4)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - GCDWebServer (3.5.3):
+    - GCDWebServer/Core (= 3.5.3)
+  - GCDWebServer/Core (3.5.3)
   - Hero (1.4.0)
   - Kingfisher (5.6.0)
   - matrix-wechat (0.5.1):
@@ -21,11 +43,19 @@ PODS:
   - SnapKit (5.0.0)
   - SwiftyJSON (5.0.0)
   - YetAnotherAnimationLibrary (1.4.0)
+  - YYDebugDatabase (2.0.7):
+    - FMDB (= 2.7.5)
+    - GCDWebServer
 
 DEPENDENCIES:
   - Alamofire (from `Third/Alamofire-master/`)
   - Charts (from `Third/Charts-master/`)
   - CollectionKit (from `Third/CollectionKit-master/`)
+  - DoraemonKit/Core (from `Third/DoraemonKit-master/`)
+  - DoraemonKit/WithDatabase (from `Third/DoraemonKit-master/`)
+  - DoraemonKit/WithLogger (from `Third/DoraemonKit-master/`)
+  - DoraemonKit/WithMLeaksFinder (from `Third/DoraemonKit-master/`)
+  - FBRetainCycleDetector (from `Third/FBRetainCycleDetector-master/`)
   - Hero (from `Third/Hero-master/`)
   - Kingfisher (from `Third/Kingfisher-master/`)
   - matrix-wechat (from `Third/matrix-master/`)
@@ -33,6 +63,13 @@ DEPENDENCIES:
   - SnapKit (from `Third/SnapKit-develop/`)
   - SwiftyJSON (from `Third/SwiftyJSON-master/`)
   - YetAnotherAnimationLibrary (from `Third/YetAnotherAnimationLibrary-master/`)
+  - YYDebugDatabase (from `Third/iOSDebugDatabase-master/`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaLumberjack
+    - FMDB
+    - GCDWebServer
 
 EXTERNAL SOURCES:
   Alamofire:
@@ -41,6 +78,10 @@ EXTERNAL SOURCES:
     :path: Third/Charts-master/
   CollectionKit:
     :path: Third/CollectionKit-master/
+  DoraemonKit:
+    :path: Third/DoraemonKit-master/
+  FBRetainCycleDetector:
+    :path: Third/FBRetainCycleDetector-master/
   Hero:
     :path: Third/Hero-master/
   Kingfisher:
@@ -55,11 +96,18 @@ EXTERNAL SOURCES:
     :path: Third/SwiftyJSON-master/
   YetAnotherAnimationLibrary:
     :path: Third/YetAnotherAnimationLibrary-master/
+  YYDebugDatabase:
+    :path: Third/iOSDebugDatabase-master/
 
 SPEC CHECKSUMS:
   Alamofire: 6489937ac513442606370fbcda7c5d25a6d51dd7
   Charts: 30200b31b81ff7cad9bc1d92dab7230595e5abca
+  CocoaLumberjack: 78b0c238666f4f58db069738ec176f4519557516
   CollectionKit: 0b5dcf99659e4af4db456d8f85ca07e1ab7b98ab
+  DoraemonKit: 19e04b784b5625bbf22383a2ffaab59af93309ea
+  FBRetainCycleDetector: 5bfbef81d5810fa4cc75a78588955ed4df4d16fb
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  GCDWebServer: c0ab22c73e1b84f358d1e2f74bf6afd1c60829f2
   Hero: 32bc08bfced1652f4b201393b7a1fab35cf535ad
   Kingfisher: 27853333bd951d70a1d65926f1251298aedb6b28
   matrix-wechat: fdddfc8a7c809422b42fdfbca00fecf89791e6a9
@@ -67,7 +115,8 @@ SPEC CHECKSUMS:
   SnapKit: a6c45cff49c5b68b876364777076c80832930588
   SwiftyJSON: 52e578874d0f33fdb1b1b34ed1e5e662af3ecf2a
   YetAnotherAnimationLibrary: 07671cd0d1caf06e6aed9ce54500df23c7d130e6
+  YYDebugDatabase: 7ef6f786d4392097206fa0ab1b36b965236fd353
 
-PODFILE CHECKSUM: 30c1b1fd8515439609e32ff9cf16dc7780654e39
+PODFILE CHECKSUM: 223014b2af75628918149c26f9be2a6e7af1be6e
 
 COCOAPODS: 1.5.3

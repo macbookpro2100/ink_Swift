@@ -187,6 +187,7 @@
 //全局cellHeight
 #define kDemoGlobalCellHeight 44.0
 
-
+#define kDemoNeedWartMarkt  1
+#define kDemoWartMarkttag    201987
 
 #endif /* MPFrameworkDemoDef_h */

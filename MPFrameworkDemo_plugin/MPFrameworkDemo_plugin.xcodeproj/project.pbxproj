@@ -25,14 +25,40 @@
 		55E73DD125F33D8ED5F87E46 /* APMobileFramework.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A606DDD8BA1BEF17ABCB40CB /* APMobileFramework.bundle */; };
 		57C911323F894DA9A5E4390F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21093BC85E5F0A41631996AE /* Accelerate.framework */; };
 		80888F33FBEB91B76B742D62 /* MobileRuntime.plist in Resources */ = {isa = PBXBuildFile; fileRef = 161F24C4BB525C74E2394D8F /* MobileRuntime.plist */; };
+		8191E963246D808900C98E3D /* InkNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8191E961246D808800C98E3D /* InkNavigationController.m */; };
 		81EA533D246D766B00D06021 /* UIView+Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA5339246D766900D06021 /* UIView+Adapter.m */; };
 		81EA533E246D766B00D06021 /* UIImage+Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA533A246D766A00D06021 /* UIImage+Adapter.m */; };
+		81EA539E246D7DA800D06021 /* InkBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA539A246D7DA800D06021 /* InkBaseViewController.m */; };
+		81EA539F246D7DA800D06021 /* ForbiddenScreenShotMarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA539D246D7DA800D06021 /* ForbiddenScreenShotMarkView.m */; };
+		81EA53E0246D7E5E00D06021 /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA53A3246D7E5D00D06021 /* NSObject+Runtime.m */; };
+		81EA53E1246D7E5E00D06021 /* StartPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA53A5246D7E5D00D06021 /* StartPlugin.m */; };
+		81EA53E2246D7E5E00D06021 /* TestPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA53A6246D7E5D00D06021 /* TestPlugin.m */; };
+		81EA53E3246D7E5E00D06021 /* huoying.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 81EA53AA246D7E5D00D06021 /* huoying.mp4 */; };
+		81EA53E4246D7E5E00D06021 /* Doraemon.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 81EA53AB246D7E5D00D06021 /* Doraemon.xlsx */; };
+		81EA53E5246D7E5E00D06021 /* doraemon.html in Resources */ = {isa = PBXBuildFile; fileRef = 81EA53AC246D7E5D00D06021 /* doraemon.html */; };
+		81EA53E6246D7E5E00D06021 /* Doraemon.docx in Resources */ = {isa = PBXBuildFile; fileRef = 81EA53AD246D7E5D00D06021 /* Doraemon.docx */; };
+		81EA53E7246D7E5E00D06021 /* Doraemon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 81EA53AE246D7E5D00D06021 /* Doraemon.pdf */; };
+		81EA53E8246D7E5E00D06021 /* DoraemonDemoMemoryLeakModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA53B4246D7E5D00D06021 /* DoraemonDemoMemoryLeakModel.m */; };
+		81EA53E9246D7E5E00D06021 /* DoraemonDemoMemoryLeakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA53B5246D7E5D00D06021 /* DoraemonDemoMemoryLeakViewController.m */; };
+		81EA53EA246D7E5E00D06021 /* DoraemonDemoMemoryLeakView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA53B6246D7E5D00D06021 /* DoraemonDemoMemoryLeakView.m */; };
+		81EA53EB246D7E5E00D06021 /* DoraemonDemoUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA53B8246D7E5D00D06021 /* DoraemonDemoUIViewController.m */; };
+		81EA53EC246D7E5E00D06021 /* DoraemonDemoHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA53BB246D7E5D00D06021 /* DoraemonDemoHomeViewController.m */; };
+		81EA53ED246D7E5E00D06021 /* DoraemonUIWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA53C0246D7E5D00D06021 /* DoraemonUIWebViewViewController.m */; };
+		81EA53EE246D7E5E00D06021 /* DoraemonWKWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA53C2246D7E5D00D06021 /* DoraemonWKWebViewViewController.m */; };
+		81EA53EF246D7E5E00D06021 /* DoraemonDemoImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA53C5246D7E5D00D06021 /* DoraemonDemoImageViewController.m */; };
+		81EA53F0246D7E5E00D06021 /* DoraemonDemoImageShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA53C6246D7E5D00D06021 /* DoraemonDemoImageShowViewController.m */; };
+		81EA53F1246D7E5E00D06021 /* DoraemonDemoNetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA53C9246D7E5D00D06021 /* DoraemonDemoNetViewController.m */; };
+		81EA53F2246D7E5E00D06021 /* DoraemonDemoLoggerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA53CC246D7E5D00D06021 /* DoraemonDemoLoggerViewController.m */; };
+		81EA53F3246D7E5E00D06021 /* DoraemonDemoCrashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA53D0246D7E5D00D06021 /* DoraemonDemoCrashViewController.m */; };
+		81EA53F4246D7E5E00D06021 /* DoraemonDemoCrashMRCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA53D1246D7E5D00D06021 /* DoraemonDemoCrashMRCView.m */; };
+		81EA53F5246D7E5E00D06021 /* DoraemonDemoSanboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA53D4246D7E5D00D06021 /* DoraemonDemoSanboxViewController.m */; };
+		81EA53F6246D7E5E00D06021 /* DoraemonDemoCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA53D7246D7E5D00D06021 /* DoraemonDemoCommonViewController.m */; };
+		81EA53F7246D7E5E00D06021 /* DoraemonDemoMockGPSAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA53D9246D7E5D00D06021 /* DoraemonDemoMockGPSAnnotation.m */; };
+		81EA53F8246D7E5E00D06021 /* DoraemonDemoMockGPSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA53DC246D7E5D00D06021 /* DoraemonDemoMockGPSViewController.m */; };
+		81EA53F9246D7E5E00D06021 /* DoraemonDemoPerformanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81EA53DE246D7E5D00D06021 /* DoraemonDemoPerformanceViewController.m */; };
 		91F124F72D8BD632EBE4307C /* libPods-MPFrameworkDemo_plugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD193F2DD70583C82E19FBE /* libPods-MPFrameworkDemo_plugin.a */; };
 		ACE4F0ACC4C29C16AEBEC972 /* APCommonUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 492E813948F2BDD02A581FEB /* APCommonUI.bundle */; };
 		BFAB468D4484D80658F82F19 /* MPTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD602B5F39A97CC39582CDA /* MPTabBarViewController.m */; };
-		D623E2F622AE5F26003DED56 /* DoraemonLoadAnalyze.mm in Sources */ = {isa = PBXBuildFile; fileRef = D623E2F422AE5F26003DED56 /* DoraemonLoadAnalyze.mm */; };
-		D623E2F922AE6A86003DED56 /* DoraemonCPUUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D623E2F822AE6A86003DED56 /* DoraemonCPUUtil.m */; };
-		D623E2FC22AE6BE0003DED56 /* DoraemonMemoryUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D623E2FB22AE6BE0003DED56 /* DoraemonMemoryUtil.m */; };
 		D6827C252271444A007DDB69 /* MPSearchBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D6827C162271444A007DDB69 /* MPSearchBarVC.m */; };
 		D6827C262271444A007DDB69 /* MPDatePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D6827C182271444A007DDB69 /* MPDatePickerVC.m */; };
 		D6827C272271444A007DDB69 /* MPDatePickerDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6827C1A2271444A007DDB69 /* MPDatePickerDataController.m */; };
@@ -232,15 +258,6 @@
 		D68E5E1822CAF619008ABFC5 /* JsonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68E5E1722CAF619008ABFC5 /* JsonViewController.swift */; };
 		D6AFD50922782E23002CC412 /* MPTestAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AFD50622782E23002CC412 /* MPTestAppViewController.m */; };
 		D6AFD50A22782E23002CC412 /* MPTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AFD50722782E23002CC412 /* MPTestAppDelegate.m */; };
-		D6B9B89822C0C59E0020D856 /* DoraemonDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B9B88522C0C59D0020D856 /* DoraemonDBManager.m */; };
-		D6B9B89922C0C59E0020D856 /* DoraemonSanboxDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B9B88722C0C59D0020D856 /* DoraemonSanboxDetailViewController.m */; };
-		D6B9B89A22C0C59E0020D856 /* DoraemonSandboxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B9B88A22C0C59D0020D856 /* DoraemonSandboxCell.m */; };
-		D6B9B89B22C0C59E0020D856 /* DoraemonSandboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B9B88B22C0C59D0020D856 /* DoraemonSandboxViewController.m */; };
-		D6B9B89C22C0C59E0020D856 /* DoraemonDBRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B9B88F22C0C59D0020D856 /* DoraemonDBRowView.m */; };
-		D6B9B89D22C0C59E0020D856 /* DoraemonDBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B9B89322C0C59D0020D856 /* DoraemonDBCell.m */; };
-		D6B9B89E22C0C59E0020D856 /* DoraemonDBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B9B89422C0C59D0020D856 /* DoraemonDBTableViewController.m */; };
-		D6B9B89F22C0C59E0020D856 /* DoraemonDBShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B9B89522C0C59D0020D856 /* DoraemonDBShowView.m */; };
-		D6B9B8A022C0C59E0020D856 /* DoraemonSandboxModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B9B89622C0C59D0020D856 /* DoraemonSandboxModel.m */; };
 		D6B9B8A722C0CB160020D856 /* doraemon_file@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6B9B8A122C0CB160020D856 /* doraemon_file@2x.png */; };
 		D6B9B8A822C0CB160020D856 /* doraemon_file_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6B9B8A222C0CB160020D856 /* doraemon_file_2@3x.png */; };
 		D6B9B8A922C0CB160020D856 /* doraemon_file@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6B9B8A322C0CB160020D856 /* doraemon_file@3x.png */; };
@@ -350,12 +367,6 @@
 		D6B9BE6522C61F790020D856 /* MatchInCollectionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B9BE5E22C61F790020D856 /* MatchInCollectionExample.swift */; };
 		D6B9BE6622C61F790020D856 /* UIKit+HeroExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B9BE5F22C61F790020D856 /* UIKit+HeroExamples.swift */; };
 		D6CB97682272E63A00E2FAF8 /* MPDataCenterTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CB97662272E63A00E2FAF8 /* MPDataCenterTestCase.m */; };
-		D6EC1F9322AF4CA4000F6ACD /* DoraemonANRTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EC1F8E22AF4CA4000F6ACD /* DoraemonANRTracker.m */; };
-		D6EC1F9422AF4CA4000F6ACD /* BSBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EC1F8F22AF4CA4000F6ACD /* BSBacktraceLogger.m */; };
-		D6EC1F9522AF4CA4000F6ACD /* DoraemonANRManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EC1F9022AF4CA4000F6ACD /* DoraemonANRManager.m */; };
-		D6EC1F9622AF4CA4000F6ACD /* DoraemonPingThread.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EC1F9222AF4CA4000F6ACD /* DoraemonPingThread.m */; };
-		D6EC1F9922AF4DD3000F6ACD /* DoraemonAppInfoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EC1F9722AF4DD3000F6ACD /* DoraemonAppInfoUtil.m */; };
-		D6EC1F9C22AF4E13000F6ACD /* DoraemonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EC1F9A22AF4E13000F6ACD /* DoraemonUtil.m */; };
 		DB23B7739210FE5A9B7DD78E /* meta.config in Resources */ = {isa = PBXBuildFile; fileRef = 788E2B952212DDDAB673ADCE /* meta.config */; };
 		E43E7C6E21D1077E00D9E31A /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E43E7C6D21D1077E00D9E31A /* DemoViewController.m */; };
 		E43E7C7321D1077E00D9E31A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43E7C7221D1077E00D9E31A /* Assets.xcassets */; };
@@ -413,10 +424,63 @@
 		6A61594399CBB1605504D998 /* MPLauncherAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPLauncherAppDelegate.m; sourceTree = "<group>"; };
 		73F27248CD2988CEF7424592 /* yw_1222.jpg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; path = yw_1222.jpg; sourceTree = "<group>"; };
 		788E2B952212DDDAB673ADCE /* meta.config */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = meta.config; sourceTree = "<group>"; };
+		8191E961246D808800C98E3D /* InkNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InkNavigationController.m; sourceTree = "<group>"; };
+		8191E962246D808900C98E3D /* InkNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InkNavigationController.h; sourceTree = "<group>"; };
 		81EA5339246D766900D06021 /* UIView+Adapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Adapter.m"; sourceTree = "<group>"; };
 		81EA533A246D766A00D06021 /* UIImage+Adapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Adapter.m"; sourceTree = "<group>"; };
 		81EA533B246D766B00D06021 /* UIImage+Adapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Adapter.h"; sourceTree = "<group>"; };
 		81EA533C246D766B00D06021 /* UIView+Adapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Adapter.h"; sourceTree = "<group>"; };
+		81EA5399246D7DA700D06021 /* InkBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InkBaseViewController.h; sourceTree = "<group>"; };
+		81EA539A246D7DA800D06021 /* InkBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InkBaseViewController.m; sourceTree = "<group>"; };
+		81EA539C246D7DA800D06021 /* ForbiddenScreenShotMarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForbiddenScreenShotMarkView.h; sourceTree = "<group>"; };
+		81EA539D246D7DA800D06021 /* ForbiddenScreenShotMarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForbiddenScreenShotMarkView.m; sourceTree = "<group>"; };
+		81EA53A2246D7E5D00D06021 /* NSObject+Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Runtime.h"; sourceTree = "<group>"; };
+		81EA53A3246D7E5D00D06021 /* NSObject+Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Runtime.m"; sourceTree = "<group>"; };
+		81EA53A5246D7E5D00D06021 /* StartPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartPlugin.m; sourceTree = "<group>"; };
+		81EA53A6246D7E5D00D06021 /* TestPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPlugin.m; sourceTree = "<group>"; };
+		81EA53A7246D7E5D00D06021 /* StartPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartPlugin.h; sourceTree = "<group>"; };
+		81EA53A8246D7E5D00D06021 /* TestPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPlugin.h; sourceTree = "<group>"; };
+		81EA53AA246D7E5D00D06021 /* huoying.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = huoying.mp4; sourceTree = "<group>"; };
+		81EA53AB246D7E5D00D06021 /* Doraemon.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = Doraemon.xlsx; sourceTree = "<group>"; };
+		81EA53AC246D7E5D00D06021 /* doraemon.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = doraemon.html; sourceTree = "<group>"; };
+		81EA53AD246D7E5D00D06021 /* Doraemon.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = Doraemon.docx; sourceTree = "<group>"; };
+		81EA53AE246D7E5D00D06021 /* Doraemon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Doraemon.pdf; sourceTree = "<group>"; };
+		81EA53B1246D7E5D00D06021 /* DoraemonDemoMemoryLeakModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoMemoryLeakModel.h; sourceTree = "<group>"; };
+		81EA53B2246D7E5D00D06021 /* DoraemonDemoMemoryLeakView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoMemoryLeakView.h; sourceTree = "<group>"; };
+		81EA53B3246D7E5D00D06021 /* DoraemonDemoMemoryLeakViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoMemoryLeakViewController.h; sourceTree = "<group>"; };
+		81EA53B4246D7E5D00D06021 /* DoraemonDemoMemoryLeakModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoMemoryLeakModel.m; sourceTree = "<group>"; };
+		81EA53B5246D7E5D00D06021 /* DoraemonDemoMemoryLeakViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoMemoryLeakViewController.m; sourceTree = "<group>"; };
+		81EA53B6246D7E5D00D06021 /* DoraemonDemoMemoryLeakView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoMemoryLeakView.m; sourceTree = "<group>"; };
+		81EA53B8246D7E5D00D06021 /* DoraemonDemoUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoUIViewController.m; sourceTree = "<group>"; };
+		81EA53B9246D7E5D00D06021 /* DoraemonDemoUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoUIViewController.h; sourceTree = "<group>"; };
+		81EA53BB246D7E5D00D06021 /* DoraemonDemoHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoHomeViewController.m; sourceTree = "<group>"; };
+		81EA53BC246D7E5D00D06021 /* DoraemonDemoHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoHomeViewController.h; sourceTree = "<group>"; };
+		81EA53BF246D7E5D00D06021 /* DoraemonWKWebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonWKWebViewViewController.h; sourceTree = "<group>"; };
+		81EA53C0246D7E5D00D06021 /* DoraemonUIWebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonUIWebViewViewController.m; sourceTree = "<group>"; };
+		81EA53C1246D7E5D00D06021 /* DoraemonUIWebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonUIWebViewViewController.h; sourceTree = "<group>"; };
+		81EA53C2246D7E5D00D06021 /* DoraemonWKWebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonWKWebViewViewController.m; sourceTree = "<group>"; };
+		81EA53C3246D7E5D00D06021 /* DoraemonDemoNetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoNetViewController.h; sourceTree = "<group>"; };
+		81EA53C5246D7E5D00D06021 /* DoraemonDemoImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoImageViewController.m; sourceTree = "<group>"; };
+		81EA53C6246D7E5D00D06021 /* DoraemonDemoImageShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoImageShowViewController.m; sourceTree = "<group>"; };
+		81EA53C7246D7E5D00D06021 /* DoraemonDemoImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoImageViewController.h; sourceTree = "<group>"; };
+		81EA53C8246D7E5D00D06021 /* DoraemonDemoImageShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoImageShowViewController.h; sourceTree = "<group>"; };
+		81EA53C9246D7E5D00D06021 /* DoraemonDemoNetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoNetViewController.m; sourceTree = "<group>"; };
+		81EA53CB246D7E5D00D06021 /* DoraemonDemoLoggerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoLoggerViewController.h; sourceTree = "<group>"; };
+		81EA53CC246D7E5D00D06021 /* DoraemonDemoLoggerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoLoggerViewController.m; sourceTree = "<group>"; };
+		81EA53CE246D7E5D00D06021 /* DoraemonDemoCrashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoCrashViewController.h; sourceTree = "<group>"; };
+		81EA53CF246D7E5D00D06021 /* DoraemonDemoCrashMRCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoCrashMRCView.h; sourceTree = "<group>"; };
+		81EA53D0246D7E5D00D06021 /* DoraemonDemoCrashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoCrashViewController.m; sourceTree = "<group>"; };
+		81EA53D1246D7E5D00D06021 /* DoraemonDemoCrashMRCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoCrashMRCView.m; sourceTree = "<group>"; };
+		81EA53D3246D7E5D00D06021 /* DoraemonDemoSanboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoSanboxViewController.h; sourceTree = "<group>"; };
+		81EA53D4246D7E5D00D06021 /* DoraemonDemoSanboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoSanboxViewController.m; sourceTree = "<group>"; };
+		81EA53D6246D7E5D00D06021 /* DoraemonDemoCommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoCommonViewController.h; sourceTree = "<group>"; };
+		81EA53D7246D7E5D00D06021 /* DoraemonDemoCommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoCommonViewController.m; sourceTree = "<group>"; };
+		81EA53D9246D7E5D00D06021 /* DoraemonDemoMockGPSAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoMockGPSAnnotation.m; sourceTree = "<group>"; };
+		81EA53DA246D7E5D00D06021 /* DoraemonDemoMockGPSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoMockGPSViewController.h; sourceTree = "<group>"; };
+		81EA53DB246D7E5D00D06021 /* DoraemonDemoMockGPSAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoMockGPSAnnotation.h; sourceTree = "<group>"; };
+		81EA53DC246D7E5D00D06021 /* DoraemonDemoMockGPSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoMockGPSViewController.m; sourceTree = "<group>"; };
+		81EA53DE246D7E5D00D06021 /* DoraemonDemoPerformanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDemoPerformanceViewController.m; sourceTree = "<group>"; };
+		81EA53DF246D7E5D00D06021 /* DoraemonDemoPerformanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDemoPerformanceViewController.h; sourceTree = "<group>"; };
 		977C43E9EB699FD12B74461A /* mpaas_sdk.config */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = mpaas_sdk.config; sourceTree = "<group>"; };
 		A606DDD8BA1BEF17ABCB40CB /* APMobileFramework.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = APMobileFramework.bundle; sourceTree = "<group>"; };
 		AD28625E3027AAE40A7C646C /* Pods-MPFrameworkDemo_plugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPFrameworkDemo_plugin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MPFrameworkDemo_plugin/Pods-MPFrameworkDemo_plugin.debug.xcconfig"; sourceTree = "<group>"; };
@@ -424,12 +488,6 @@
 		BCD602B5F39A97CC39582CDA /* MPTabBarViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MPTabBarViewController.m; sourceTree = "<group>"; };
 		BEE67A92AB63D29B54073EBE /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		CAA08CFFEE4E09462B8781FB /* MPFrameworkDemo_plugin-mPaaS-Headers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPFrameworkDemo_plugin-mPaaS-Headers.h"; sourceTree = "<group>"; };
-		D623E2F422AE5F26003DED56 /* DoraemonLoadAnalyze.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DoraemonLoadAnalyze.mm; sourceTree = "<group>"; };
-		D623E2F522AE5F26003DED56 /* DoraemonLoadAnalyze.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonLoadAnalyze.h; sourceTree = "<group>"; };
-		D623E2F722AE6A85003DED56 /* DoraemonCPUUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonCPUUtil.h; sourceTree = "<group>"; };
-		D623E2F822AE6A86003DED56 /* DoraemonCPUUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonCPUUtil.m; sourceTree = "<group>"; };
-		D623E2FA22AE6BE0003DED56 /* DoraemonMemoryUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonMemoryUtil.h; sourceTree = "<group>"; };
-		D623E2FB22AE6BE0003DED56 /* DoraemonMemoryUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonMemoryUtil.m; sourceTree = "<group>"; };
 		D6827C152271444A007DDB69 /* MPSearchBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPSearchBarVC.h; sourceTree = "<group>"; };
 		D6827C162271444A007DDB69 /* MPSearchBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPSearchBarVC.m; sourceTree = "<group>"; };
 		D6827C182271444A007DDB69 /* MPDatePickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPDatePickerVC.m; sourceTree = "<group>"; };
@@ -770,24 +828,6 @@
 		D6AFD50622782E23002CC412 /* MPTestAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPTestAppViewController.m; sourceTree = "<group>"; };
 		D6AFD50722782E23002CC412 /* MPTestAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPTestAppDelegate.m; sourceTree = "<group>"; };
 		D6AFD50822782E23002CC412 /* MPTestAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPTestAppViewController.h; sourceTree = "<group>"; };
-		D6B9B88422C0C59D0020D856 /* DoraemonDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDBManager.h; sourceTree = "<group>"; };
-		D6B9B88522C0C59D0020D856 /* DoraemonDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDBManager.m; sourceTree = "<group>"; };
-		D6B9B88722C0C59D0020D856 /* DoraemonSanboxDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonSanboxDetailViewController.m; sourceTree = "<group>"; };
-		D6B9B88822C0C59D0020D856 /* DoraemonSandboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonSandboxViewController.h; sourceTree = "<group>"; };
-		D6B9B88922C0C59D0020D856 /* DoraemonSandboxModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonSandboxModel.h; sourceTree = "<group>"; };
-		D6B9B88A22C0C59D0020D856 /* DoraemonSandboxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonSandboxCell.m; sourceTree = "<group>"; };
-		D6B9B88B22C0C59D0020D856 /* DoraemonSandboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonSandboxViewController.m; sourceTree = "<group>"; };
-		D6B9B88C22C0C59D0020D856 /* DoraemonSanboxDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonSanboxDetailViewController.h; sourceTree = "<group>"; };
-		D6B9B88E22C0C59D0020D856 /* DoraemonDBCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDBCell.h; sourceTree = "<group>"; };
-		D6B9B88F22C0C59D0020D856 /* DoraemonDBRowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDBRowView.m; sourceTree = "<group>"; };
-		D6B9B89022C0C59D0020D856 /* DoraemonDBShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDBShowView.h; sourceTree = "<group>"; };
-		D6B9B89122C0C59D0020D856 /* DoraemonDBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDBTableViewController.h; sourceTree = "<group>"; };
-		D6B9B89222C0C59D0020D856 /* DoraemonDBRowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonDBRowView.h; sourceTree = "<group>"; };
-		D6B9B89322C0C59D0020D856 /* DoraemonDBCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDBCell.m; sourceTree = "<group>"; };
-		D6B9B89422C0C59D0020D856 /* DoraemonDBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDBTableViewController.m; sourceTree = "<group>"; };
-		D6B9B89522C0C59D0020D856 /* DoraemonDBShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonDBShowView.m; sourceTree = "<group>"; };
-		D6B9B89622C0C59D0020D856 /* DoraemonSandboxModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonSandboxModel.m; sourceTree = "<group>"; };
-		D6B9B89722C0C59D0020D856 /* DoraemonSandboxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonSandboxCell.h; sourceTree = "<group>"; };
 		D6B9B8A122C0CB160020D856 /* doraemon_file@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doraemon_file@2x.png"; sourceTree = "<group>"; };
 		D6B9B8A222C0CB160020D856 /* doraemon_file_2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doraemon_file_2@3x.png"; sourceTree = "<group>"; };
 		D6B9B8A322C0CB160020D856 /* doraemon_file@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "doraemon_file@3x.png"; sourceTree = "<group>"; };
@@ -907,18 +947,6 @@
 		D6B9BE5F22C61F790020D856 /* UIKit+HeroExamples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+HeroExamples.swift"; sourceTree = "<group>"; };
 		D6CB97662272E63A00E2FAF8 /* MPDataCenterTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPDataCenterTestCase.m; sourceTree = "<group>"; };
 		D6CB97672272E63A00E2FAF8 /* MPDataCenterTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPDataCenterTestCase.h; sourceTree = "<group>"; };
-		D6EC1F8B22AF4CA4000F6ACD /* DoraemonANRManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonANRManager.h; sourceTree = "<group>"; };
-		D6EC1F8C22AF4CA4000F6ACD /* BSBacktraceLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBacktraceLogger.h; sourceTree = "<group>"; };
-		D6EC1F8D22AF4CA4000F6ACD /* DoraemonPingThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonPingThread.h; sourceTree = "<group>"; };
-		D6EC1F8E22AF4CA4000F6ACD /* DoraemonANRTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonANRTracker.m; sourceTree = "<group>"; };
-		D6EC1F8F22AF4CA4000F6ACD /* BSBacktraceLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBacktraceLogger.m; sourceTree = "<group>"; };
-		D6EC1F9022AF4CA4000F6ACD /* DoraemonANRManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonANRManager.m; sourceTree = "<group>"; };
-		D6EC1F9122AF4CA4000F6ACD /* DoraemonANRTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonANRTracker.h; sourceTree = "<group>"; };
-		D6EC1F9222AF4CA4000F6ACD /* DoraemonPingThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonPingThread.m; sourceTree = "<group>"; };
-		D6EC1F9722AF4DD3000F6ACD /* DoraemonAppInfoUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonAppInfoUtil.m; sourceTree = "<group>"; };
-		D6EC1F9822AF4DD3000F6ACD /* DoraemonAppInfoUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonAppInfoUtil.h; sourceTree = "<group>"; };
-		D6EC1F9A22AF4E13000F6ACD /* DoraemonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonUtil.m; sourceTree = "<group>"; };
-		D6EC1F9B22AF4E13000F6ACD /* DoraemonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonUtil.h; sourceTree = "<group>"; };
 		DD033832E156B226EFC1035E /* DTFrameworkInterface+MPFrameworkDemo_plugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTFrameworkInterface+MPFrameworkDemo_plugin.h"; sourceTree = "<group>"; };
 		E43E7C6621D1077E00D9E31A /* MPFrameworkDemo_plugin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPFrameworkDemo_plugin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E43E7C6C21D1077E00D9E31A /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
@@ -1057,6 +1085,197 @@
 			path = Targets;
 			sourceTree = "<group>";
 		};
+		81EA539B246D7DA800D06021 /* WaterMark */ = {
+			isa = PBXGroup;
+			children = (
+				81EA539C246D7DA800D06021 /* ForbiddenScreenShotMarkView.h */,
+				81EA539D246D7DA800D06021 /* ForbiddenScreenShotMarkView.m */,
+			);
+			path = WaterMark;
+			sourceTree = "<group>";
+		};
+		81EA53A0246D7E5D00D06021 /* DoraemonKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				81EA53A1246D7E5D00D06021 /* Util */,
+				81EA53A4246D7E5D00D06021 /* Plugin */,
+				81EA53A9246D7E5D00D06021 /* Resource */,
+				81EA53AF246D7E5D00D06021 /* DemoVC */,
+			);
+			path = DoraemonKitDemo;
+			sourceTree = "<group>";
+		};
+		81EA53A1246D7E5D00D06021 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				81EA53A2246D7E5D00D06021 /* NSObject+Runtime.h */,
+				81EA53A3246D7E5D00D06021 /* NSObject+Runtime.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		81EA53A4246D7E5D00D06021 /* Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				81EA53A5246D7E5D00D06021 /* StartPlugin.m */,
+				81EA53A6246D7E5D00D06021 /* TestPlugin.m */,
+				81EA53A7246D7E5D00D06021 /* StartPlugin.h */,
+				81EA53A8246D7E5D00D06021 /* TestPlugin.h */,
+			);
+			path = Plugin;
+			sourceTree = "<group>";
+		};
+		81EA53A9246D7E5D00D06021 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				81EA53AA246D7E5D00D06021 /* huoying.mp4 */,
+				81EA53AB246D7E5D00D06021 /* Doraemon.xlsx */,
+				81EA53AC246D7E5D00D06021 /* doraemon.html */,
+				81EA53AD246D7E5D00D06021 /* Doraemon.docx */,
+				81EA53AE246D7E5D00D06021 /* Doraemon.pdf */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		81EA53AF246D7E5D00D06021 /* DemoVC */ = {
+			isa = PBXGroup;
+			children = (
+				81EA53B0246D7E5D00D06021 /* MemoryLeak */,
+				81EA53B7246D7E5D00D06021 /* UI */,
+				81EA53BA246D7E5D00D06021 /* Home */,
+				81EA53BD246D7E5D00D06021 /* Net */,
+				81EA53CA246D7E5D00D06021 /* Logger */,
+				81EA53CD246D7E5D00D06021 /* Crash */,
+				81EA53D2246D7E5D00D06021 /* Sanbox */,
+				81EA53D5246D7E5D00D06021 /* Common */,
+				81EA53D8246D7E5D00D06021 /* MockGPS */,
+				81EA53DD246D7E5D00D06021 /* Performance */,
+			);
+			path = DemoVC;
+			sourceTree = "<group>";
+		};
+		81EA53B0246D7E5D00D06021 /* MemoryLeak */ = {
+			isa = PBXGroup;
+			children = (
+				81EA53B1246D7E5D00D06021 /* DoraemonDemoMemoryLeakModel.h */,
+				81EA53B2246D7E5D00D06021 /* DoraemonDemoMemoryLeakView.h */,
+				81EA53B3246D7E5D00D06021 /* DoraemonDemoMemoryLeakViewController.h */,
+				81EA53B4246D7E5D00D06021 /* DoraemonDemoMemoryLeakModel.m */,
+				81EA53B5246D7E5D00D06021 /* DoraemonDemoMemoryLeakViewController.m */,
+				81EA53B6246D7E5D00D06021 /* DoraemonDemoMemoryLeakView.m */,
+			);
+			path = MemoryLeak;
+			sourceTree = "<group>";
+		};
+		81EA53B7246D7E5D00D06021 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				81EA53B8246D7E5D00D06021 /* DoraemonDemoUIViewController.m */,
+				81EA53B9246D7E5D00D06021 /* DoraemonDemoUIViewController.h */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		81EA53BA246D7E5D00D06021 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				81EA53BB246D7E5D00D06021 /* DoraemonDemoHomeViewController.m */,
+				81EA53BC246D7E5D00D06021 /* DoraemonDemoHomeViewController.h */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		81EA53BD246D7E5D00D06021 /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				81EA53BE246D7E5D00D06021 /* WebView */,
+				81EA53C3246D7E5D00D06021 /* DoraemonDemoNetViewController.h */,
+				81EA53C4246D7E5D00D06021 /* Image */,
+				81EA53C9246D7E5D00D06021 /* DoraemonDemoNetViewController.m */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		81EA53BE246D7E5D00D06021 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				81EA53BF246D7E5D00D06021 /* DoraemonWKWebViewViewController.h */,
+				81EA53C0246D7E5D00D06021 /* DoraemonUIWebViewViewController.m */,
+				81EA53C1246D7E5D00D06021 /* DoraemonUIWebViewViewController.h */,
+				81EA53C2246D7E5D00D06021 /* DoraemonWKWebViewViewController.m */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		81EA53C4246D7E5D00D06021 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				81EA53C5246D7E5D00D06021 /* DoraemonDemoImageViewController.m */,
+				81EA53C6246D7E5D00D06021 /* DoraemonDemoImageShowViewController.m */,
+				81EA53C7246D7E5D00D06021 /* DoraemonDemoImageViewController.h */,
+				81EA53C8246D7E5D00D06021 /* DoraemonDemoImageShowViewController.h */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		81EA53CA246D7E5D00D06021 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				81EA53CB246D7E5D00D06021 /* DoraemonDemoLoggerViewController.h */,
+				81EA53CC246D7E5D00D06021 /* DoraemonDemoLoggerViewController.m */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		81EA53CD246D7E5D00D06021 /* Crash */ = {
+			isa = PBXGroup;
+			children = (
+				81EA53CE246D7E5D00D06021 /* DoraemonDemoCrashViewController.h */,
+				81EA53CF246D7E5D00D06021 /* DoraemonDemoCrashMRCView.h */,
+				81EA53D0246D7E5D00D06021 /* DoraemonDemoCrashViewController.m */,
+				81EA53D1246D7E5D00D06021 /* DoraemonDemoCrashMRCView.m */,
+			);
+			path = Crash;
+			sourceTree = "<group>";
+		};
+		81EA53D2246D7E5D00D06021 /* Sanbox */ = {
+			isa = PBXGroup;
+			children = (
+				81EA53D3246D7E5D00D06021 /* DoraemonDemoSanboxViewController.h */,
+				81EA53D4246D7E5D00D06021 /* DoraemonDemoSanboxViewController.m */,
+			);
+			path = Sanbox;
+			sourceTree = "<group>";
+		};
+		81EA53D5246D7E5D00D06021 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				81EA53D6246D7E5D00D06021 /* DoraemonDemoCommonViewController.h */,
+				81EA53D7246D7E5D00D06021 /* DoraemonDemoCommonViewController.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		81EA53D8246D7E5D00D06021 /* MockGPS */ = {
+			isa = PBXGroup;
+			children = (
+				81EA53D9246D7E5D00D06021 /* DoraemonDemoMockGPSAnnotation.m */,
+				81EA53DA246D7E5D00D06021 /* DoraemonDemoMockGPSViewController.h */,
+				81EA53DB246D7E5D00D06021 /* DoraemonDemoMockGPSAnnotation.h */,
+				81EA53DC246D7E5D00D06021 /* DoraemonDemoMockGPSViewController.m */,
+			);
+			path = MockGPS;
+			sourceTree = "<group>";
+		};
+		81EA53DD246D7E5D00D06021 /* Performance */ = {
+			isa = PBXGroup;
+			children = (
+				81EA53DE246D7E5D00D06021 /* DoraemonDemoPerformanceViewController.m */,
+				81EA53DF246D7E5D00D06021 /* DoraemonDemoPerformanceViewController.h */,
+			);
+			path = Performance;
+			sourceTree = "<group>";
+		};
 		9144BD62980E30CC18CBD04E /* MPaaS */ = {
 			isa = PBXGroup;
 			children = (
@@ -1079,8 +1298,11 @@
 		C982B35463252E4C06194C09 /* Launcher */ = {
 			isa = PBXGroup;
 			children = (
-				D6EC1F8A22AF4CA4000F6ACD /* ANR */,
-				D623E2F322AE5F26003DED56 /* DoraemonLoadAnalyze */,
+				8191E962246D808900C98E3D /* InkNavigationController.h */,
+				8191E961246D808800C98E3D /* InkNavigationController.m */,
+				81EA5399246D7DA700D06021 /* InkBaseViewController.h */,
+				81EA539A246D7DA800D06021 /* InkBaseViewController.m */,
+				81EA539B246D7DA800D06021 /* WaterMark */,
 				1871F718CD58A4E6AE6E9234 /* MPLauncherAppDelegate.h */,
 				6A61594399CBB1605504D998 /* MPLauncherAppDelegate.m */,
 				117CE86EC0DA442F692556D6 /* MPTabBarViewController.h */,
@@ -1088,19 +1310,6 @@
 				161F24C4BB525C74E2394D8F /* MobileRuntime.plist */,
 			);
 			path = Launcher;
-			sourceTree = "<group>";
-		};
-		D623E2F322AE5F26003DED56 /* DoraemonLoadAnalyze */ = {
-			isa = PBXGroup;
-			children = (
-				D623E2FA22AE6BE0003DED56 /* DoraemonMemoryUtil.h */,
-				D623E2FB22AE6BE0003DED56 /* DoraemonMemoryUtil.m */,
-				D623E2F722AE6A85003DED56 /* DoraemonCPUUtil.h */,
-				D623E2F822AE6A86003DED56 /* DoraemonCPUUtil.m */,
-				D623E2F422AE5F26003DED56 /* DoraemonLoadAnalyze.mm */,
-				D623E2F522AE5F26003DED56 /* DoraemonLoadAnalyze.h */,
-			);
-			path = DoraemonLoadAnalyze;
 			sourceTree = "<group>";
 		};
 		D6827C132271444A007DDB69 /* Component */ = {
@@ -1992,55 +2201,6 @@
 			path = MPTestApp;
 			sourceTree = "<group>";
 		};
-		D6B9B88222C0C59D0020D856 /* Sanbox */ = {
-			isa = PBXGroup;
-			children = (
-				D6B9B88322C0C59D0020D856 /* Util */,
-				D6B9B88622C0C59D0020D856 /* VC */,
-			);
-			path = Sanbox;
-			sourceTree = "<group>";
-		};
-		D6B9B88322C0C59D0020D856 /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				D6B9B88422C0C59D0020D856 /* DoraemonDBManager.h */,
-				D6B9B88522C0C59D0020D856 /* DoraemonDBManager.m */,
-			);
-			path = Util;
-			sourceTree = "<group>";
-		};
-		D6B9B88622C0C59D0020D856 /* VC */ = {
-			isa = PBXGroup;
-			children = (
-				D6B9B88722C0C59D0020D856 /* DoraemonSanboxDetailViewController.m */,
-				D6B9B88822C0C59D0020D856 /* DoraemonSandboxViewController.h */,
-				D6B9B88922C0C59D0020D856 /* DoraemonSandboxModel.h */,
-				D6B9B88A22C0C59D0020D856 /* DoraemonSandboxCell.m */,
-				D6B9B88B22C0C59D0020D856 /* DoraemonSandboxViewController.m */,
-				D6B9B88C22C0C59D0020D856 /* DoraemonSanboxDetailViewController.h */,
-				D6B9B88D22C0C59D0020D856 /* DB */,
-				D6B9B89622C0C59D0020D856 /* DoraemonSandboxModel.m */,
-				D6B9B89722C0C59D0020D856 /* DoraemonSandboxCell.h */,
-			);
-			path = VC;
-			sourceTree = "<group>";
-		};
-		D6B9B88D22C0C59D0020D856 /* DB */ = {
-			isa = PBXGroup;
-			children = (
-				D6B9B88E22C0C59D0020D856 /* DoraemonDBCell.h */,
-				D6B9B88F22C0C59D0020D856 /* DoraemonDBRowView.m */,
-				D6B9B89022C0C59D0020D856 /* DoraemonDBShowView.h */,
-				D6B9B89122C0C59D0020D856 /* DoraemonDBTableViewController.h */,
-				D6B9B89222C0C59D0020D856 /* DoraemonDBRowView.h */,
-				D6B9B89322C0C59D0020D856 /* DoraemonDBCell.m */,
-				D6B9B89422C0C59D0020D856 /* DoraemonDBTableViewController.m */,
-				D6B9B89522C0C59D0020D856 /* DoraemonDBShowView.m */,
-			);
-			path = DB;
-			sourceTree = "<group>";
-		};
 		D6B9BD0D22C32BE40020D856 /* MatrixDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -2343,25 +2503,6 @@
 			path = MPDataCenter;
 			sourceTree = "<group>";
 		};
-		D6EC1F8A22AF4CA4000F6ACD /* ANR */ = {
-			isa = PBXGroup;
-			children = (
-				D6EC1F9B22AF4E13000F6ACD /* DoraemonUtil.h */,
-				D6EC1F9A22AF4E13000F6ACD /* DoraemonUtil.m */,
-				D6EC1F9822AF4DD3000F6ACD /* DoraemonAppInfoUtil.h */,
-				D6EC1F9722AF4DD3000F6ACD /* DoraemonAppInfoUtil.m */,
-				D6EC1F8B22AF4CA4000F6ACD /* DoraemonANRManager.h */,
-				D6EC1F8C22AF4CA4000F6ACD /* BSBacktraceLogger.h */,
-				D6EC1F8D22AF4CA4000F6ACD /* DoraemonPingThread.h */,
-				D6EC1F8E22AF4CA4000F6ACD /* DoraemonANRTracker.m */,
-				D6EC1F8F22AF4CA4000F6ACD /* BSBacktraceLogger.m */,
-				D6EC1F9022AF4CA4000F6ACD /* DoraemonANRManager.m */,
-				D6EC1F9122AF4CA4000F6ACD /* DoraemonANRTracker.h */,
-				D6EC1F9222AF4CA4000F6ACD /* DoraemonPingThread.m */,
-			);
-			path = ANR;
-			sourceTree = "<group>";
-		};
 		E43E7C5D21D1077E00D9E31A = {
 			isa = PBXGroup;
 			children = (
@@ -2395,9 +2536,9 @@
 		E43E7C7F21D108B900D9E31A /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				81EA53A0246D7E5D00D06021 /* DoraemonKitDemo */,
 				D6B9BD4022C4A7530020D856 /* Swift */,
 				D6B9BD0D22C32BE40020D856 /* MatrixDemo */,
-				D6B9B88222C0C59D0020D856 /* Sanbox */,
 				D6AFD50422782E23002CC412 /* MPTestApp */,
 				D6827C2B22714FE0007DDB69 /* Aui */,
 				D6827C132271444A007DDB69 /* Component */,
@@ -2566,6 +2707,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81EA53E3246D7E5E00D06021 /* huoying.mp4 in Resources */,
 				D6827E7D22715D28007DDB69 /* ap_scan@2x.png in Resources */,
 				D6827E8A22715D28007DDB69 /* samplePng.png in Resources */,
 				D6827E8522715D28007DDB69 /* 4.jpg in Resources */,
@@ -2614,6 +2756,7 @@
 				D6B9BDAC22C4B0100020D856 /* ScatterChartViewController.xib in Resources */,
 				D6827E6722715D28007DDB69 /* badge_xin_bg@2x.png in Resources */,
 				D6827E7622715D28007DDB69 /* hc_popmenu_delAndBlack@2x.png in Resources */,
+				81EA53E4246D7E5E00D06021 /* Doraemon.xlsx in Resources */,
 				D6827E9822715D28007DDB69 /* list_user_big.png in Resources */,
 				D6B9BDAE22C4B0100020D856 /* CubicLineChartViewController.xib in Resources */,
 				D6B9BDA922C4B0100020D856 /* HalfPieChartViewController.xib in Resources */,
@@ -2625,6 +2768,7 @@
 				D6B9BDA322C4B0100020D856 /* LineChart1ViewController.xib in Resources */,
 				D6827E9922715D28007DDB69 /* hc_popmenu_inform@2x.png in Resources */,
 				D6827E5E22715D28007DDB69 /* themes_320.strings in Resources */,
+				81EA53E5246D7E5E00D06021 /* doraemon.html in Resources */,
 				D6827E6622715D28007DDB69 /* home_multimedia.png in Resources */,
 				D6B9BDA722C4B0100020D856 /* CombinedChartViewController.xib in Resources */,
 				D6827E7922715D28007DDB69 /* hc_popmenu_delete@2x.png in Resources */,
@@ -2634,6 +2778,7 @@
 				D6827E9622715D28007DDB69 /* LLIconfont.ttf in Resources */,
 				D6B9BD9E22C4B0100020D856 /* BarChartViewController.xib in Resources */,
 				D6827E5F22715D28007DDB69 /* themes_414.strings in Resources */,
+				81EA53E7246D7E5E00D06021 /* Doraemon.pdf in Resources */,
 				D6827E6E22715D28007DDB69 /* home_ui.png in Resources */,
 				D6827E8722715D28007DDB69 /* 2.jpg in Resources */,
 				D6B9BD9F22C4B0100020D856 /* ColoredLineChartViewController.xib in Resources */,
@@ -2649,6 +2794,7 @@
 				D6827E7222715D28007DDB69 /* test1.jpg in Resources */,
 				D6827E8822715D28007DDB69 /* 3.jpg in Resources */,
 				D6B9BDB322C4B0100020D856 /* BubbleChartViewController.xib in Resources */,
+				81EA53E6246D7E5E00D06021 /* Doraemon.docx in Resources */,
 				D6827E9422715D28007DDB69 /* badge_new_bg@2x.png in Resources */,
 				D6827E6D22715D28007DDB69 /* home_leftitem.png in Resources */,
 				5509C0F31C02375699098FEC /* yw_1222.jpg in Resources */,
@@ -2707,12 +2853,16 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MPFrameworkDemo_plugin/Pods-MPFrameworkDemo_plugin-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/DoraemonKit/DoraemonKit.bundle",
+				"${PODS_ROOT}/../Third/iOSDebugDatabase-master/DebugDatabase/Web.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/mPaas/mPaas.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DoraemonKit.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Web.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mPaas.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2730,8 +2880,12 @@
 				D6B9BE4222C619080020D856 /* CollectionViewController.swift in Sources */,
 				D6827DF122714FE1007DDB69 /* LOTShapeTransform.m in Sources */,
 				D6827DE422714FE1007DDB69 /* LOTLayer.m in Sources */,
+				81EA53F2246D7E5E00D06021 /* DoraemonDemoLoggerViewController.m in Sources */,
 				D6B9BDC322C4B0100020D856 /* ColoredLineChartViewController.swift in Sources */,
+				81EA53E0246D7E5E00D06021 /* NSObject+Runtime.m in Sources */,
+				81EA53ED246D7E5E00D06021 /* DoraemonUIWebViewViewController.m in Sources */,
 				D6B9BDCE22C4B0100020D856 /* CubicLineChartViewController.swift in Sources */,
+				81EA539F246D7DA800D06021 /* ForbiddenScreenShotMarkView.m in Sources */,
 				D6B9BDCC22C4B0100020D856 /* AnotherBarChartViewController.swift in Sources */,
 				D6827D9622714FE1007DDB69 /* SearchHomeDemoViewController.m in Sources */,
 				D6B9BDB522C4B0100020D856 /* IntAxisValueFormatter.swift in Sources */,
@@ -2744,7 +2898,6 @@
 				D6827DF722714FE1007DDB69 /* UIColor.m in Sources */,
 				D6827E0B22714FE1007DDB69 /* AssistDemoDefaultLabelUtil.m in Sources */,
 				D6827DD422714FE1007DDB69 /* LOTValueInterpolator.m in Sources */,
-				D6B9B89922C0C59E0020D856 /* DoraemonSanboxDetailViewController.m in Sources */,
 				D6827D9522714FE1007DDB69 /* LottieTestDemo.m in Sources */,
 				D6827DBA22714FE1007DDB69 /* LoadDemoViewController.m in Sources */,
 				D6827DC522714FE1007DDB69 /* MenuTitleViewDemoViewController.m in Sources */,
@@ -2756,7 +2909,6 @@
 				E43E7C6E21D1077E00D9E31A /* DemoViewController.m in Sources */,
 				D6827E0322714FE1007DDB69 /* LOTLayerContainer.m in Sources */,
 				D6827DB722714FE1007DDB69 /* PopoverDemoViewController.m in Sources */,
-				D6EC1F9322AF4CA4000F6ACD /* DoraemonANRTracker.m in Sources */,
 				D6827DDA22714FE1007DDB69 /* LOTPolystarAnimator.m in Sources */,
 				D6827D9F22714FE1007DDB69 /* AURefreshViewDemoViewControllerTest.m in Sources */,
 				D6827DCC22714FE1007DDB69 /* BadgeDemoViewController.m in Sources */,
@@ -2766,18 +2918,16 @@
 				D6B9BE3E22C619080020D856 /* TestData.swift in Sources */,
 				D6B9BE3D22C619080020D856 /* ExampleView.swift in Sources */,
 				D6827DE322714FE1007DDB69 /* LOTMask.m in Sources */,
-				D6EC1F9422AF4CA4000F6ACD /* BSBacktraceLogger.m in Sources */,
 				D6827E1722715A9B007DDB69 /* AntUIShellObject.m in Sources */,
 				D6B9BE4522C619080020D856 /* Messages.swift in Sources */,
 				D6827DFD22714FE1007DDB69 /* LOTAnimationTransitionController.m in Sources */,
+				81EA53E2246D7E5E00D06021 /* TestPlugin.m in Sources */,
 				D6B9BDB822C4B0100020D856 /* LargeValueFormatter.swift in Sources */,
 				D6827DCD22714FE1007DDB69 /* HookUtil.m in Sources */,
 				D6827DD322714FE1007DDB69 /* LOTPointInterpolator.m in Sources */,
 				D6827DDB22714FE1007DDB69 /* LOTPolygonAnimator.m in Sources */,
 				D6827DFC22714FE1007DDB69 /* LOTAnimationView.m in Sources */,
-				D6B9B89F22C0C59E0020D856 /* DoraemonDBShowView.m in Sources */,
 				D6827C282271444A007DDB69 /* MPPullRefreshVC.m in Sources */,
-				D6B9B89C22C0C59E0020D856 /* DoraemonDBRowView.m in Sources */,
 				D6B9BE3822C619080020D856 /* ZoomAnimator.swift in Sources */,
 				D6827DD722714FE1007DDB69 /* LOTNumberInterpolator.m in Sources */,
 				D6827DA322714FE1007DDB69 /* DemoEmptyLoadingViewController.m in Sources */,
@@ -2789,7 +2939,6 @@
 				D6B9BDC222C4B0100020D856 /* LineChartTimeViewController.swift in Sources */,
 				D6827DB022714FE1007DDB69 /* DemoCollectionDragLoadingViewController.m in Sources */,
 				D6827D9422714FE1007DDB69 /* ScreenBrightnessDemoViewController.m in Sources */,
-				D6EC1F9522AF4CA4000F6ACD /* DoraemonANRManager.m in Sources */,
 				D6827DE022714FE1007DDB69 /* LOTStrokeRenderer.m in Sources */,
 				D6B9BDEB22C5FE1E0020D856 /* BasicUIScrollViewController.swift in Sources */,
 				D6B9BDCB22C4B0100020D856 /* PositiveNegativeBarChartViewController.swift in Sources */,
@@ -2803,11 +2952,11 @@
 				D6B9BDBA22C4B0100020D856 /* BalloonMarker.swift in Sources */,
 				D6827DF022714FE1007DDB69 /* LOTShapeFill.m in Sources */,
 				D6827DF822714FE1007DDB69 /* NSValue+Compat.m in Sources */,
-				D6EC1F9922AF4DD3000F6ACD /* DoraemonAppInfoUtil.m in Sources */,
+				8191E963246D808900C98E3D /* InkNavigationController.m in Sources */,
 				D6827DDD22714FE1007DDB69 /* LOTRoundedRectAnimator.m in Sources */,
 				D6827DB822714FE1007DDB69 /* PopMenuDemoViewController.m in Sources */,
-				D6B9B89A22C0C59E0020D856 /* DoraemonSandboxCell.m in Sources */,
 				D6827DA022714FE1007DDB69 /* AURefreshViewDemoViewController.m in Sources */,
+				81EA53F3246D7E5E00D06021 /* DoraemonDemoCrashViewController.m in Sources */,
 				BFAB468D4484D80658F82F19 /* MPTabBarViewController.m in Sources */,
 				219AA811B70E3320A7008632 /* MPaaSInterface+MPFrameworkDemo_plugin.m in Sources */,
 				D6827D9022714FE1007DDB69 /* DemoNewChangeSkinViewController.m in Sources */,
@@ -2826,14 +2975,14 @@
 				D6B9BE3C22C619080020D856 /* Random.swift in Sources */,
 				4461BA57224C8D27004F739C /* MPFrameworkBizBAppDelegate.m in Sources */,
 				D6B9BD2422C32BED0020D856 /* Utility.mm in Sources */,
+				81EA53F9246D7E5E00D06021 /* DoraemonDemoPerformanceViewController.m in Sources */,
 				D6B9BE4722C619080020D856 /* MessageCell.swift in Sources */,
 				D6827E0D22714FE1007DDB69 /* CAGradientLayerDemoFactory.m in Sources */,
-				D623E2F922AE6A86003DED56 /* DoraemonCPUUtil.m in Sources */,
+				81EA53EC246D7E5E00D06021 /* DoraemonDemoHomeViewController.m in Sources */,
 				D6B9BE6522C61F790020D856 /* MatchInCollectionExample.swift in Sources */,
 				D6827DD822714FE1007DDB69 /* LOTAnimatorNode.m in Sources */,
 				D6827DC822714FE1007DDB69 /* CustomNaviBarDemoViewController.m in Sources */,
 				D6B9BDBB22C4B0100020D856 /* RadarMarkerView.swift in Sources */,
-				D623E2F622AE5F26003DED56 /* DoraemonLoadAnalyze.mm in Sources */,
 				D6827DAB22714FE1007DDB69 /* SegmentDemoViewController.m in Sources */,
 				D6B9BDC622C4B0100020D856 /* NegativeStackedBarChartViewController.swift in Sources */,
 				D6827DF522714FE1007DDB69 /* LOTRadialGradientLayer.m in Sources */,
@@ -2863,17 +3012,17 @@
 				D6827E0122714FE1007DDB69 /* LOTKeyframe.m in Sources */,
 				D6B9BE4A22C619080020D856 /* ArticleExampleViewController.swift in Sources */,
 				D6827DBC22714FE1007DDB69 /* ButtonDemoViewViewController.m in Sources */,
-				D623E2FC22AE6BE0003DED56 /* DoraemonMemoryUtil.m in Sources */,
 				D6B9BDCA22C4B0100020D856 /* LineChartFilledViewController.swift in Sources */,
 				D6B9BD2522C32BED0020D856 /* MatrixViewController.mm in Sources */,
 				D68E5E0222C9B040008ABFC5 /* SwiftMainViewController.swift in Sources */,
 				D6B9BDD422C4B0100020D856 /* SinusBarChartViewController.swift in Sources */,
 				D6B9BDBF22C4B0100020D856 /* MultipleLinesChartViewController.swift in Sources */,
 				D6B9BDC022C4B0100020D856 /* MultipleBarChartViewController.swift in Sources */,
+				81EA53EA246D7E5E00D06021 /* DoraemonDemoMemoryLeakView.m in Sources */,
 				D6827D9E22714FE1007DDB69 /* PopTipDemoViewController.m in Sources */,
+				81EA53E9246D7E5E00D06021 /* DoraemonDemoMemoryLeakViewController.m in Sources */,
 				D6827D9722714FE1007DDB69 /* SearchTitleViewDemoViewController.m in Sources */,
 				D6827DFF22714FE1007DDB69 /* LOTAnimatedControl.m in Sources */,
-				D6EC1F9C22AF4E13000F6ACD /* DoraemonUtil.m in Sources */,
 				D6B9BE6022C61F790020D856 /* AppStoreCardExample.swift in Sources */,
 				D6827DE822714FE1007DDB69 /* LOTShapeTrimPath.m in Sources */,
 				D6827DC422714FE1007DDB69 /* MainTitleBarDemoViewController.m in Sources */,
@@ -2883,9 +3032,11 @@
 				4461BA5D224C8D27004F739C /* MPFrameworkBizAVC.m in Sources */,
 				D6B9BDC522C4B0100020D856 /* LineChart1ViewController.swift in Sources */,
 				D6827DD222714FE1007DDB69 /* LOTSizeInterpolator.m in Sources */,
+				81EA53E8246D7E5E00D06021 /* DoraemonDemoMemoryLeakModel.m in Sources */,
 				D6B9BE4C22C619080020D856 /* HorizontalGalleryViewController.swift in Sources */,
 				D6827DBE22714FE1007DDB69 /* LoadIndicatorDemoViewController.m in Sources */,
 				D6B9BE4922C619080020D856 /* ArticleView.swift in Sources */,
+				81EA53F5246D7E5E00D06021 /* DoraemonDemoSanboxViewController.m in Sources */,
 				D6827DBF22714FE1007DDB69 /* FontDemoViewController.m in Sources */,
 				D6827DF422714FE1007DDB69 /* LOTBezierPath.m in Sources */,
 				D6B9BE3622C619080020D856 /* SelectionButton.swift in Sources */,
@@ -2896,16 +3047,17 @@
 				D6AFD50922782E23002CC412 /* MPTestAppViewController.m in Sources */,
 				D6B9BE6322C61F790020D856 /* MatchExample.swift in Sources */,
 				D6827DAE22714FE1007DDB69 /* CheckboxDemoViewCotroller.m in Sources */,
+				81EA53E1246D7E5E00D06021 /* StartPlugin.m in Sources */,
 				D6B9BDCD22C4B0100020D856 /* PieChartViewController.swift in Sources */,
 				D6B9BE3722C619080020D856 /* AnimatorExampleViewController.swift in Sources */,
+				81EA53F7246D7E5E00D06021 /* DoraemonDemoMockGPSAnnotation.m in Sources */,
 				D6827E0222714FE1007DDB69 /* LOTBezierData.m in Sources */,
 				D6827DA822714FE1007DDB69 /* ColorDemoViewController.m in Sources */,
 				D6827DC022714FE1007DDB69 /* DemoAUBannerViewViewController.m in Sources */,
 				D6B9BDBD22C4B0100020D856 /* CemoListViewController.swift in Sources */,
-				D6B9B8A022C0C59E0020D856 /* DoraemonSandboxModel.m in Sources */,
+				81EA53EF246D7E5E00D06021 /* DoraemonDemoImageViewController.m in Sources */,
 				4461BA66224C8D68004F739C /* MPNavigatorScrollVC.m in Sources */,
 				D6827E0522714FE1007DDB69 /* LOTMaskContainer.m in Sources */,
-				D6B9B89822C0C59E0020D856 /* DoraemonDBManager.m in Sources */,
 				D6B9BDC922C4B0100020D856 /* BubbleChartViewController.swift in Sources */,
 				D6B9BE6122C61F790020D856 /* ExampleBaseViewController.swift in Sources */,
 				D6B9BDC122C4B0100020D856 /* HalfPieChartViewController.swift in Sources */,
@@ -2916,20 +3068,20 @@
 				4461BA5B224C8D27004F739C /* MPFrameworkBizCVC.m in Sources */,
 				D6B9BDC422C4B0100020D856 /* LineChart2ViewController.swift in Sources */,
 				D6827DAA22714FE1007DDB69 /* SegmentHomeDemoViewController.m in Sources */,
-				D6B9B89E22C0C59E0020D856 /* DoraemonDBTableViewController.m in Sources */,
 				D6B9BDC822C4B0100020D856 /* StackedBarChartViewController.swift in Sources */,
 				D6B9BE4422C619080020D856 /* GridViewController.swift in Sources */,
+				81EA53EB246D7E5E00D06021 /* DoraemonDemoUIViewController.m in Sources */,
 				D6827DEF22714FE1007DDB69 /* LOTShapeGroup.m in Sources */,
+				81EA53F0246D7E5E00D06021 /* DoraemonDemoImageShowViewController.m in Sources */,
 				D6827DCE22714FE1007DDB69 /* LOTRenderNode.m in Sources */,
 				D6827DF222714FE1007DDB69 /* LOTShapeStroke.m in Sources */,
 				D6B9BE4622C619080020D856 /* MessagesViewController.swift in Sources */,
 				D6B9BD2722C32BED0020D856 /* MatrixHandler.mm in Sources */,
+				81EA53EE246D7E5E00D06021 /* DoraemonWKWebViewViewController.m in Sources */,
 				D6827DE922714FE1007DDB69 /* LOTShapeGradientFill.m in Sources */,
 				D6827DD022714FE1007DDB69 /* LOTColorInterpolator.m in Sources */,
 				D6827E0422714FE1007DDB69 /* LOTCompositionContainer.m in Sources */,
-				D6B9B89B22C0C59E0020D856 /* DoraemonSandboxViewController.m in Sources */,
 				D6827DA622714FE1007DDB69 /* InputDemoViewController.m in Sources */,
-				D6EC1F9622AF4CA4000F6ACD /* DoraemonPingThread.m in Sources */,
 				D6827DAD22714FE1007DDB69 /* KeyboardsDemoViewController.m in Sources */,
 				81EA533D246D766B00D06021 /* UIView+Adapter.m in Sources */,
 				4461BA5C224C8D27004F739C /* MPFrameworkBizAService.m in Sources */,
@@ -2945,8 +3097,11 @@
 				D6827DA222714FE1007DDB69 /* RadioDemoViewController.m in Sources */,
 				81EA533E246D766B00D06021 /* UIImage+Adapter.m in Sources */,
 				D6827D9922714FE1007DDB69 /* bladeViewController.m in Sources */,
+				81EA53F1246D7E5E00D06021 /* DoraemonDemoNetViewController.m in Sources */,
 				D6827DBB22714FE1007DDB69 /* TextareaDemoViewController.m in Sources */,
 				D6827C292271444A007DDB69 /* ComponentViewController.m in Sources */,
+				81EA53F4246D7E5E00D06021 /* DoraemonDemoCrashMRCView.m in Sources */,
+				81EA53F6246D7E5E00D06021 /* DoraemonDemoCommonViewController.m in Sources */,
 				D6827D8D22714FE1007DDB69 /* DemoBasicView.m in Sources */,
 				D6827D8C22714FE1007DDB69 /* DemoHomeViewController.m in Sources */,
 				D6827DA522714FE1007DDB69 /* ListDemoViewController.m in Sources */,
@@ -2960,6 +3115,7 @@
 				D6B9BE6222C61F790020D856 /* BuiltInTransitionExample.swift in Sources */,
 				D6B9BD2622C32BED0020D856 /* TestOOMViewController.mm in Sources */,
 				D6827DE222714FE1007DDB69 /* LOTRepeaterRenderer.m in Sources */,
+				81EA53F8246D7E5E00D06021 /* DoraemonDemoMockGPSViewController.m in Sources */,
 				D6827DB322714FE1007DDB69 /* IconfontDemoViewController.m in Sources */,
 				D6827DAC22714FE1007DDB69 /* TitleBarSegmentDemoViewController.m in Sources */,
 				D6827E0022714FE1007DDB69 /* LOTAnimatedSwitch.m in Sources */,
@@ -2969,8 +3125,8 @@
 				D6B9BDD122C4B0100020D856 /* PiePolylineChartViewController.swift in Sources */,
 				D6827DA422714FE1007DDB69 /* PickerDemoViewController.m in Sources */,
 				D6827DF922714FE1007DDB69 /* CALayer+Compat.m in Sources */,
-				D6B9B89D22C0C59E0020D856 /* DoraemonDBCell.m in Sources */,
 				D68E5E1822CAF619008ABFC5 /* JsonViewController.swift in Sources */,
+				81EA539E246D7DA800D06021 /* InkBaseViewController.m in Sources */,
 				D6B9BDD522C4B0100020D856 /* CandleStickChartViewController.swift in Sources */,
 				D6827D9C22714FE1007DDB69 /* DemoTabBarViewController.m in Sources */,
 				D6827DD122714FE1007DDB69 /* LOTPathInterpolator.m in Sources */,

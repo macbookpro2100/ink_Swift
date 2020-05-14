@@ -6,18 +6,21 @@
 //  Copyright © 2019 ORGNIZATION_NAME. All rights reserved.
 //
 
+#import <DoraemonKit/DoraemonManager.h>
+#import <DoraemonKit/DoraemonTimeProfiler.h>
+#import <DoraemonKit/DoraemonLoadAnalyze.h>
+#import <DoraemonKit/DoraemonDefine.h>
+#import <DoraemonKit/DoraemonCPUUtil.h>
+#import <DoraemonKit/DoraemonMemoryUtil.h>
 #import "MPLauncherAppDelegate.h"
 #import "MPTabBarViewController.h"
-#import "DoraemonLoadAnalyze.h"
-#import "DoraemonCPUUtil.h"
-#import "DoraemonMemoryUtil.h"
-#import "DoraemonANRManager.h"
-#import "BSBacktraceLogger.h"
 
-#import "MatrixHandler.h"
+
+//#import "MatrixHandler.h"
 //typedef void (^DoraemonANRBlock)(NSDictionary *);
-
+#import "ForbiddenScreenShotMarkView.h"
 #import "MPFrameworkDemo_plugin-Swift.h"
+#import "InkNavigationController.h"
 
 @interface MPLauncherAppDelegate ()
 //每秒运行一次
@@ -25,6 +28,8 @@
 //@property(nonatomic, copy) DoraemonANRBlock anrBlock;
 
 @property(nonatomic, strong) MPTabBarViewController *rootVC;
+
+@property(nonatomic, strong) ForbiddenScreenShotMarkView *markView;
 
 @end
 
@@ -53,7 +58,6 @@
         SwiftMainViewController *tab4ViewController = [SwiftMainViewController new];
 
 
-
         NSArray *navArray = @[tab1ViewController, tab2ViewController, tab3ViewController, tab4ViewController];
         NSArray *titles = @[@"Tab1", @"Tab2", @"Tab3", @"Swift"];
         for (int i = 0; i < [navArray count]; i++) {
@@ -67,6 +71,7 @@
             [(UIViewController *) navArray[i] setTabBarItem:item];
             ((UIViewController *) navArray[i]).title = titles[i];
         }
+
 
         self.rootVC = [[MPTabBarViewController alloc] init];
         self.rootVC.viewControllers = navArray;
@@ -93,26 +98,135 @@
 }
 
 - (void)applicationDidFinishLaunching:(DTMicroApplication *)application {
+
+
+    // 隐藏 root Nav
+    DTNavigationController *cn = (DTNavigationController *) [DTMicroApplicationGetCurrent() rootController].navigationController;
+    [cn setNavigationBarHidden:YES];
+
+
     // 打开ANR 监控
-    [DoraemonANRManager sharedInstance].anrTrackOn = YES;
-    [[DoraemonANRManager sharedInstance] start];
-    [[DoraemonANRManager sharedInstance] addANRBlock:^(NSDictionary *anrInfo) {
-        NSLog(@"😱😱😱 anrDic == %@",anrInfo);
+    [DoraemonTimeProfiler startRecord];
+
+    //[[self class] handleCCrashReportWrap];
+    NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);
+
+    for (int i = 0; i < 10; i++) {
+        //DDLogInfo(@"点击添加埋点11111");
+    }
+    [[DoraemonManager shareInstance] addPluginWithTitle:DoraemonLocalizedString(@"测试插件") icon:@"doraemon_default" desc:DoraemonLocalizedString(@"测试插件") pluginName:@"TestPlugin" atModule:DoraemonLocalizedString(@"业务工具")];
+
+    [[DoraemonManager shareInstance] addPluginWithTitle:@"block方式加入插件" icon:@"doraemon_default" desc:@"测试插件" pluginName:@"TestPlugin" atModule:DoraemonLocalizedString(@"业务工具") handle:^(NSDictionary *itemData) {
+        NSLog(@"handle block plugin");
     }];
-//    [self startRecord];
-    
+
+    [[DoraemonManager shareInstance] addStartPlugin:@"StartPlugin"];
+    [DoraemonManager shareInstance].bigImageDetectionSize = 10 * 1024;//大图检测只检测10K以上的
+    [DoraemonManager shareInstance].startClass = @"DoKitAppDelegate";
+    [[DoraemonManager shareInstance] install];
+    //[[DoraemonManager shareInstance] installWithStartingPosition:CGPointMake(66, 66)];
+
+    [[DoraemonManager shareInstance] addANRBlock:^(NSDictionary *anrDic) {
+        NSLog(@"anrDic == %@", anrDic);
+    }];
+
+    //    [[DoraemonManager shareInstance] addH5DoorBlock:^(NSString *h5Url) {
+    //        NSLog(@"使用自带容器打开H5链接: %@",h5Url);
+    //    }];
+    // 例子：移除 GPS Mock
+    //    [[DoraemonManager shareInstance] installWithCustomBlock:^{
+    //        [[DoraemonManager shareInstance] removePluginWithPluginName:@"DoraemonGPSPlugin" atModule:@"常用工具"];
+    //    }];
+
+
+
+    NSArray *array = @[];
+    NSLog(@"%@", [array description]);
+
+    [DoraemonTimeProfiler stopRecord];
+
+    [self addScreenShotMarkView];
+
+
+}
+
+
+- (void)addScreenShotMarkView {
+    UIWindow *wind = [DTContextGet() window];
+    self.markView = [wind viewWithTag:201987];
+    if (!self.markView) {
+        self.markView = [[ForbiddenScreenShotMarkView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        self.markView.tag = 201987;
+    }
+    if (!self.markView.superview) {
+        [wind addSubview:self.markView];
+    } else {
+        // 保证切换账号后，ssMarkView在视图层最前端
+        [wind bringSubviewToFront:self.markView];
+
+    }
+}
+
+- (void)sendMarkViewToBack {
+    UIWindow *wind = [DTContextGet() window];
+    self.markView = [wind viewWithTag:kDemoWartMarkttag];
+    if (!self.markView) {
+        self.markView = [[ForbiddenScreenShotMarkView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        self.markView.tag = kDemoWartMarkttag;
+    }
+    [wind sendSubviewToBack:self.markView];
+}
+
+- (void)bringMarkViewToFront {
+    UIWindow *wind = [DTContextGet() window];
+    self.markView = [wind viewWithTag:kDemoWartMarkttag];
+    if (!self.markView) {
+        self.markView = [[ForbiddenScreenShotMarkView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        self.markView.tag = kDemoWartMarkttag;
+    }
+    [wind bringSubviewToFront:self.markView];
+}
+
+- (void)removeScreenShotMarkView {
+    UIWindow *wind = [DTContextGet() window];
+    self.markView = [wind viewWithTag:kDemoWartMarkttag];
+    if (self.markView) {
+        [self.markView removeFromSuperview];
+    }
+}
+
+
+void uncaughtExceptionHandler(NSException *exception) {
+    NSLog(@"CRASH: %@", exception);
+    NSLog(@"Stack Trace: %@", [exception callStackSymbols]);
+    // Internal error reporting
+}
+
++ (void)handleCCrashReportWrap {
+//    PLCrashReporterConfig *config = [[PLCrashReporterConfig alloc] initWithSignalHandlerType: PLCrashReporterSignalHandlerTypeMach symbolicationStrategy: PLCrashReporterSymbolicationStrategyAll];
+//    PLCrashReporter *crashReporter = [[PLCrashReporter alloc] initWithConfiguration:config];
+//
+//    NSError *error;
+//
+//    // Check if we previously crashed
+//    if ([crashReporter hasPendingCrashReport])
+//        [self handleCCrashReport:crashReporter ];
+//
+//    // Enable the Crash Reporter
+//    if (![crashReporter enableCrashReporterAndReturnError: &error])
+//        NSLog(@"Warning: Could not enable crash reporter: %@", error);
 }
 
 - (void)application:(DTMicroApplication *)application willResumeWithOptions:(NSDictionary *)launchOptions {
-
+    [self bringMarkViewToFront];
 }
 
 - (void)application:(DTMicroApplication *)application willStartLaunchingWithOptions:(NSDictionary *)options {
-    
+
 #if DEBUG
-    [[MatrixHandler sharedInstance] installMatrix];
+//    [[MatrixHandler sharedInstance] installMatrix];
 #endif
-    
+
 }
 
 
@@ -149,7 +263,6 @@
     NSLog(@"✅cpuUsage :%.2f%%  👣useMemoryForApp:%d MB", cpuUsage, useMemoryForApp);
 
 }
-
 
 
 @end

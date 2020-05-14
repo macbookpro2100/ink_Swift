@@ -5,6 +5,9 @@ target 'MPFrameworkDemo_plugin' do
 pod 'mPaas',:path => 'Third/mPaas/'
 # 监控
     pod 'matrix-wechat',:path => 'Third/matrix-master/'
+    pod 'FBRetainCycleDetector',:path => 'Third/FBRetainCycleDetector-master/'
+    pod 'YYDebugDatabase',:path => 'Third/iOSDebugDatabase-master/'
+    pod 'DoraemonKit', :subspecs => ['Core','WithLogger','WithMLeaksFinder','WithDatabase'],  :path => 'Third/DoraemonKit-master/'
 # Sarted
     pod 'SnapKit',:path => 'Third/SnapKit-develop/'
     pod 'CollectionKit',:path => 'Third/CollectionKit-master/'

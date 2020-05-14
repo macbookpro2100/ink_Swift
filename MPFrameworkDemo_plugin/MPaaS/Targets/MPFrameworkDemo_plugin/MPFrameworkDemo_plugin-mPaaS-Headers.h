@@ -21,6 +21,12 @@
 #import <APMobileFramework/APMobileFramework.h>
 
 
+#define LOG_LEVEL_OFF     0
+#define LOG_ASYNC_ENABLED YES
+
+#ifndef LOG_LEVEL_DEF
+#define LOG_LEVEL_DEF ddLogLevel
+#endif
 
 #endif
 

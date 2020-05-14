@@ -48,9 +48,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.navigationController.navigationBarHidden = NO;
     self.title = @"Matrix";
     self.view.backgroundColor = [UIColor whiteColor];
+    
 
     [self setupView];
 }

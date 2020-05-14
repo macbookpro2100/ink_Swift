@@ -61,6 +61,6 @@ alpha:a]
 #import <AntUI/AntUI.h>
 #import "UIButton+AUDemo.h"
 
-
-
+#import <CocoaLumberjack/CocoaLumberjack.h>
+static const DDLogLevel ddLogLevel = DDLogLevelDebug;
 #endif /* MPFrameworkDemo_plugin_Prefix_pch */
